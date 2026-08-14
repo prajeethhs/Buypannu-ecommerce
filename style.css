@@ -1,0 +1,23 @@
+.card
+{
+	flex: 0 0 1;
+border:2px solid purple;	
+
+align-content:center;
+width:15rem;
+
+}
+.group1
+{
+	animation:spin 25s infinite linear;
+	gap:1em;
+	padding-right:1em;
+	
+	
+}
+@keyframes spin {
+	from  {translate: 0;}
+	to {translate: 	-100%;}
+	
+	
+}
