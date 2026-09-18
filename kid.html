@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuyPannu</title>
+
+    <link rel="icon" href="Images/icon.png" sizes="96x96">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style>
+        /* Chrome, Edge, Safari */
+        ::-webkit-scrollbar {
+            display: none;
+        }
+        .feedback::-webkit-scrollbar {
+            display: none;
+        }
+        /* Firefox */
+        html {
+            scrollbar-width: none;
+        }
+        /* IE and old Edge */
+        body {
+            -ms-overflow-style: none;
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+</head>
+
+<body class="font-[Poppins] bg-[#F9F5F2] min-h-screen hide-scrollbar">
+
+    <!-- HEADER -->
+    <header class="px-5 md:px-15 mx-auto py-4 relative">
+        <nav class="relative max-w-[2800px] mx-auto bg-[#FEFEFE] rounded-3xl shadow-2xl">
+            <div class="flex items-center justify-between px-5 h-20">
+                <!-- Logo -->
+                <a href="index.HTML"><img class="w-20" src="Images/logo1.png" alt="Logo"></a>
+
+                <!-- Desktop Menu -->
+                <ul class="hidden md:hidden lg:flex items-center gap-8 text-lg font-semibold">
+                    <li><a href="index.HTML" class="hover:text-purple-500">Home</a></li>
+                    <li>
+                        <details name="autoclose" class="relative">
+                            <summary class="hover:text-purple-500 flex cursor-pointer list-none items-center gap-2 font-semibold">
+                                <a href="categories.html">Categories</a>
+                                <span class="-mt-2">⌄</span>
+                            </summary>
+                            <div class="absolute left-0 top-8 z-50 w-48 rounded-xl bg-white p-3 shadow-xl">
+                                <a href="fashion.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">Fashion</a>
+                                <a href="electronics.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">Electronics</a>
+                                <a href="gaming.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">Gaming</a>
+                                <a href="#" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">Home & Livings</a>
+                            </div>
+                        </details>
+                    </li>
+                    <li>
+                        <details name="autoclose" class="relative">
+                            <summary class="hover:text-purple-500 flex cursor-pointer list-none items-center gap-2 font-semibold">
+                                <a href="fashion.html">Fashion</a> 
+                                <span class="-mt-2">⌄</span>
+                            </summary>
+                            <div class="absolute left-0 top-8 z-50 w-48 rounded-xl bg-white p-3 shadow-xl">
+                                <a href="Male-fashion.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">Men's Fashion</a>
+                                <a href="Female-fashion.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">Womens's Fashion</a>
+                                <a href="kid.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">Kids's Fashion</a>
+                            </div>
+                        </details>
+                    </li>
+                    <li>
+                        <details name="autoclose" class="relative">
+                            <summary class="hover:text-purple-500 flex cursor-pointer list-none items-center gap-2 font-semibold">
+                                <a href="electronics.html">Electronics</a>
+                                <span class="-mt-2">⌄</span>
+                            </summary>
+                            <div class="absolute left-0 top-8 z-50 w-48 rounded-xl bg-white p-3 shadow-xl">
+                                <a href="Mobiles.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">Mobiles & Tablets</a>
+                                <a href="computers.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">Computers</a>
+                                <a href="tv.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">TV & Entertainment</a> 
+                                <a href="gaming.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">Gaming</a>
+                                <a href="accessories.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">Accessories</a>
+                                <a href="audio.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">Audio</a>
+                            </div>
+                        </details>
+                    </li>
+                    <li><a href="Aboutus.html" class="hover:text-purple-500">About Us</a></li>
+                    <li><a href="newarrival.html" class="hover:text-purple-500">New Arrivals</a></li>
+                </ul>
+
+                <!-- Desktop Button -->
+                <button class="hidden md:hidden lg:inline bg-[#9B8164] text-white px-5 py-2 rounded-xl hover:bg-purple-600">
+                    Sign In
+                </button>
+
+                <!-- Mobile Menu -->
+                <details class="md:inline lg:hidden relative z-[1000]">
+                    <summary class="list-none cursor-pointer text-3xl select-none">☰</summary>
+                    <div class="absolute top-5 right-0 mt-3 w-60 bg-white rounded-xl shadow-2xl p-5">
+                        <ul class="space-y-5 font-semibold">
+                            <li>
+                                <a href="index.HTML" class="flex items-center justify-between hover:text-[#9B8164] transition">
+                                    <span>Home</span>
+                                    <span class="text-xl font-normal">›</span>
+                                </a>
+                            </li>
+                            <li>
+                                <details class="relative">
+                                    <summary class="list-none cursor-pointer flex items-center justify-between hover:text-[#9B8164] transition">
+                                        <span><a href="categories.html">Categories</a></span>
+                                        <span class="text-xl font-normal">›</span>
+                                    </summary>
+                                    <div class="z-1000 sm:absolute sm:top-0 sm:right-full mr-3 w-40 bg-white rounded-xl shadow-2xl p-5">
+                                        <p class="text-xs text-gray-400 uppercase tracking-widest mb-4">Categories</p>
+                                        <ul class="space-y-4 uppercase text-sm font-semibold">
+                                            <li><a href="fashion.html" class="flex items-center justify-between hover:text-[#9B8164] transition"><span>Fashion</span><span>›</span></a></li>
+                                            <li><a href="electronics.html" class="flex items-center justify-between hover:text-[#9B8164] transition"><span>Electronics</span><span>›</span></a></li>
+                                            <li><a href="gaming/gaming.html" class="flex items-center justify-between hover:text-[#9B8164] transition"><span>Gaming</span><span>›</span></a></li>
+                                        </ul>
+                                    </div>
+                                </details>
+                            </li>
+                            <li>
+                                <details class="relative">
+                                    <summary class="list-none cursor-pointer flex items-center justify-between hover:text-[#9B8164] transition">
+                                        <span><a href="fashion.html">Fashion</a></span>
+                                        <span class="text-xl font-normal">›</span>
+                                    </summary>
+                                    <ul class="sm:absolute sm:top-0 sm:right-full mr-3 w-40 bg-white rounded-xl flex-cols uppercase tracking-wider grid gap-y-3 px-5">
+                                        <span class="text-sm mt-2 text-gray-400 font-normal">FASHION</span>
+                                        <li><a href="Male-fashion.html">Men Fashion</a></li>
+                                        <li><a href="female-fashion.html">Women Fashion</a></li>
+                                        <li><a href="kid.html">Kids Fashion</a></li>
+                                    </ul>
+                                </details>
+                            </li>
+                            <li>
+                                <details class="relative">
+                                    <summary class="list-none cursor-pointer flex items-center justify-between hover:text-[#9B8164] transition">
+                                        <span><a href="electronics.html">Electronics</a></span>
+                                        <span class="text-xl font-normal">›</span>
+                                    </summary>
+                                    <div class="z-1000 sm:absolute sm:top-0 sm:right-full mr-3 w-40 bg-white rounded-xl shadow-2xl p-5">
+                                        <p class="text-xs text-gray-400 uppercase tracking-widest mb-4">Electronics</p>
+                                        <ul class="space-y-4 uppercase text-sm font-semibold">
+                                            <li><a href="mobiles.html" class="flex items-center justify-between hover:text-[#9B8164] transition"><span>Mobiles</span><span>›</span></a></li>
+                                            <li><a href="computers.html" class="flex items-center justify-between hover:text-[#9B8164] transition"><span>Computers</span><span>›</span></a></li>
+                                            <li><a href="tv.html" class="flex items-center justify-between hover:text-[#9B8164] transition"><span>Tv's</span><span>›</span></a></li>
+                                            <li><a href="gaming.html" class="flex items-center justify-between hover:text-[#9B8164] transition"><span>Gaming</span><span>›</span></a></li>
+                                            <li><a href="accessories.html" class="flex items-center justify-between hover:text-[#9B8164] transition"><span>Accessories</span><span>›</span></a></li>
+                                            <li><a href="audio.html" class="flex items-center justify-between hover:text-[#9B8164] transition"><span>Audios</span><span>›</span></a></li>
+                                        </ul>
+                                    </div>
+                                </details>
+                            </li>
+                            <li>
+                                <a href="aboutus.html" class="flex items-center justify-between hover:text-[#9B8164] transition">
+                                    <span>About Us</span>
+                                    <span class="text-xl font-normal">›</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="Newarrival.html" class="flex items-center justify-between hover:text-[#9B8164] transition">
+                                    <span>New Arrivals</span>
+                                    <span class="text-xl font-normal">›</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <button class="mt-7 w-full bg-[#9B8164] hover:bg-purple-500 text-white py-2.5 rounded-lg transition">
+                            Sign In
+                        </button>
+                    </div>
+                </details>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO BANNER -->
+    <section>
+        <img class="w-[91%] lg:w-[92%] md:w-[85%] mx-auto rounded-xl lg:h-150 sm-90 hover:shadow-xl/40 shadow-xl/20 cursor-pointer" 
+             src="Images/kidsbanner.png" alt="Kids Banner">	
+    </section>
+
+    <!-- CATEGORIES -->
+    <section class="w-full px-5 md:px-15 py-8">
+        <div class="text-center">
+            <p class="text-xl font-bold uppercase flex justify-start tracking-widest text-[#946137]">
+                Shop By Category
+            </p>
+        </div>
+        <a href="categories.html" class="text-sm font-semibold text-[#8d5c36] flex justify-end">
+            View All →
+        </a>
+        <div class="mt-7 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
+            <a href="#" class="overflow-hidden rounded-xl bg-[#f0dcc4] shadow-sm transition hover:-translate-y-2">
+                <div class="h-48 overflow-hidden">
+                    <img src="Images/KIDBOY.jpg" class="h-full w-full object-[50%_20%] object-cover duration-300" alt="Boys">
+                </div>
+                <div class="bg-white py-3 text-center">
+                    <span class="text-sm font-bold">Boys</span>
+                </div>
+            </a>
+
+            <a href="#" class="overflow-hidden rounded-xl bg-[#dedede] shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+                <div class="h-48 md:-ml-11 -ml-9 overflow-hidden">
+                    <img src="Images/KIDGIRL.jpg" class="h-full w-full object-[3%_15%] object-cover transition duration-300 group-hover:scale-105" alt="Girls">
+                </div>
+                <div class="bg-white py-3 text-center">
+                    <span class="text-sm font-bold">Girls</span>
+                </div>
+            </a>
+
+            <a href="#" class="overflow-hidden rounded-xl bg-[#d9c7e8] shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+                <div class="h-48 overflow-hidden">
+                    <img src="Images/KIDFOOTWEAR.jpg" class="h-full w-full object-right object-cover transition duration-300 group-hover:scale-105" alt="Footwear">
+                </div>
+                <div class="bg-white py-3 text-center">
+                    <span class="text-sm font-bold">Footwear</span>
+                </div>
+            </a>
+
+            <a href="#" class="overflow-hidden rounded-xl bg-[#f5d99b] shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+                <div class="h-48 overflow-hidden">
+                    <img src="Images/toy.jpg" class="h-full w-full object-[85%_30%] object-cover transition duration-300 group-hover:scale-105" alt="Toys">
+                </div>
+                <div class="bg-white py-3 text-center">
+                    <span class="text-sm font-bold">Toys</span>
+                </div>
+            </a>
+
+            <a href="#" class="overflow-hidden rounded-xl bg-[#f4cccc] shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+                <div class="h-48 overflow-hidden">
+                    <img src="Images/ed.jpg" class="h-full w-full object-top object-cover transition duration-300 group-hover:scale-105" alt="Educational">
+                </div>
+                <div class="bg-white py-3 text-center">
+                    <span class="text-sm font-bold">Educational</span>
+                </div>
+            </a>
+
+            <a href="#" class="overflow-hidden rounded-xl bg-[#d7e1bf] shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+                <div class="h-48 overflow-hidden">
+                    <img src="Images/sbag.jpg" class="h-full w-full object-[70%_50%] object-cover transition duration-100 group-hover:scale-105" alt="School Bags">
+                </div>
+                <div class="bg-white py-3 text-center">
+                    <span class="text-sm font-bold">School Bags</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- TRENDING NOW -->
+    <section class="w-full px-5 md:px-15 py-8">
+        <div class="text-center">
+            <p class="text-xl font-bold uppercase flex justify-start tracking-widest text-[#946137]">
+                Crying For This
+            </p>
+        </div>
+        <a href="categories.html" class="text-sm font-semibold text-[#8d5c36] flex justify-end">
+            View All →
+        </a>
+        <div class="mt-5 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
+            <!-- PRODUCT 1 -->
+            <div class="rounded-xl bg-white p-2 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+                <div class="relative h-40 overflow-hidden rounded-lg bg-[#f0ede8]">
+                    <img src="Images/trend1.jpg" class="h-full w-full object-top object-cover" alt="Street Style">
+                </div>
+                <div class="p-2">
+                    <h3 class="text-xs font-bold">Street Style</h3>
+                    <p class="mt-1 text-xs text-yellow-500">★★★★★ <span class="text-gray-400">(128)</span></p>
+                    <div class="mt-1 flex items-center gap-2">
+                        <span class="font-bold">&#8377;159.99</span>
+                        <del class="text-[10px] text-gray-400">&#8377;189.99</del>
+                    </div>
+                    <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">33% OFF</span>
+                    <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                        🛒 Add to குடை 
+                    </button>
+                </div>
+            </div>
+
+            <!-- PRODUCT 2 -->
+            <div class="rounded-xl bg-white p-2 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+                <div class="relative h-40 overflow-hidden rounded-lg bg-[#f0ede8]">
+                    <img src="Images/trend2.jpg" class="h-full w-full object-[100%_20%] object-cover" alt="Casual sets">
+                </div>
+                <div class="p-2">
+                    <h3 class="text-xs font-bold">Casual sets</h3>
+                    <p class="mt-1 text-xs text-yellow-500">★★★★★ <span class="text-gray-400">(97)</span></p>
+                    <div class="mt-1 flex items-center gap-2">
+                        <span class="font-bold">&#8377;149.99</span>
+                        <del class="text-[10px] text-gray-400">&#8377;179.99</del>
+                    </div>
+                    <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">38% OFF</span>
+                    <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                        🛒 Add to குடை 
+                    </button>
+                </div>
+            </div>
+
+            <!-- PRODUCT 3 -->
+            <div class="rounded-xl bg-white p-2 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+                <div class="relative h-40 overflow-hidden rounded-lg bg-[#f0ede8]">
+                    <img src="Images/trend3.jpg" class="h-full w-full object-top object-cover" alt="Hoodie">
+                </div>
+                <div class="p-2">
+                    <h3 class="text-xs font-bold">Hoodie</h3>
+                    <p class="mt-1 text-xs text-yellow-500">★★★★★ <span class="text-gray-400">(215)</span></p>
+                    <div class="mt-1 flex items-center gap-2">
+                        <span class="font-bold">&#8377;139.99</span>
+                        <del class="text-[10px] text-gray-400">&#8377;369.99</del>
+                    </div>
+                    <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">38% OFF</span>
+                    <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                        🛒 Add to குடை 
+                    </button>
+                </div>
+            </div>
+
+            <!-- PRODUCT 4 -->
+            <div class="rounded-xl bg-white p-2 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+                <div class="relative h-40 overflow-hidden rounded-lg bg-[#f0ede8]">
+                    <img src="Images/trend7.jpg" class="h-full w-full scale-150 object-top object-center object-cover" alt="Pink bag">
+                </div>
+                <div class="p-2">
+                    <h3 class="truncate text-xs font-bold">Pink bag</h3>
+                    <p class="mt-1 text-xs text-yellow-500">★★★★★ <span class="text-gray-400">(87)</span></p>
+                    <div class="mt-1 flex items-center gap-2">
+                        <span class="font-bold">&#8377;334.99</span>
+                        <del class="text-[10px] text-gray-400">&#8377;149.99</del>
+                    </div>
+                    <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">33% OFF</span>
+                    <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                        🛒 Add to குடை 
+                    </button>
+                </div>
+            </div>
+
+            <!-- PRODUCT 5 -->
+            <div class="rounded-xl bg-white p-2 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+                <div class="relative h-40 overflow-hidden rounded-lg bg-[#f0ede8]">
+                    <img src="Images/trend5.jpg" class="h-full w-full object-top object-cover" alt="Girly set">
+                </div>
+                <div class="p-2">
+                    <h3 class="text-xs font-bold">Girly set</h3>
+                    <p class="mt-1 text-xs text-yellow-500">★★★★★ <span class="text-gray-400">(163)</span></p>
+                    <div class="mt-1 flex items-center gap-2">
+                        <span class="font-bold">&#8377;219.99</span>
+                        <div class="text-[10px] text-gray-400">&#8377;499.99</div>
+                    </div>
+                    <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">43% OFF</span>
+                    <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                        🛒 Add to குடை 
+                    </button>
+                </div>
+            </div>
+
+            <!-- PRODUCT 6 -->
+            <div class="rounded-xl bg-white p-2 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+                <div class="relative h-40 overflow-hidden rounded-lg bg-[#f0ede8]">
+                    <img src="Images/trend6.jpg" class="h-full w-full object-top object-cover" alt="Bag">
+                </div>
+                <div class="p-2">
+                    <h3 class="text-xs font-bold">Bag</h3>
+                    <p class="mt-1 text-xs text-yellow-500">★★★★★ <span class="text-gray-400">(109)</span></p>
+                    <div class="mt-1 flex items-center gap-2">
+                        <span class="font-bold">&#8377;129.99</span>
+                        <del class="text-[10px] text-gray-400">&#8377;249.99</del>
+                    </div>
+                    <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">40% OFF</span>
+                    <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                        🛒 Add to குடை 
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- THE BOYS SECTION -->
+    <section>
+        <div class="bg-[url('Images/kidboybanner.jpg')] bg-[position:center_30px] uppercase text-4xl font-bold font-serif flex justify-center tracking-[0.3em] w-[92%] mx-auto rounded-xl text-shadow-md tracking-tighter text-red-500 [text-shadow:_4px_4px_0px_#831843] mb-5"> 
+            THE BOYS
+        </div>
+        <div class="lg:w-[92%] text-center mb-8 lg:mx-auto grid grid-cols-1 sm:px-5 sm:grid-cols-2 md:grid-cols-2 md:gap-x-6 lg:grid-cols-4 gap-y-5 gap-2 justify-items-center mx-5 mb-12">
+            
+            <!-- Boys Card 1 -->
+            <div class="rounded-xl h-90 w-70 group relative rounded-3xl overflow-hidden border border-white/20 shadow-2xl">
+                <a href="#">
+                    <img src="Images/k1.jpg" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-700 group-hover:opacity-0" alt="Boys item">
+                    <img src="Images/b11.jpg" class="hover:absolute inset-0 w-full h-full object-cover hover:scale-110 transition duration-700 hover:opacity-100" alt="Boys item hover">
+                    <div class="absolute inset-0 group-hover:bg-black/20 transition"></div>
+                    <div class="absolute left-2 bottom-0 p-6 text-white transition-transform duration-900 group-hover:translate-y-4">
+                        <h3 class="font-bold">Boys</h3>
+                        <p class="mt-1 text-xs text-yellow-500">★★★★★ <span class="text-gray-400">(109)</span></p>
+                        <div class="mt-1 flex items-center gap-2">
+                            <span class="font-bold">&#8377;129.99</span>
+                            <del class="text-[10px] text-gray-400">&#8377;249.99</del>
+                        </div>
+                        <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">40% OFF</span>
+                        <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                            🛒 Add to குடை 
+                        </button>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Boys Card 2 -->
+            <div class="rounded-xl h-90 w-70 shrink-0 group relative rounded-3xl overflow-hidden border border-white/20 shadow-2xl">
+                <a href="#">
+                    <img src="Images/KIDBOY.jpg" class="absolute object-[100%_50%] scale-112 inset-0 w-full h-full object-cover group-hover:scale-140 transition duration-700 group-hover:opacity-0" alt="Boys item">
+                    <img src="Images/b11.jpg" class="hover:absolute inset-0 w-full h-full object-cover hover:scale-110 transition duration-700 hover:opacity-100" alt="Boys item hover">
+                    <div class="absolute inset-0 group-hover:bg-black/20 transition"></div>
+                    <div class="absolute left-2 bottom-0 p-6 text-white transition-transform duration-900 group-hover:translate-y-4">
+                        <h3 class="font-bold">Boys</h3>
+                        <p class="mt-1 text-xs text-yellow-500">★★★★★ <span class="text-gray-400">(109)</span></p>
+                        <div class="mt-1 flex items-center gap-2">
+                            <span class="font-bold">&#8377;129.99</span>
+                            <del class="text-[10px] text-gray-400">&#8377;249.99</del>
+                        </div>
+                        <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">40% OFF</span>
+                        <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                            🛒 Add to குடை 
+                        </button>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Boys Card 3 -->
+            <div class="rounded-xl h-90 w-70 shrink-0 group relative rounded-3xl overflow-hidden border border-white/20 shadow-2xl">
+                <a href="#">
+                    <img src="Images/k3.jpg" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-700 group-hover:opacity-0" alt="Boys item">
+                    <img src="Images/b11.jpg" class="hover:absolute inset-0 w-full h-full object-cover hover:scale-110 transition duration-700 hover:opacity-100" alt="Boys item hover">
+                    <div class="absolute inset-0 group-hover:bg-black/20 transition"></div>
+                    <div class="absolute left-2 bottom-0 p-6 text-white transition-transform duration-900 group-hover:translate-y-4">
+                        <h3 class="font-bold">Boys</h3>
+                        <p class="mt-1 text-xs text-yellow-500">★★★★★ <span class="text-gray-400">(109)</span></p>
+                        <div class="mt-1 flex items-center gap-2">
+                            <span class="font-bold">&#8377;129.99</span>
+                            <del class="text-[10px] text-gray-400">&#8377;249.99</del>
+                        </div>
+                        <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">40% OFF</span>
+                        <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                            🛒 Add to குடை 
+                        </button>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Boys Card 4 -->
+            <div class="rounded-xl h-90 w-70 shrink-0 group relative rounded-3xl overflow-hidden border border-white/20 shadow-2xl">
+                <a href="#">
+                    <img src="Images/k4.jpg" class="absolute object-[90%_60%] inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-700 group-hover:opacity-0" alt="Boys item">
+                    <img src="Images/b11.jpg" class="hover:absolute inset-0 w-full h-full object-cover hover:scale-110 transition duration-700 hover:opacity-100" alt="Boys item hover">
+                    <div class="absolute inset-0 group-hover:bg-black/20 transition"></div>
+                    <div class="absolute left-2 bottom-0 p-6 text-white transition-transform duration-900 group-hover:translate-y-4">
+                        <h3 class="font-bold">Boys</h3>
+                        <p class="mt-1 text-xs text-yellow-500">★★★★★ <span class="text-gray-400">(109)</span></p>
+                        <div class="mt-1 flex items-center gap-2">
+                            <span class="font-bold">&#8377;129.99</span>
+                            <del class="text-[10px] text-gray-400">&#8377;249.99</del>
+                        </div>
+                        <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">40% OFF</span>
+                        <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                            🛒 Add to குடை 
+                        </button>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Boys Card 5 -->
+            <div class="rounded-xl h-90 w-70 shrink-0 group relative rounded-3xl overflow-hidden border border-white/20 shadow-2xl">
+                <a href="#">
+                    <img src="Images/k5.jpg" class="absolute object-top inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-700 group-hover:opacity-0" alt="Boys item">
+                    <img src="Images/b11.jpg" class="hover:absolute inset-0 w-full h-full object-cover hover:scale-110 transition duration-700 hover:opacity-100" alt="Boys item hover">
+                    <div class="absolute inset-0 group-hover:bg-black/20 transition"></div>
+                    <div class="absolute left-2 bottom-0 p-6 text-white transition-transform duration-900 group-hover:translate-y-4">
+                        <h3 class="font-bold">Boys</h3>
+                        <p class="mt-1 text-xs text-yellow-500">★★★★★ <span class="text-gray-400">(109)</span></p>
+                        <div class="mt-1 flex items-center gap-2">
+                            <span class="font-bold">&#8377;129.99</span>
+                            <del class="text-[10px] text-gray-400">&#8377;249.99</del>
+                        </div>
+                        <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">40% OFF</span>
+                        <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                            🛒 Add to குடை 
+                        </button>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Boys Card 6 -->
+            <div class="rounded-xl h-90 w-70 shrink-0 group relative rounded-3xl overflow-hidden border border-white/20 shadow-2xl">
+                <a href="#">
+                    <img src="Images/k6.jpg" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-700 group-hover:opacity-0" alt="Boys item">
+                    <img src="Images/b11.jpg" class="hover:absolute inset-0 w-full h-full object-cover hover:scale-110 transition duration-700 hover:opacity-100" alt="Boys item hover">
+                    <div class="absolute inset-0 group-hover:bg-black/20 transition"></div>
+                    <div class="absolute left-2 bottom-0 p-6 text-white transition-transform duration-900 group-hover:translate-y-4">
+                        <h3 class="font-bold">Boys</h3>
+                        <p class="mt-1 text-xs text-yellow-500">★★★★★ <span class="text-gray-400">(109)</span></p>
+                        <div class="mt-1 flex items-center gap-2">
+                            <span class="font-bold">&#8377;129.99</span>
+                            <del class="text-[10px] text-gray-400">&#8377;249.99</del>
+                        </div>
+                        <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">40% OFF</span>
+                        <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                            🛒 Add to குடை 
+                        </button>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Boys Card 7 -->
+            <div class="rounded-xl h-90 w-70 shrink-0 group relative rounded-3xl overflow-hidden border border-white/20 shadow-2xl">
+                <a href="#">
+                    <img src="Images/k7.jpg" class="absolute object-top inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-700 group-hover:opacity-0" alt="Boys item">
+                    <img src="Images/b11.jpg" class="hover:absolute inset-0 w-full h-full object-cover hover:scale-110 transition duration-700 hover:opacity-100" alt="Boys item hover">
+                    <div class="absolute inset-0 group-hover:bg-black/20 transition"></div>
+                    <div class="absolute left-2 bottom-0 p-6 text-white transition-transform duration-900 group-hover:translate-y-4">
+                        <h3 class="font-bold">Boys</h3>
+                        <p class="mt-1 text-xs text-yellow-500">★★★★★ <span class="text-gray-400">(109)</span></p>
+                        <div class="mt-1 flex items-center gap-2">
+                            <span class="font-bold">&#8377;129.99</span>
+                            <del class="text-[10px] text-gray-400">&#8377;249.99</del>
+                        </div>
+                        <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">40% OFF</span>
+                        <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                            🛒 Add to குடை 
+                        </button>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Boys Card 8 -->
+            <div class="rounded-xl h-90 w-70 shrink-0 group relative rounded-3xl overflow-hidden border border-white/20 shadow-2xl">
+                <a href="#">
+                    <img src="Images/k8.jpg" class="absolute object-top inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-700 group-hover:opacity-0" alt="Boys item">
+                    <img src="Images/b11.jpg" class="hover:absolute inset-0 w-full h-full object-cover hover:scale-110 transition duration-700 hover:opacity-100" alt="Boys item hover">
+                    <div class="absolute inset-0 group-hover:bg-black/20 transition"></div>
+                    <div class="absolute left-2 bottom-0 p-6 text-white transition-transform duration-900 group-hover:translate-y-4">
+                        <h3 class="font-bold">Boys</h3>
+                        <p class="mt-1 text-xs text-yellow-500">★★★★★ <span class="text-gray-400">(109)</span></p>
+                        <div class="mt-1 flex items-center gap-2">
+                            <span class="font-bold">&#8377;129.99</span>
+                            <del class="text-[10px] text-gray-400">&#8377;249.99</del>
+                        </div>
+                        <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">40% OFF</span>
+                        <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                            🛒 Add to குடை 
+                        </button>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- THE GIRLS SECTION -->
+    <section>
+        <div class="bg-[url('Images/girlbanner.jpg')] bg-[position:center_0px] uppercase text-4xl font-bold font-serif flex justify-center tracking-[0.3em] w-[92%] mx-auto rounded-xl text-shadow-md tracking-tighter text-blue-500 text-shadow-lg mb-5"> 
+            The Girls
+        </div>
+        <div class="lg:w-[92%] text-center mb-8 lg:mx-auto grid grid-cols-1 sm:px-5 sm:grid-cols-2 md:grid-cols-2 md:gap-x-6 lg:grid-cols-4 gap-y-5 gap-2 justify-items-center mx-5 mb-12">
+            
+            <!-- Girls Card 1 -->
+            <div class="rounded-xl h-90 w-70 group relative rounded-3xl overflow-hidden border border-white/20 shadow-2xl">
+                <a href="#">
+                    <img src="Images/g1.jpg" class="absolute object-[80%_10%] inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-700 group-hover:opacity-0" alt="Kurtis">
+                    <img src="Images/g11.jpg" class="hover:absolute inset-0 w-full h-full object-cover hover:scale-110 transition duration-700 hover:opacity-100" alt="Kurtis hover">
+                    <div class="absolute inset-0 group-hover:bg-black/20 transition"></div>
+                    <div class="absolute left-2 bottom-0 p-6 text-white transition-transform duration-900 group-hover:translate-y-4">
+                        <h3 class="font-bold">Kurtis</h3>
+                        <p class="mt-1 text-xs text-yellow-500">★★★★★ <span class="text-gray-400">(109)</span></p>
+                        <div class="mt-1 flex items-center gap-2">
+                            <span class="font-bold">&#8377;129.99</span>
+                            <del class="text-[10px] text-gray-400">&#8377;249.99</del>
+                        </div>
+                        <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">40% OFF</span>
+                        <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                            🛒 Add to குடை 
+                        </button>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Girls Card 2 -->
+            <div class="rounded-xl h-90 w-70 shrink-0 group relative rounded-3xl overflow-hidden border border-white/20 shadow-2xl">
+                <a href="#">
+                    <img src="Images/g4.jpg" class="absolute object-top scale-112 inset-0 w-full h-full object-cover group-hover:scale-140 transition duration-700 group-hover:opacity-0" alt="Kurtis">
+                    <img src="Images/g11.jpg" class="hover:absolute inset-0 w-full h-full object-cover hover:scale-110 transition duration-700 hover:opacity-100" alt="Kurtis hover">
+                    <div class="absolute inset-0 group-hover:bg-black/20 transition"></div>
+                    <div class="absolute left-2 bottom-0 p-6 text-white transition-transform duration-900 group-hover:translate-y-4">
+                        <h3 class="font-bold">Kurtis</h3>
+                        <p class="mt-1 text-xs text-yellow-500">★★★★★ <span class="text-gray-400">(109)</span></p>
+                        <div class="mt-1 flex items-center gap-2">
+                            <span class="font-bold">&#8377;129.99</span>
+                            <del class="text-[10px] text-gray-400">&#8377;249.99</del>
+                        </div>
+                        <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">40% OFF</span>
+                        <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                            🛒 Add to குடை 
+                        </button>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Girls Card 3 -->
+            <div class="rounded-xl h-90 w-70 shrink-0 group relative rounded-3xl overflow-hidden border border-white/20 shadow-2xl">
+                <a href="#">
+                    <img src="Images/g5.jpg" class="absolute inset-0 w-full h-full object-top object-cover group-hover:scale-110 transition duration-700 group-hover:opacity-0" alt="Kurtis">
+                    <img src="Images/g11.jpg" class="hover:absolute inset-0 w-full h-full object-cover hover:scale-110 transition duration-700 hover:opacity-100" alt="Kurtis hover">
+                    <div class="absolute inset-0 group-hover:bg-black/20 transition"></div>
+                    <div class="absolute left-2 bottom-0 p-6 text-white transition-transform duration-900 group-hover:translate-y-4">
+                        <h3 class="font-bold">Kurtis</h3>
+                        <p class="mt-1 text-xs text-yellow-500">★★★★★ <span class="text-gray-400">(109)</span></p>
+                        <div class="mt-1 flex items-center gap-2">
+                            <span class="font-bold">&#8377;129.99</span>
+                            <del class="text-[10px] text-gray-400">&#8377;249.99</del>
+                        </div>
+                        <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">40% OFF</span>
+                        <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                            🛒 Add to குடை 
+                        </button>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Girls Card 4 -->
+            <div class="rounded-xl h-90 w-70 shrink-0 group relative rounded-3xl overflow-hidden border border-white/20 shadow-2xl">
+                <a href="#">
+                    <img src="Images/g6.jpg" class="absolute object-top inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-700 group-hover:opacity-0" alt="Kurtis">
+                    <img src="Images/g11.jpg" class="hover:absolute inset-0 w-full h-full object-cover hover:scale-110 transition duration-700 hover:opacity-100" alt="Kurtis hover">
+                    <div class="absolute inset-0 group-hover:bg-black/20 transition"></div>
+                    <div class="absolute left-2 bottom-0 p-6 text-white transition-transform duration-900 group-hover:translate-y-4">
+                        <h3 class="font-bold">Kurtis</h3>
+                        <p class="mt-1 text-xs text-yellow-500">★★★★★ <span class="text-gray-400">(109)</span></p>
+                        <div class="mt-1 flex items-center gap-2">
+                            <span class="font-bold">&#8377;129.99</span>
+                            <del class="text-[10px] text-gray-400">&#8377;249.99</del>
+                        </div>
+                        <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">40% OFF</span>
+                        <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                            🛒 Add to குடை 
+                        </button>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Girls Card 5 -->
+            <div class="rounded-xl h-90 w-70 shrink-0 group relative rounded-3xl overflow-hidden border border-white/20 shadow-2xl">
+                <a href="#">
+                    <img src="Images/g7.jpg" class="absolute object-top inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-700 group-hover:opacity-0" alt="Kurtis">
+                    <img src="Images/g11.jpg" class="hover:absolute inset-0 w-full h-full object-cover hover:scale-110 transition duration-700 hover:opacity-100" alt="Kurtis hover">
+                    <div class="absolute inset-0 group-hover:bg-black/20 transition"></div>
+                    <div class="absolute left-2 bottom-0 p-6 text-white transition-transform duration-900 group-hover:translate-y-4">
+                        <h3 class="font-bold">Kurtis</h3>
+                        <p class="mt-1 text-xs text-yellow-500">★★★★★ <span class="text-gray-400">(109)</span></p>
+                        <div class="mt-1 flex items-center gap-2">
+                            <span class="font-bold">&#8377;129.99</span>
+                            <del class="text-[10px] text-gray-400">&#8377;249.99</del>
+                        </div>
+                        <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">40% OFF</span>
+                        <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                            🛒 Add to குடை 
+                        </button>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Girls Card 6 -->
+            <div class="rounded-xl h-90 w-70 shrink-0 group relative rounded-3xl overflow-hidden border border-white/20 shadow-2xl">
+                <a href="#">
+                    <img src="Images/g8.jpg" class="absolute inset-0 scale-130 w-full h-full object-cover group-hover:scale-150 transition duration-900 group-hover:opacity-0" alt="Kurtis">
+                    <img src="Images/g11.jpg" class="hover:absolute inset-0 w-full h-full object-cover hover:scale-110 transition duration-700 hover:opacity-100" alt="Kurtis hover">
+                    <div class="absolute inset-0 group-hover:bg-black/20 transition"></div>
+                    <div class="absolute left-2 bottom-0 p-6 text-white transition-transform duration-900 group-hover:translate-y-4">
+                        <h3 class="font-bold">Kurtis</h3>
+                        <p class="mt-1 text-xs text-yellow-500">★★★★★ <span class="text-gray-400">(109)</span></p>
+                        <div class="mt-1 flex items-center gap-2">
+                            <span class="font-bold">&#8377;129.99</span>
+                            <del class="text-[10px] text-gray-400">&#8377;249.99</del>
+                        </div>
+                        <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">40% OFF</span>
+                        <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                            🛒 Add to குடை 
+                        </button>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Girls Card 7 -->
+            <div class="rounded-xl h-90 w-70 shrink-0 group relative rounded-3xl overflow-hidden border border-white/20 shadow-2xl">
+                <a href="#">
+                    <img src="Images/g9_.jpg" class="absolute object-top inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-700 group-hover:opacity-0" alt="Kurtis">
+                    <img src="Images/g11.jpg" class="hover:absolute inset-0 w-full h-full object-cover hover:scale-110 transition duration-700 hover:opacity-100" alt="Kurtis hover">
+                    <div class="absolute inset-0 group-hover:bg-black/20 transition"></div>
+                    <div class="absolute left-2 bottom-0 p-6 text-white transition-transform duration-900 group-hover:translate-y-4">
+                        <h3 class="font-bold">Kurtis</h3>
+                        <p class="mt-1 text-xs text-yellow-500">★★★★★ <span class="text-gray-400">(109)</span></p>
+                        <div class="mt-1 flex items-center gap-2">
+                            <span class="font-bold">&#8377;129.99</span>
+                            <del class="text-[10px] text-gray-400">&#8377;249.99</del>
+                        </div>
+                        <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">40% OFF</span>
+                        <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                            🛒 Add to குடை 
+                        </button>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Girls Card 8 -->
+            <div class="rounded-xl h-90 w-70 shrink-0 group relative rounded-3xl overflow-hidden border border-white/20 shadow-2xl">
+                <a href="#">
+                    <img src="Images/g10.jpg" class="absolute object-top inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-700 group-hover:opacity-0" alt="Kurtis">
+                    <img src="Images/g11.jpg" class="hover:absolute inset-0 w-full h-full object-cover hover:scale-110 transition duration-700 hover:opacity-100" alt="Kurtis hover">
+                    <div class="absolute inset-0 group-hover:bg-black/20 transition"></div>
+                    <div class="absolute left-2 bottom-0 p-6 text-white transition-transform duration-900 group-hover:translate-y-4">
+                        <h3 class="font-bold">Kurtis</h3>
+                        <p class="mt-1 text-xs text-yellow-500">★★★★★ <span class="text-gray-400">(109)</span></p>
+                        <div class="mt-1 flex items-center gap-2">
+                            <span class="font-bold">&#8377;129.99</span>
+                            <del class="text-[10px] text-gray-400">&#8377;249.99</del>
+                        </div>
+                        <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">40% OFF</span>
+                        <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                            🛒 Add to குடை 
+                        </button>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="mx-auto mt-0 max-w-[1450px] px-3 pb-3 pt-1 sm:px-5">
+        <div class="rounded-t-2xl bg-[#241c17] px-7 py-10 text-white">
+            <div class="grid gap-8 grid-cols-2 lg:grid-cols-5">
+                <!-- Brand -->
+                <div class="w-40 mx-auto">
+                    <h2 class="text-2xl px-4 text-purple-500 font-black italic">BuyPannu</h2>
+                    <p class="mt-4 px-4 text-sm leading-5 text-gray-300">
+                        Your one-stop shop for Fashion, Electronics, Gaming more. Shop more, pay less, be happy
+                    </p>
+                    <div class="px-4 py-2 flex gap-4 text-2xl">
+                        <a href="#" class="text-blue-600 hover:scale-110 transition-transform"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="text-pink-500 hover:scale-110 transition-transform"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="text-green-500 hover:scale-110 transition-transform"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#" class="text-black hover:scale-110 transition-transform"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="max-w-full mx-auto">
+                    <h3 class="text-xs font-bold uppercase tracking-wide text-[#d4a675]">Quick Links</h3>
+                    <div class="mt-4 space-y-2 text-sm text-gray-300">
+                        <a href="#" class="block hover:text-white">Home</a>
+                        <a href="#" class="block hover:text-white">Categories</a>
+                        <a href="#" class="block hover:text-white">Fashion</a>
+                        <a href="#" class="block hover:text-white">Electronics</a>
+                        <a href="#" class="block hover:text-white">New Arrivals</a>
+                        <a href="#" class="block hover:text-white">About Us</a>
+                    </div>
+                </div>
+
+                <!-- Customer Service -->
+                <div class="max-w-full mx-auto md:w-50 md:mx-auto">
+                    <h3 class="text-xs font-bold uppercase tracking-wide text-[#d4a675]">Customer Service</h3>
+                    <div class="mt-4 space-y-2 text-sm text-gray-300">
+                        <a href="#" class="block hover:text-white">Contact Us</a>
+                        <a href="#" class="block hover:text-white">Track Order</a>
+                        <a href="#" class="block hover:text-white">Shipping Policy</a>
+                        <a href="#" class="block hover:text-white">Returns & Refunds</a>
+                        <a href="#" class="block hover:text-white">FAQs</a>
+                        <a href="#" class="block hover:text-white">Terms & Conditions</a>
+                    </div>
+                </div>
+
+                <!-- Categories -->
+                <div class="max-w-full mx-auto">
+                    <h3 class="text-xs font-bold uppercase tracking-wide text-[#d4a675]">Categories</h3>
+                    <div class="mt-4 space-y-2 text-sm text-gray-300">
+                        <a href="#" class="block hover:text-white">Fashion</a>
+                        <a href="#" class="block hover:text-white">Electronics</a>
+                        <a href="#" class="block hover:text-white">Gaming</a>
+                        <a href="#" class="block hover:text-white">Footwear</a>
+                        <a href="#" class="block hover:text-white">Accessories</a>
+                        <a href="#" class="block hover:text-white">Home & Living</a>
+                    </div>
+                </div>
+
+                <!-- Payment -->
+                <div class="relative left-30 justify-self-center md:static md:justify-self-auto">
+                    <h3 class="text-xs font-bold uppercase text-center tracking-wide text-[#d4a675]">We Accept</h3>
+                    <div class="mt-5 grid grid-cols-2 gap-2">
+                        <div class="rounded bg-white px-3 py-2 text-center text-xs font-bold text-blue-700">VISA</div>
+                        <div class="rounded bg-white px-3 py-2 text-center text-xs font-bold text-red-600">Mc</div>
+                        <div class="rounded bg-white px-3 py-2 text-center text-xs font-bold text-gray-700">UPI</div>
+                        <div class="rounded bg-white px-3 py-2 text-center text-xs font-bold text-blue-600">G Pay</div>
+                        <div class="rounded bg-white px py-2 text-center text-xs font-bold text-black">PayPal</div>
+                        <div class="rounded bg-white px-3 py-2 text-center text-xs font-bold text-black">Bhim</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="mt-8 border-t border-white/10 pt-5 text-center text-xs text-gray-400">
+                © 2026 BuyPannu. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

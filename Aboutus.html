@@ -1,0 +1,2500 @@
+	<html>
+	<head>
+	<link rel="icon" href="images/icon.png" sizes="96x96">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+	<style><!--Added scrollbar hide( resource used from W3s schools)--->
+	/* Chrome, Edge, Safari */
+	::-webkit-scrollbar {
+		display: none;
+	}
+	.feedback::-webkit-scrollbar {
+		display: none;
+	}
+	/* Firefox */
+	html {
+		scrollbar-width: none;
+	}
+
+	/* IE and old Edge */
+	body {
+		-ms-overflow-style: none;
+	}
+
+	/* Chrome, Edge, Safari */
+	.hide-scrollbar::-webkit-scrollbar {
+		display: none
+		
+
+	</style>
+	<title>
+	BuyPannu
+	</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+		
+	</head>
+
+	<body class="font-[Poppins] bg-[#F9F5F2] -gradient-to-b from-[#fbc2eb] to-[#a6c1ee] min-h-screen hide-scrollbar">
+
+	<header class=" px-5 md:px-15   mx-auto py-4 relative ">
+
+	<nav class="relative max-w-[2800px]  mx-auto  bg-[#FEFEFE] -gradient-to-r from-sky-100 to-indigo-100 rounded-3xl shadow-2xl">
+
+		<div class="flex items-center justify-between px-5 h-20">
+
+			<!-- Logo -->
+			<a href="index.HTML"><img  class="w-20" src="images/logo1.png" alt="Logo"></a>
+
+			<!-- Desktop Menu -->
+			<ul class="hidden md:hidden lg:flex items-center gap-8 text-lg font-semibold">
+				<li><a href="index.HTML" class="hover:text-purple-500">Home</a></li>
+				<li><details name="autoclose" class=" relative">
+
+						<summary class="hover:text-purple-500 flex cursor-pointer list-none items-center gap-2  font-semibold">
+							<a href="categories.html">Categories</a>
+							<span class="-mt-2">⌄</span>
+						</summary>
+
+						<div class="absolute left-0 top-8 z-50 w-48 rounded-xl bg-white p-3 shadow-xl">
+
+							<a href="fashion.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Fashion
+							</a>
+
+							<a href="electronics.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Electronics
+							</a>
+
+							<a href="gaming.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Gaming
+							</a>
+
+							<a href="#" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Home & Livings
+							</a></li>
+				<li><details name="autoclose" class=" relative">
+
+						<summary class="hover:text-purple-500 flex cursor-pointer list-none items-center gap-2  font-semibold">
+						   <a href="fashion.html">Fashion</a> 
+							<span class="-mt-2">⌄</span>
+						</summary>
+
+						<div class="absolute left-0 top-8 z-50 w-48 rounded-xl bg-white p-3 shadow-xl">
+
+							<a href="Male-fashion.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Men's Fashion
+							</a>
+
+							<a href="Female-fashion.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Womens's Fashion	
+							</a>
+
+							<a href="kid.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Kids's Fashion
+							</a>
+
+							</li>
+				<li><details name="autoclose"class=" relative">
+
+						<summary class="hover:text-purple-500 flex cursor-pointer list-none items-center gap-2  font-semibold">
+							<a href="electronics.html">Electronics</a>
+							<span class="-mt-2">⌄</span>
+						</summary>
+
+						<div class="absolute left-0 top-8 z-50 w-48 rounded-xl bg-white p-3 shadow-xl">
+
+							<a href="Mobiles.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Mobiles & Tablets
+							</a>
+
+							<a href="computers.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Computers	
+							</a>
+
+							<a href="tv.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								TV & Entertainment
+							</a> 
+							<a href="gaming.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Gaming
+							</a>
+							<a href="accessories.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Accessories
+							</a>
+							<a href="audio.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Audio
+							</a>
+
+							</li>
+				<li><a href="Aboutus.html" class="hover:text-purple-500">About Us</a></li>
+				<li><a href="newarrival.html" class="hover:text-purple-500">New Arrivals</a></li>
+			</ul>
+
+			<!-- Desktop Button -->
+			<button class="hidden md:hidden lg:inline  bg-[#9B8164] text-white px-5 py-2 rounded-xl hover:bg-purple-600">
+				Sign In
+			</button>
+
+			<!-- Mobile Menu -->
+			<!-- MOBILE MENU -->
+	<details class="md:inline lg:hidden relative z-[1000]">
+
+		<!-- MENU ICON -->
+		<summary class="list-none cursor-pointer text-3xl select-none">
+			☰
+		</summary>
+
+
+		<!-- MAIN MENU -->
+		<div class="absolute top-5 right-0 mt-3
+					w-60
+					bg-white
+					rounded-xl
+					shadow-2xl
+					p-5">
+
+			<ul class="space-y-5 font-semibold">
+
+
+				<!-- HOME -->
+				<li>
+					<a href="index.HTML"
+					   class="flex items-center justify-between
+							  hover:text-[#9B8164] transition">
+
+						<span>Home</span>
+
+						<span class="text-xl font-normal">›</span>
+
+					</a>
+				</li>
+
+
+				<!-- CATEGORIES -->
+				<li>
+
+					<details class="relative">
+
+						<!-- CATEGORY TITLE -->
+						<summary
+							class="list-none cursor-pointer
+								   flex items-center justify-between
+								   hover:text-[#9B8164]
+								   transition">
+
+							<span><a href="categories.html">Categories </a></span>
+
+							<span class="text-xl font-normal">
+								›
+							</span>
+
+						</summary>
+
+
+						<!-- CATEGORY SUB MENU -->
+						<div class=" z-1000  sm:absolute
+									sm:top-0
+									sm:right-full
+									mr-3
+									w-40
+									bg-white
+									rounded-xl
+									shadow-2xl
+									p-5">
+
+							<p class="text-xs
+									  text-gray-400
+									  uppercase
+									  tracking-widest
+									  mb-4">
+
+								Categories
+
+							</p>
+
+
+							<ul class="space-y-4
+									   uppercase
+									   text-sm
+									   font-semibold">
+
+
+								<!-- FASHION -->
+								<li>
+
+									<a href="fashion.html"
+									   class="	flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>Fashion</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+
+
+								<!-- ELECTRONICS -->
+								<li>
+
+									<a href="electronics.html"
+									   class="flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>Electronics</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+
+
+								<!-- GAMING -->
+								<li>
+
+									<a href="gaming/gaming.html"
+									   class="flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>Gaming</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+
+
+							
+
+							</ul>
+
+						</div>
+
+					</details>
+
+				</li>
+
+
+				<!-- FASHION -->
+				<li>
+					 <!-- CATEGORY TITLE -->
+					   <details class="relative">
+					   <summary
+							class="list-none cursor-pointer
+								   flex items-center justify-between
+								   hover:text-[#9B8164]
+								   transition">
+
+							<span><a href="fashion.html">Fashion </a></span>
+
+							<span class="text-xl font-normal">
+								›
+							</span>
+
+						</summary>
+							
+							<UL class=" sm:absolute
+									sm:top-0
+									sm:right-full  
+									mr-3
+									w-40 bg-white mr-3 right-50  rounded-xl  flex-cols uppercase tracking-wider grid gap-y-3 px-5 " >
+							<span class="text-sm mt-2 text-gray-400 font-normal">
+								FASHION
+							</span>
+							<LI><a href="Male-fashion.html">Men Fashion</a>
+							
+							</LI>
+							<LI><a href="female-fashion.html">
+							Women Fashion</a>
+							</LI>
+							<LI><a  href="kid.html">
+							Kids Fashion</a>
+							</LI>
+							
+							</UL>
+					</details>
+				</li>
+
+
+		
+				<li>
+
+					<details class="relative">
+
+						<!-- Electronics TITLE -->
+						<summary
+							class="list-none cursor-pointer
+								   flex items-center justify-between
+								   hover:text-[#9B8164]
+								   transition">
+
+							<span><a href="electronics.html">Electronics </a></span>
+
+							<span class="text-xl font-normal">
+								›
+							</span>
+
+						</summary>
+
+
+						<!-- Electronics SUB MENU -->
+						<div class=" z-1000  sm:absolute
+									sm:top-0
+									sm:right-full
+									mr-3
+									w-40
+									bg-white
+									rounded-xl
+									shadow-2xl
+									p-5">
+
+							<p class="text-xs
+									  text-gray-400
+									  uppercase
+									  tracking-widest
+									  mb-4">
+
+								Electronics
+
+							</p>
+
+
+							<ul class="space-y-4
+									   uppercase
+									   text-sm
+									   font-semibold">
+
+
+								<!-- Mobiles and tab -->
+								<li>
+
+									<a href="mobiles.html"
+									   class="	flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>Mobiles</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+
+
+								<!-- computers -->
+								<li>
+
+									<a href="computers.html"
+									   class="flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>computers</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+
+
+								<!-- tv -->
+								<li>
+
+									<a href="tv.html"
+									   class="flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>Tv's</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+								<!-- GAMING -->
+								<li>
+
+									<a href="gaming.html"
+									   class="flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>Gaming</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+								<!-- Access -->
+								<li>
+
+									<a href="accessories.html"
+									   class="flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>Accessories</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+							<!-- audio -->
+								<li>
+
+									<a href="audio.html"
+									   class="flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>Audios</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+
+							
+
+							</ul>
+
+						</div>
+
+					</details>
+
+				</li>
+
+				<!-- ABOUT -->
+				<li>
+
+					<a href="aboutus.html"
+					   class="flex items-center justify-between
+							  hover:text-[#9B8164]
+							  transition">
+
+						<span>About Us</span>
+
+						<span class="text-xl font-normal">›</span>
+
+					</a>
+
+				</li>
+
+
+				<!-- NEW ARRIVALS -->
+				<li>
+
+					<a href="Newarrival.html"
+					   class="flex items-center justify-between
+							  hover:text-[#9B8164]
+							  transition">
+
+						<span>New Arrivals</span>
+
+						<span class="text-xl font-normal">›</span>
+
+					</a>
+
+				</li>
+
+			</ul>
+
+
+			<!-- SIGN IN -->
+			<button
+				class="mt-7
+					   w-full
+					   bg-[#9B8164]
+					   hover:bg-purple-500
+					   text-white
+					   py-2.5
+					   rounded-lg
+					   transition">
+
+				Sign In
+
+			</button>
+
+		</div>
+
+	</details>
+
+	</nav>
+
+	</header>
+	
+	
+
+
+
+
+
+<!-- ================= HERO ================= -->
+
+<section class="relative overflow-hidden
+                py-16 sm:py-20 md:py-28
+                px-4 sm:px-6 lg:px-8
+                text-[#2b1b12]">
+
+  <div class="max-w-7xl mx-auto">
+
+    <div class="relative overflow-hidden
+                min-h-[520px] sm:min-h-[580px]
+                flex items-center
+                rounded-[30px] sm:rounded-[42px]
+                border border-[#e3d1bd]
+                bg-gradient-to-br
+                from-[#f7eee4]
+                via-[#f9f4ed]
+                to-[#e7d9c9]
+                shadow-2xl shadow-[#3e271a]/10">
+
+
+      <!-- Decorative circles -->
+
+      <div class="absolute -right-32 -top-32
+                  w-[420px] h-[420px]
+                  rounded-full
+                  bg-[#b98b68]/20
+                  blur-3xl">
+      </div>
+
+      <div class="absolute -left-32 -bottom-32
+                  w-[380px] h-[380px]
+                  rounded-full
+                  bg-[#9b6b48]/15
+                  blur-3xl">
+      </div>
+
+
+      <!-- Decorative lines -->
+
+      <div class="absolute right-10 top-10
+                  hidden md:block
+                  w-40 h-40
+                  border border-[#8c5e3c]/10
+                  rounded-full">
+      </div>
+
+      <div class="absolute right-20 top-20
+                  hidden md:block
+                  w-24 h-24
+                  border border-[#8c5e3c]/10
+                  rounded-full">
+      </div>
+
+
+      <!-- Content -->
+
+      <div class="relative z-10
+                  max-w-3xl
+                  px-6 py-12
+                  sm:px-12
+                  md:px-16
+                  lg:px-20">
+
+
+        <!-- Badge -->
+
+        <div class="inline-flex items-center gap-2
+                    px-4 py-2
+                    rounded-full
+                    bg-white/60
+                    backdrop-blur-md
+                    border border-[#d9c5ae]
+                    text-[#765035]
+                    text-[11px]
+                    font-bold
+                    uppercase
+                    tracking-[0.16em]">
+
+          <span class="w-2 h-2
+                       rounded-full
+                       bg-[#8c5e3c]
+                       animate-pulse">
+          </span>
+
+          The BuyPannu Story
+
+        </div>
+
+
+        <!-- Heading -->
+
+        <h1 class="mt-7
+                   text-4xl sm:text-5xl
+                   lg:text-7xl
+                   font-black
+                   tracking-[-0.04em]
+                   leading-[1.02]">
+
+          Better technology.
+          <br>
+
+          <span class="text-transparent
+                       bg-clip-text
+                       bg-gradient-to-r
+                       from-[#7b4e31]
+                       via-[#ad7952]
+                       to-[#674025]">
+
+            Better choices.
+
+          </span>
+
+        </h1>
+
+
+        <!-- Description -->
+
+        <p class="mt-7
+                  max-w-2xl
+                  text-sm sm:text-base lg:text-lg
+                  leading-7 sm:leading-8
+                  text-[#634c3d]">
+
+          BuyPannu brings together useful technology,
+          carefully selected products, clear information,
+          and a smoother shopping experience — all in one place.
+
+        </p>
+
+
+        <!-- Buttons -->
+
+        <div class="mt-9
+                    flex flex-wrap
+                    items-center gap-3">
+
+          <a href="#why-us"
+             class="group
+                    px-6 sm:px-7
+                    py-3.5
+                    rounded-2xl
+                    bg-[#8c5e3c]
+                    text-white
+                    text-sm font-bold
+                    shadow-lg shadow-[#8c5e3c]/20
+                    hover:bg-[#70472d]
+                    hover:-translate-y-0.5
+                    transition-all">
+
+            Why BuyPannu
+
+            <span class="inline-block ml-2
+                         group-hover:translate-x-1
+                         transition-transform">
+
+              →
+
+            </span>
+
+          </a>
+
+
+          <a href="#collections"
+             class="px-6 sm:px-7
+                    py-3.5
+                    rounded-2xl
+                    bg-white/70
+                    backdrop-blur-sm
+                    border border-[#d8c5b1]
+                    text-[#3e271a]
+                    text-sm font-semibold
+                    hover:bg-white
+                    hover:border-[#8c5e3c]/50
+                    transition-all">
+
+            Explore Collections
+
+          </a>
+
+        </div>
+
+
+        <!-- Mini trust row -->
+
+        <div class="mt-10
+                    flex flex-wrap
+                    items-center gap-x-6 gap-y-3
+                    text-[11px]
+                    font-semibold
+                    text-[#765c4b]">
+
+          <span class="flex items-center gap-2">
+            <span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span>
+            Quality Focus
+          </span>
+
+          <span class="flex items-center gap-2">
+            <span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span>
+            Clear Information
+          </span>
+
+          <span class="flex items-center gap-2">
+            <span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span>
+            Customer First
+          </span>
+
+        </div>
+
+      </div>
+
+
+      <!-- Right decorative panel -->
+
+      <div class="absolute
+                  hidden lg:flex
+                  right-10
+                  xl:right-16
+                  top-1/2
+                  -translate-y-1/2
+                  w-[300px]
+                  h-[360px]
+                  rounded-[32px]
+                  bg-white/35
+                  backdrop-blur-md
+                  border border-white/60
+                  shadow-2xl
+                  rotate-3
+                  items-center
+                  justify-center">
+
+        <div class="w-[230px] h-[290px]
+                    rounded-[26px]
+                    bg-gradient-to-br
+                    from-[#3b2518]
+                    via-[#68452e]
+                    to-[#1d120b]
+                    shadow-2xl
+                    -rotate-6
+                    p-6
+                    flex flex-col
+                    justify-between">
+
+          <div>
+
+            <div class="w-9 h-9
+                        rounded-xl
+                        bg-white/10
+                        border border-white/10
+                        flex items-center justify-center">
+
+              <span class="text-[#d8b18e] font-black">
+                B
+              </span>
+
+            </div>
+
+            <p class="mt-8
+                      text-[10px]
+                      uppercase
+                      tracking-[0.2em]
+                      text-white/40">
+
+              BuyPannu
+
+            </p>
+
+            <p class="mt-2
+                      text-xl
+                      font-black
+                      text-white">
+
+              Shop smarter.
+
+            </p>
+
+          </div>
+
+
+          <div>
+
+            <div class="h-1
+                        w-16
+                        rounded-full
+                        bg-[#c79d7b]">
+            </div>
+
+            <p class="mt-3
+                      text-[9px]
+                      text-white/40">
+
+              Technology • Lifestyle • Entertainment
+
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- ================= WHY US ================= -->
+
+<section id="why-us"
+         class="py-16 sm:py-20 md:py-24
+                px-4 sm:px-6 lg:px-8
+                bg-[#fbf7f0]">
+
+  <div class="max-w-7xl mx-auto">
+
+
+    <!-- Heading -->
+
+    <div class="max-w-2xl">
+
+      <span class="inline-flex
+                   px-3.5 py-1.5
+                   rounded-full
+                   bg-[#eee3d6]
+                   border border-[#dcc9b5]
+                   text-[#765035]
+                   text-[10px]
+                   font-bold
+                   uppercase
+                   tracking-[0.18em]">
+
+        Why BuyPannu
+
+      </span>
+
+
+      <h2 class="mt-5
+                 text-3xl sm:text-4xl lg:text-5xl
+                 font-black
+                 tracking-tight
+                 text-[#2b1b12]">
+
+        Shopping without
+        <span class="text-[#986746]">
+          unnecessary noise.
+        </span>
+
+      </h2>
+
+
+      <p class="mt-4
+                text-sm sm:text-base
+                leading-7
+                text-[#6d5648]">
+
+        We focus on making product discovery easier,
+        information clearer, and the overall experience
+        more enjoyable.
+
+      </p>
+
+    </div>
+
+
+    <!-- Cards -->
+
+    <div class="mt-12
+                grid grid-cols-1
+                sm:grid-cols-2
+                lg:grid-cols-4
+                gap-5">
+
+
+      <!-- Card 1 -->
+
+      <div class="group
+                  relative
+                  overflow-hidden
+                  rounded-[26px]
+                  bg-white
+                  border border-[#e8ddd0]
+                  p-6 sm:p-7
+                  hover:-translate-y-2
+                  hover:shadow-xl
+                  hover:shadow-[#4b2e1d]/10
+                  transition-all duration-500">
+
+        <div class="absolute -right-12 -top-12
+                    w-32 h-32
+                    rounded-full
+                    bg-[#d9b99c]/20
+                    blur-2xl
+                    group-hover:scale-150
+                    transition-transform duration-700">
+        </div>
+
+
+        <div class="relative">
+
+          <div class="w-12 h-12
+                      rounded-2xl
+                      bg-[#f3e9df]
+                      border border-[#e5d5c4]
+                      flex items-center justify-center
+                      text-[#8c5e3c]">
+
+            <svg class="w-6 h-6"
+                 fill="none"
+                 stroke="currentColor"
+                 stroke-width="1.8"
+                 viewBox="0 0 24 24">
+
+              <path stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M9 12l2 2 4-4m5.618-4.016A11.955
+                       11.955 0 0112 2.944a11.955
+                       11.955 0 01-8.618 3.04A12.02
+                       12.02 0 003 9c0 5.591
+                       3.824 10.29 9 11.622C17.176
+                       19.29 21 14.591 21 9c0-1.042
+                       -.133-2.052-.382-3.016z"/>
+
+            </svg>
+
+          </div>
+
+
+          <h3 class="mt-7
+                     text-lg
+                     font-extrabold
+                     text-[#2b1b12]">
+
+            Quality First
+
+          </h3>
+
+
+          <p class="mt-3
+                    text-xs sm:text-sm
+                    leading-6
+                    text-[#756154]">
+
+            Products are selected with usefulness,
+            quality, and reliability in mind.
+
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- Card 2 -->
+
+      <div class="group
+                  relative
+                  overflow-hidden
+                  rounded-[26px]
+                  bg-white
+                  border border-[#e8ddd0]
+                  p-6 sm:p-7
+                  hover:-translate-y-2
+                  hover:shadow-xl
+                  hover:shadow-[#4b2e1d]/10
+                  transition-all duration-500">
+
+        <div class="absolute -right-12 -top-12
+                    w-32 h-32
+                    rounded-full
+                    bg-[#d9b99c]/20
+                    blur-2xl
+                    group-hover:scale-150
+                    transition-transform duration-700">
+        </div>
+
+
+        <div class="relative">
+
+          <div class="w-12 h-12
+                      rounded-2xl
+                      bg-[#f3e9df]
+                      border border-[#e5d5c4]
+                      flex items-center justify-center
+                      text-[#8c5e3c]">
+
+            <svg class="w-6 h-6"
+                 fill="none"
+                 stroke="currentColor"
+                 stroke-width="1.8"
+                 viewBox="0 0 24 24">
+
+              <path stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 8c-1.657 0-3 .895-3 2s1.343
+                       2 3 2 3 .895 3 2-1.343 2-3 2m0-8
+                       c1.11 0 2.08.402 2.599 1M12 8V7
+                       m0 1v8m0 0v1m0-1c-1.11
+                       0-2.08-.402-2.599-1M21 12
+                       a9 9 0 11-18 0 9 9 0 0118 0z"/>
+
+            </svg>
+
+          </div>
+
+
+          <h3 class="mt-7
+                     text-lg
+                     font-extrabold
+                     text-[#2b1b12]">
+
+            Fair Value
+
+          </h3>
+
+
+          <p class="mt-3
+                    text-xs sm:text-sm
+                    leading-6
+                    text-[#756154]">
+
+            Simple pricing and useful information
+            help you understand what you're buying.
+
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- Card 3 -->
+
+      <div class="group
+                  relative
+                  overflow-hidden
+                  rounded-[26px]
+                  bg-white
+                  border border-[#e8ddd0]
+                  p-6 sm:p-7
+                  hover:-translate-y-2
+                  hover:shadow-xl
+                  hover:shadow-[#4b2e1d]/10
+                  transition-all duration-500">
+
+        <div class="absolute -right-12 -top-12
+                    w-32 h-32
+                    rounded-full
+                    bg-[#d9b99c]/20
+                    blur-2xl
+                    group-hover:scale-150
+                    transition-transform duration-700">
+        </div>
+
+
+        <div class="relative">
+
+          <div class="w-12 h-12
+                      rounded-2xl
+                      bg-[#f3e9df]
+                      border border-[#e5d5c4]
+                      flex items-center justify-center
+                      text-[#8c5e3c]">
+
+            <svg class="w-6 h-6"
+                 fill="none"
+                 stroke="currentColor"
+                 stroke-width="1.8"
+                 viewBox="0 0 24 24">
+
+              <path stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10
+                       l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/>
+
+            </svg>
+
+          </div>
+
+
+          <h3 class="mt-7
+                     text-lg
+                     font-extrabold
+                     text-[#2b1b12]">
+
+            Curated Selection
+
+          </h3>
+
+
+          <p class="mt-3
+                    text-xs sm:text-sm
+                    leading-6
+                    text-[#756154]">
+
+            Find useful products across technology,
+            gaming, entertainment, and more.
+
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- Card 4 -->
+
+      <div class="group
+                  relative
+                  overflow-hidden
+                  rounded-[26px]
+                  bg-white
+                  border border-[#e8ddd0]
+                  p-6 sm:p-7
+                  hover:-translate-y-2
+                  hover:shadow-xl
+                  hover:shadow-[#4b2e1d]/10
+                  transition-all duration-500">
+
+        <div class="absolute -right-12 -top-12
+                    w-32 h-32
+                    rounded-full
+                    bg-[#d9b99c]/20
+                    blur-2xl
+                    group-hover:scale-150
+                    transition-transform duration-700">
+        </div>
+
+
+        <div class="relative">
+
+          <div class="w-12 h-12
+                      rounded-2xl
+                      bg-[#f3e9df]
+                      border border-[#e5d5c4]
+                      flex items-center justify-center
+                      text-[#8c5e3c]">
+
+            <svg class="w-6 h-6"
+                 fill="none"
+                 stroke="currentColor"
+                 stroke-width="1.8"
+                 viewBox="0 0 24 24">
+
+              <path stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M8 12h.01M12 12h.01M16 12h.01
+                       M21 12c0 4.418-4.03 8-9 8a9.863
+                       9.863 0 01-4.255-.949L3 20l1.395-3.72
+                       C3.512 15.042 3 13.574 3 12c0-4.418
+                       4.03-8 9-8s9 3.582 9 8z"/>
+
+            </svg>
+
+          </div>
+
+
+          <h3 class="mt-7
+                     text-lg
+                     font-extrabold
+                     text-[#2b1b12]">
+
+            Helpful Support
+
+          </h3>
+
+
+          <p class="mt-3
+                    text-xs sm:text-sm
+                    leading-6
+                    text-[#756154]">
+
+            Get clear assistance whenever you
+            need help choosing your next product.
+
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- ================= BRAND STATEMENT ================= -->
+
+<section class="relative overflow-hidden
+                py-20 sm:py-28
+                px-4 sm:px-6 lg:px-8
+                bg-[#2b1a10]
+                text-white">
+
+  <!-- Background -->
+
+  <div class="absolute inset-0
+              bg-gradient-to-br
+              from-[#3b2518]
+              via-[#29180f]
+              to-[#160c07]">
+  </div>
+
+
+  <div class="absolute -top-32
+              right-0
+              w-96 h-96
+              rounded-full
+              bg-[#a46c47]/20
+              blur-3xl">
+  </div>
+
+
+  <div class="absolute -bottom-40
+              left-0
+              w-96 h-96
+              rounded-full
+              bg-[#c79d7b]/10
+              blur-3xl">
+  </div>
+
+
+  <div class="relative
+              max-w-4xl
+              mx-auto
+              text-center">
+
+
+    <span class="text-[10px]
+                 uppercase
+                 tracking-[0.25em]
+                 font-bold
+                 text-[#d3a77f]">
+
+      Our Philosophy
+
+    </span>
+
+
+    <h2 class="mt-6
+               text-3xl sm:text-5xl lg:text-6xl
+               font-black
+               tracking-tight
+               leading-tight">
+
+      Technology should be
+      <span class="text-[#d2a47b]">
+
+        exciting,
+
+      </span>
+
+      <br class="hidden sm:block">
+
+      not overwhelming.
+
+    </h2>
+
+
+    <p class="mt-6
+              max-w-2xl
+              mx-auto
+              text-sm sm:text-base
+              leading-7
+              text-white/55">
+
+      BuyPannu is designed around the belief that
+      better shopping starts with better information,
+      better choices, and a cleaner experience.
+
+    </p>
+
+
+    <!-- Decorative line -->
+
+    <div class="mx-auto mt-9
+                w-16 h-px
+                bg-[#c79d7b]">
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- ================= PRINCIPLES ================= -->
+
+<section class="py-16 sm:py-20 md:py-24
+                px-4 sm:px-6 lg:px-8
+                bg-[#fdfbf7]">
+
+  <div class="max-w-7xl mx-auto">
+
+
+    <div class="text-center
+                max-w-2xl
+                mx-auto">
+
+      <span class="text-[10px]
+                   uppercase
+                   tracking-[0.2em]
+                   font-bold
+                   text-[#986746]">
+
+        Our Principles
+
+      </span>
+
+
+      <h2 class="mt-3
+                 text-3xl sm:text-4xl
+                 font-black
+                 text-[#2b1b12]">
+
+        The BuyPannu Standard
+
+      </h2>
+
+
+      <p class="mt-4
+                text-sm
+                text-[#6d5648]">
+
+        A few simple principles guide the
+        experience we want to create.
+
+      </p>
+
+    </div>
+
+
+    <div class="mt-12
+                grid grid-cols-1
+                sm:grid-cols-2
+                lg:grid-cols-4
+                gap-5">
+
+
+      <!-- Principle 1 -->
+
+      <div class="group
+                  bg-white
+                  rounded-[24px]
+                  border border-[#e9dfd3]
+                  p-6
+                  hover:border-[#b88b68]
+                  hover:shadow-lg
+                  transition-all">
+
+        <span class="text-[10px]
+                     font-black
+                     text-[#b18461]">
+
+          01
+
+        </span>
+
+        <h3 class="mt-5
+                   font-extrabold
+                   text-[#2b1b12]">
+
+          Clear
+
+        </h3>
+
+        <p class="mt-2
+                  text-xs
+                  leading-6
+                  text-[#766154]">
+
+          Product information should be
+          easy to understand.
+
+        </p>
+
+      </div>
+
+
+      <!-- Principle 2 -->
+
+      <div class="group
+                  bg-white
+                  rounded-[24px]
+                  border border-[#e9dfd3]
+                  p-6
+                  hover:border-[#b88b68]
+                  hover:shadow-lg
+                  transition-all">
+
+        <span class="text-[10px]
+                     font-black
+                     text-[#b18461]">
+
+          02
+
+        </span>
+
+        <h3 class="mt-5
+                   font-extrabold
+                   text-[#2b1b12]">
+
+          Useful
+
+        </h3>
+
+        <p class="mt-2
+                  text-xs
+                  leading-6
+                  text-[#766154]">
+
+          Every product should have a
+          clear reason to be considered.
+
+        </p>
+
+      </div>
+
+
+      <!-- Principle 3 -->
+
+      <div class="group
+                  bg-white
+                  rounded-[24px]
+                  border border-[#e9dfd3]
+                  p-6
+                  hover:border-[#b88b68]
+                  hover:shadow-lg
+                  transition-all">
+
+        <span class="text-[10px]
+                     font-black
+                     text-[#b18461]">
+
+          03
+
+        </span>
+
+        <h3 class="mt-5
+                   font-extrabold
+                   text-[#2b1b12]">
+
+          Honest
+
+        </h3>
+
+        <p class="mt-2
+                  text-xs
+                  leading-6
+                  text-[#766154]">
+
+          No unnecessary hype.
+          Just useful product information.
+
+        </p>
+
+      </div>
+
+
+      <!-- Principle 4 -->
+
+      <div class="group
+                  bg-white
+                  rounded-[24px]
+                  border border-[#e9dfd3]
+                  p-6
+                  hover:border-[#b88b68]
+                  hover:shadow-lg
+                  transition-all">
+
+        <span class="text-[10px]
+                     font-black
+                     text-[#b18461]">
+
+          04
+
+        </span>
+
+        <h3 class="mt-5
+                   font-extrabold
+                   text-[#2b1b12]">
+
+          Human
+
+        </h3>
+
+        <p class="mt-2
+                  text-xs
+                  leading-6
+                  text-[#766154]">
+
+          Shopping should feel helpful,
+          not complicated.
+
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- ================= COLLECTIONS ================= -->
+
+<section id="collections"
+         class="py-16 sm:py-20 md:py-24
+                px-4 sm:px-6 lg:px-8
+                bg-[#f5ede3]
+                border-y border-[#e5d7c7]">
+
+  <div class="max-w-7xl mx-auto">
+
+
+    <div class="flex flex-col
+                md:flex-row
+                md:items-end
+                md:justify-between
+                gap-5">
+
+      <div>
+
+        <span class="text-[10px]
+                     uppercase
+                     tracking-[0.2em]
+                     font-bold
+                     text-[#8d5d3c]">
+
+          Explore
+
+        </span>
+
+
+        <h2 class="mt-2
+                   text-3xl sm:text-4xl
+                   font-black
+                   text-[#2b1b12]">
+
+          Our Collections
+
+        </h2>
+
+      </div>
+
+
+      <p class="max-w-md
+                text-sm
+                leading-6
+                text-[#6d5648]">
+
+        From everyday devices to gaming,
+        audio, displays, and accessories,
+        find technology for every kind of setup.
+
+      </p>
+
+    </div>
+
+
+    <div class="mt-10
+                grid grid-cols-1
+                md:grid-cols-3
+                gap-5">
+
+
+      <!-- Collection 1 -->
+
+      <div class="group
+                  relative
+                  min-h-[280px]
+                  overflow-hidden
+                  rounded-[28px]
+                  bg-white
+                  border border-[#e6d9cc]
+                  p-7
+                  hover:-translate-y-1
+                  hover:shadow-xl
+                  transition-all">
+
+        <div class="absolute
+                    -right-16
+                    -top-16
+                    w-48 h-48
+                    rounded-full
+                    bg-[#e5c6aa]/30
+                    blur-3xl">
+        </div>
+
+
+        <div class="relative
+                    h-full
+                    flex flex-col
+                    justify-between">
+
+          <span class="text-[10px]
+                       uppercase
+                       tracking-[0.2em]
+                       font-bold
+                       text-[#a0704e]">
+
+            Everyday Tech
+
+          </span>
+
+
+          <div class="mt-20">
+
+            <h3 class="text-2xl
+                       font-black
+                       text-[#2b1b12]">
+
+              Mobile & Devices
+
+            </h3>
+
+
+            <p class="mt-3
+                      text-xs
+                      leading-6
+                      text-[#756154]">
+
+              Smartphones, tablets,
+              wearables, and everyday tech.
+
+            </p>
+
+
+            <a href="#"
+               class="inline-flex
+                      mt-5
+                      text-sm
+                      font-bold
+                      text-[#8c5e3c]
+                      group-hover:translate-x-1
+                      transition-transform">
+
+              Discover →
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- Collection 2 -->
+
+      <div class="group
+                  relative
+                  min-h-[280px]
+                  overflow-hidden
+                  rounded-[28px]
+                  bg-[#2b1b12]
+                  p-7
+                  text-white
+                  hover:-translate-y-1
+                  hover:shadow-xl
+                  transition-all">
+
+        <div class="absolute
+                    -right-16
+                    -top-16
+                    w-48 h-48
+                    rounded-full
+                    bg-[#9a6847]/30
+                    blur-3xl">
+        </div>
+
+
+        <div class="relative
+                    h-full
+                    flex flex-col
+                    justify-between">
+
+          <span class="text-[10px]
+                       uppercase
+                       tracking-[0.2em]
+                       font-bold
+                       text-[#d1a47c]">
+
+            Performance
+
+          </span>
+
+
+          <div class="mt-20">
+
+            <h3 class="text-2xl
+                       font-black">
+
+              Gaming & PCs
+
+            </h3>
+
+
+            <p class="mt-3
+                      text-xs
+                      leading-6
+                      text-white/50">
+
+              Gaming systems, consoles,
+              peripherals, and accessories.
+
+            </p>
+
+
+            <a href="#"
+               class="inline-flex
+                      mt-5
+                      text-sm
+                      font-bold
+                      text-[#d1a47c]
+                      group-hover:translate-x-1
+                      transition-transform">
+
+              Discover →
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- Collection 3 -->
+
+      <div class="group
+                  relative
+                  min-h-[280px]
+                  overflow-hidden
+                  rounded-[28px]
+                  bg-white
+                  border border-[#e6d9cc]
+                  p-7
+                  hover:-translate-y-1
+                  hover:shadow-xl
+                  transition-all">
+
+        <div class="absolute
+                    -right-16
+                    -top-16
+                    w-48 h-48
+                    rounded-full
+                    bg-[#d2d8d8]/40
+                    blur-3xl">
+        </div>
+
+
+        <div class="relative
+                    h-full
+                    flex flex-col
+                    justify-between">
+
+          <span class="text-[10px]
+                       uppercase
+                       tracking-[0.2em]
+                       font-bold
+                       text-[#7b6c62]">
+
+            Entertainment
+
+          </span>
+
+
+          <div class="mt-20">
+
+            <h3 class="text-2xl
+                       font-black
+                       text-[#2b1b12]">
+
+              Audio & Displays
+
+            </h3>
+
+
+            <p class="mt-3
+                      text-xs
+                      leading-6
+                      text-[#756154]">
+
+              Headphones, speakers,
+              monitors, TVs, and more.
+
+            </p>
+
+
+            <a href="#"
+               class="inline-flex
+                      mt-5
+                      text-sm
+                      font-bold
+                      text-[#8c5e3c]
+                      group-hover:translate-x-1
+                      transition-transform">
+
+              Discover →
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- ================= JOURNEY ================= -->
+
+<section class="py-16 sm:py-20 md:py-24
+                px-4 sm:px-6 lg:px-8
+                bg-[#fdfbf7]">
+
+  <div class="max-w-7xl mx-auto">
+
+
+    <div class="text-center
+                max-w-2xl
+                mx-auto">
+
+      <span class="text-[10px]
+                   uppercase
+                   tracking-[0.2em]
+                   font-bold
+                   text-[#986746]">
+
+        The Experience
+
+      </span>
+
+
+      <h2 class="mt-3
+                 text-3xl sm:text-4xl
+                 font-black
+                 text-[#2b1b12]">
+
+        From discovery to delivery.
+
+      </h2>
+
+
+      <p class="mt-4
+                text-sm
+                leading-6
+                text-[#6d5648]">
+
+        A simple experience designed around
+        the way modern customers shop.
+
+      </p>
+
+    </div>
+
+
+    <!-- Timeline -->
+
+    <div class="relative mt-14">
+
+
+      <!-- Desktop line -->
+
+      <div class="hidden lg:block
+                  absolute
+                  top-7 left-[12%] right-[12%]
+                  h-px
+                  bg-[#dfcfbd]">
+      </div>
+
+
+      <div class="grid grid-cols-1
+                  sm:grid-cols-2
+                  lg:grid-cols-4
+                  gap-6">
+
+
+        <!-- Step -->
+
+        <div class="relative
+                    text-center">
+
+          <div class="relative z-10
+                      mx-auto
+                      w-14 h-14
+                      rounded-full
+                      bg-[#8c5e3c]
+                      text-white
+                      flex items-center
+                      justify-center
+                      font-black
+                      shadow-lg
+                      shadow-[#8c5e3c]/20">
+
+            01
+
+          </div>
+
+
+          <h3 class="mt-5
+                     font-extrabold
+                     text-[#2b1b12]">
+
+            Discover
+
+          </h3>
+
+
+          <p class="mt-2
+                    text-xs
+                    leading-6
+                    text-[#756154]">
+
+            Browse products and categories
+            that match your needs.
+
+          </p>
+
+        </div>
+
+
+        <!-- Step -->
+
+        <div class="relative
+                    text-center">
+
+          <div class="relative z-10
+                      mx-auto
+                      w-14 h-14
+                      rounded-full
+                      bg-[#f2e7db]
+                      border border-[#d8c3ae]
+                      text-[#8c5e3c]
+                      flex items-center
+                      justify-center
+                      font-black">
+
+            02
+
+          </div>
+
+
+          <h3 class="mt-5
+                     font-extrabold
+                     text-[#2b1b12]">
+
+            Compare
+
+          </h3>
+
+
+          <p class="mt-2
+                    text-xs
+                    leading-6
+                    text-[#756154]">
+
+            Understand features,
+            specifications, and value.
+
+          </p>
+
+        </div>
+
+
+        <!-- Step -->
+
+        <div class="relative
+                    text-center">
+
+          <div class="relative z-10
+                      mx-auto
+                      w-14 h-14
+                      rounded-full
+                      bg-[#f2e7db]
+                      border border-[#d8c3ae]
+                      text-[#8c5e3c]
+                      flex items-center
+                      justify-center
+                      font-black">
+
+            03
+
+          </div>
+
+
+          <h3 class="mt-5
+                     font-extrabold
+                     text-[#2b1b12]">
+
+            Choose
+
+          </h3>
+
+
+          <p class="mt-2
+                    text-xs
+                    leading-6
+                    text-[#756154]">
+
+            Pick what fits your
+            requirements and budget.
+
+          </p>
+
+        </div>
+
+
+        <!-- Step -->
+
+        <div class="relative
+                    text-center">
+
+          <div class="relative z-10
+                      mx-auto
+                      w-14 h-14
+                      rounded-full
+                      bg-[#f2e7db]
+                      border border-[#d8c3ae]
+                      text-[#8c5e3c]
+                      flex items-center
+                      justify-center
+                      font-black">
+
+            04
+
+          </div>
+
+
+          <h3 class="mt-5
+                     font-extrabold
+                     text-[#2b1b12]">
+
+            Enjoy
+
+          </h3>
+
+
+          <p class="mt-2
+                    text-xs
+                    leading-6
+                    text-[#756154]">
+
+            Get your product and
+            enjoy the upgrade.
+
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- ================= FINAL CTA ================= -->
+
+<section class="px-4 sm:px-6 lg:px-8
+                pb-16 sm:pb-24
+                bg-[#fdfbf7]">
+
+  <div class="max-w-7xl mx-auto">
+
+    <div class="relative
+                overflow-hidden
+                rounded-[32px] sm:rounded-[42px]
+                bg-gradient-to-br
+                from-[#3b2518]
+                via-[#29180f]
+                to-[#170d08]
+                px-6 sm:px-12 lg:px-20
+                py-14 sm:py-20
+                text-center text-white">
+
+
+      <!-- Glow -->
+
+      <div class="absolute
+                  -right-20
+                  -top-20
+                  w-80 h-80
+                  rounded-full
+                  bg-[#b37a52]/20
+                  blur-3xl">
+      </div>
+
+
+      <div class="absolute
+                  -left-20
+                  -bottom-20
+                  w-72 h-72
+                  rounded-full
+                  bg-[#d1a77f]/10
+                  blur-3xl">
+      </div>
+
+
+      <div class="relative">
+
+
+        <span class="text-[10px]
+                     uppercase
+                     tracking-[0.25em]
+                     font-bold
+                     text-[#d3a77f]">
+
+          Welcome to BuyPannu
+
+        </span>
+
+
+        <h2 class="mt-5
+                   text-3xl sm:text-5xl
+                   font-black
+                   tracking-tight">
+
+          Find something
+          <span class="text-[#d1a67c]">
+            worth bringing home.
+          </span>
+
+        </h2>
+
+
+        <p class="mt-5
+                  max-w-xl
+                  mx-auto
+                  text-sm
+                  leading-7
+                  text-white/50">
+
+          Explore our collections and discover
+          products designed to fit your everyday life,
+          entertainment, and setup.
+
+        </p>
+
+
+        <div class="mt-8
+                    flex flex-wrap
+                    justify-center
+                    gap-3">
+
+          <a href="#"
+             class="px-7 py-3.5
+                    rounded-2xl
+                    bg-[#d0a27b]
+                    text-[#2b1b12]
+                    text-sm
+                    font-bold
+                    hover:bg-[#e0b995]
+                    hover:-translate-y-0.5
+                    transition-all">
+
+            Browse the Catalog →
+
+          </a>
+
+
+          <a href="#"
+             class="px-7 py-3.5
+                    rounded-2xl
+                    bg-white/10
+                    border border-white/15
+                    text-white
+                    text-sm
+                    font-semibold
+                    hover:bg-white/15
+                    transition-all">
+
+            Contact Us
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--footer--  Usefullinks --Shop--Copyrights-->
+				
+<!---fbwhatsapp-X-insta--->
+            
+ 
+ <footer class="mx-auto mt-0 max-w-[1450px] px-3 pb-3 pt-1 sm:px-5 ">
+
+    <div class="rounded-t-2xl bg-[#241c17] px-7 py-10  text-white">
+
+        <div class="grid gap-8 grid-cols-2 lg:grid-cols-5">
+
+            <!-- BRAND -->
+
+            <div class="w-40 mx-auto	">
+
+                <h2 class="text-2xl px-4 text-purple-500 	font-black italic">
+                    BuyPannu
+                </h2>
+
+                <p class="mt-4 px-4 text-sm leading-5	  	 text-gray-300">
+
+                    Your one-stop shop for Fashion,
+                    Electronics, Gaming more.
+                   
+                    Shop more, pay less, be happy
+
+                </p>
+
+                <span class="absolute gap-4 text-2xl">
+
+    <!-- Facebook -->
+   <div class="px-4 py-2"> <a href="#" class="text-blue-600 hover:scale-110 transition-transform">
+        <i class="fa-brands fa-facebook"></i>
+    </a>
+
+    <!-- Instagram -->
+    <a href="#" class="text-pink-500 hover:scale-110 transition-transform">
+        <i class="fa-brands fa-instagram"></i>
+    </a>
+
+    <!-- WhatsApp -->
+    <a href="#" class="text-green-500 hover:scale-110 transition-transform">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- X / Twitter -->
+    <a href="#" class="text-black hover:scale-110 transition-transform">
+        <i class="fa-brands fa-x-twitter"></i>
+    </a></div>
+
+</span>
+
+            </div>
+
+
+            <!-- QUICK LINKS -->
+
+            <div class="max-w-full mx-auto">
+
+                <h3 class="text-xs font-bold uppercase tracking-wide text-[#d4a675]">
+                    Quick Links
+                </h3>
+
+                <div class="mt-4 space-y-2 text-sm text-gray-300">
+
+                    <a href="#" class="block hover:text-white">Home</a>
+                    <a href="#" class="block hover:text-white">Categories</a>
+                    <a href="#" class="block hover:text-white">Fashion</a>
+                    <a href="#" class="block hover:text-white">Electronics</a>
+                    <a href="#" class="block hover:text-white">New Arrivals</a>
+                    <a href="#" class="block hover:text-white">About Us</a>
+
+                </div>
+
+            </div>
+
+
+            <!-- CUSTOMER SERVICE -->
+
+            <div class="max-w-full mx-auto md:w-50 md:mx-auto">
+
+                <h3 class="text-xs font-bold uppercase tracking-wide text-[#d4a675]">
+                    Customer Service
+                </h3>
+
+                <div class="mt-4 space-y-2 text-sm text-gray-300">
+
+                    <a href="#" class="block hover:text-white">
+                        Contact Us
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Track Order
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Shipping Policy
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Returns & Refunds
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        FAQs
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Terms & Conditions
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- CATEGORIES -->
+
+            <div class="max-w-full mx-auto">
+
+                <h3 class="text-xs font-bold uppercase tracking-wide text-[#d4a675]">
+                    Categories
+                </h3>
+
+                <div class="mt-4 space-y-2 text-sm text-gray-300">
+
+                    <a href="#" class="block hover:text-white">
+                        Fashion
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Electronics
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Gaming
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Footwear
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Accessories
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Home & Living
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- PAYMENT -->
+
+            <div class="relative left-30 justify-self-center md:static md:justify-self-auto">
+
+                <h3 class="text-xs font-bold uppercase text-center tracking-wide text-[#d4a675]">
+                    We Accept
+                </h3>
+
+                <div class="mt-5 grid grid-cols-2   gap-2">
+
+                    <div class="rounded bg-white px-3 py-2  text-center text-xs font-bold text-blue-700">
+                        VISA
+                    </div>
+
+                    <div class="rounded bg-white px-3 py-2 text-center text-xs font-bold text-red-600">
+                        Mc
+                    </div>
+
+                    <div class="rounded bg-white px-3 py-2 text-center text-xs font-bold text-gray-700">
+                        UPI
+                    </div>
+
+                    <div class="rounded bg-white px-3 py-2 text-center text-xs font-bold text-blue-600">
+                        G Pay
+                    </div>
+
+                    <div class="rounded bg-white px  py-2 text-center text-xs font-bold text-black">
+                        PayPal
+                    </div>
+
+                    <div class="rounded bg-white px-3 py-2 text-center text-xs font-bold text-black">
+                        Bhim
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- COPYRIGHT -->
+
+        <div class="mt-8 border-t border-white/10 pt-5 text-center text-xs text-gray-400">
+
+            © 2026 BuyPannu. All Rights Reserved.
+
+        </div>
+
+    </div>
+
+</footer>
+				
+				

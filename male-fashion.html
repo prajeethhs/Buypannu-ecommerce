@@ -1,0 +1,2297 @@
+	<html>
+	<head>
+	<link rel="icon" href="IMAGES/icon.png" sizes="96x96">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+	<style><!--Added scrollbar hide( resource used from W3s schools)--->
+	/* Chrome, Edge, Safari */
+	::-webkit-scrollbar {
+		display: none;
+	}
+	.feedback::-webkit-scrollbar {
+		display: none;
+	}
+	/* Firefox */
+	html {
+		scrollbar-width: none;
+	}
+
+	/* IE and old Edge */
+	body {
+		-ms-overflow-style: none;
+	}
+
+	/* Chrome, Edge, Safari */
+	.hide-scrollbar::-webkit-scrollbar {
+		display: none
+		
+
+	</style>
+	<title>
+	BuyPannu
+	</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+		
+	</head>
+
+	<body class="font-[Poppins] bg-[#F9F5F2] -gradient-to-b from-[#fbc2eb] to-[#a6c1ee] min-h-screen hide-scrollbar">
+
+	<header class=" px-5 md:px-15   mx-auto py-4 relative ">
+
+	<nav class="relative max-w-[2800px]  mx-auto  bg-[#FEFEFE] -gradient-to-r from-sky-100 to-indigo-100 rounded-3xl shadow-2xl">
+
+		<div class="flex items-center justify-between px-5 h-20">
+
+			<!-- Logo -->
+			<a href="index.HTML"><img  class="w-20" src="IMAGES/logo1.png" alt="Logo"></a>
+
+			<!-- Desktop Menu -->
+			<ul class="hidden md:hidden lg:flex items-center gap-8 text-lg font-semibold">
+				<li><a href="index.HTML" class="hover:text-purple-500">Home</a></li>
+				<li><details name="autoclose" class=" relative">
+
+						<summary class="hover:text-purple-500 flex cursor-pointer list-none items-center gap-2  font-semibold">
+							<a href="categories.html">Categories</a>
+							<span class="-mt-2">⌄</span>
+						</summary>
+
+						<div class="absolute left-0 top-8 z-50 w-48 rounded-xl bg-white p-3 shadow-xl">
+
+							<a href="fashion.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Fashion
+							</a>
+
+							<a href="electronics.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Electronics
+							</a>
+
+							<a href="gaming.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Gaming
+							</a>
+
+							<a href="#" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Home & Livings
+							</a></li>
+				<li><details name="autoclose" class=" relative">
+
+						<summary class="hover:text-purple-500 flex cursor-pointer list-none items-center gap-2  font-semibold">
+						   <a href="fashion.html">Fashion</a> 
+							<span class="-mt-2">⌄</span>
+						</summary>
+
+						<div class="absolute left-0 top-8 z-50 w-48 rounded-xl bg-white p-3 shadow-xl">
+
+							<a href="Male-fashion.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Men's Fashion
+							</a>
+
+							<a href="Female-fashion.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Womens's Fashion	
+							</a>
+
+							<a href="kid.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Kids's Fashion
+							</a>
+
+							</li>
+				<li><details name="autoclose"class=" relative">
+
+						<summary class="hover:text-purple-500 flex cursor-pointer list-none items-center gap-2  font-semibold">
+							<a href="electronics.html">Electronics</a>
+							<span class="-mt-2">⌄</span>
+						</summary>
+
+						<div class="absolute left-0 top-8 z-50 w-48 rounded-xl bg-white p-3 shadow-xl">
+
+							<a href="Mobiles.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Mobiles & Tablets
+							</a>
+
+							<a href="computers.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Computers	
+							</a>
+
+							<a href="tv.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								TV & Entertainment
+							</a> 
+							<a href="gaming.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Gaming
+							</a>
+							<a href="accessories.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Accessories
+							</a>
+							<a href="audio.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Audio
+							</a>
+
+							</li>
+				<li><a href="Aboutus.html" class="hover:text-purple-500">About Us</a></li>
+				<li><a href="newarrival.html" class="hover:text-purple-500">New Arrivals</a></li>
+			</ul>
+
+			<!-- Desktop Button -->
+			<button class="hidden md:hidden lg:inline  bg-[#9B8164] text-white px-5 py-2 rounded-xl hover:bg-purple-600">
+				Sign In
+			</button>
+
+			<!-- Mobile Menu -->
+			<!-- MOBILE MENU -->
+	<details class="md:inline lg:hidden relative z-[1000]">
+
+		<!-- MENU ICON -->
+		<summary class="list-none cursor-pointer text-3xl select-none">
+			☰
+		</summary>
+
+
+		<!-- MAIN MENU -->
+		<div class="absolute top-5 right-0 mt-3
+					w-60
+					bg-white
+					rounded-xl
+					shadow-2xl
+					p-5">
+
+			<ul class="space-y-5 font-semibold">
+
+
+				<!-- HOME -->
+				<li>
+					<a href="index.HTML"
+					   class="flex items-center justify-between
+							  hover:text-[#9B8164] transition">
+
+						<span>Home</span>
+
+						<span class="text-xl font-normal">›</span>
+
+					</a>
+				</li>
+
+
+				<!-- CATEGORIES -->
+				<li>
+
+					<details class="relative">
+
+						<!-- CATEGORY TITLE -->
+						<summary
+							class="list-none cursor-pointer
+								   flex items-center justify-between
+								   hover:text-[#9B8164]
+								   transition">
+
+							<span><a href="categories.html">Categories </a></span>
+
+							<span class="text-xl font-normal">
+								›
+							</span>
+
+						</summary>
+
+
+						<!-- CATEGORY SUB MENU -->
+						<div class=" z-1000  sm:absolute
+									sm:top-0
+									sm:right-full
+									mr-3
+									w-40
+									bg-white
+									rounded-xl
+									shadow-2xl
+									p-5">
+
+							<p class="text-xs
+									  text-gray-400
+									  uppercase
+									  tracking-widest
+									  mb-4">
+
+								Categories
+
+							</p>
+
+
+							<ul class="space-y-4
+									   uppercase
+									   text-sm
+									   font-semibold">
+
+
+								<!-- FASHION -->
+								<li>
+
+									<a href="fashion.html"
+									   class="	flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>Fashion</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+
+
+								<!-- ELECTRONICS -->
+								<li>
+
+									<a href="electronics.html"
+									   class="flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>Electronics</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+
+
+								<!-- GAMING -->
+								<li>
+
+									<a href="gaming/gaming.html"
+									   class="flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>Gaming</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+
+
+							
+
+							</ul>
+
+						</div>
+
+					</details>
+
+				</li>
+
+
+				<!-- FASHION -->
+				<li>
+					 <!-- CATEGORY TITLE -->
+					   <details class="relative">
+					   <summary
+							class="list-none cursor-pointer
+								   flex items-center justify-between
+								   hover:text-[#9B8164]
+								   transition">
+
+							<span><a href="fashion.html">Fashion </a></span>
+
+							<span class="text-xl font-normal">
+								›
+							</span>
+
+						</summary>
+							
+							<UL class=" sm:absolute
+									sm:top-0
+									sm:right-full  
+									mr-3
+									w-40 bg-white mr-3 right-50  rounded-xl  flex-cols uppercase tracking-wider grid gap-y-3 px-5 " >
+							<span class="text-sm mt-2 text-gray-400 font-normal">
+								FASHION
+							</span>
+							<LI><a href="Male-fashion.html">Men Fashion</a>
+							
+							</LI>
+							<LI><a href="female-fashion.html">
+							Women Fashion</a>
+							</LI>
+							<LI><a  href="kid.html">
+							Kids Fashion</a>
+							</LI>
+							
+							</UL>
+					</details>
+				</li>
+
+
+		
+				<li>
+
+					<details class="relative">
+
+						<!-- Electronics TITLE -->
+						<summary
+							class="list-none cursor-pointer
+								   flex items-center justify-between
+								   hover:text-[#9B8164]
+								   transition">
+
+							<span><a href="electronics.html">Electronics </a></span>
+
+							<span class="text-xl font-normal">
+								›
+							</span>
+
+						</summary>
+
+
+						<!-- Electronics SUB MENU -->
+						<div class=" z-1000  sm:absolute
+									sm:top-0
+									sm:right-full
+									mr-3
+									w-40
+									bg-white
+									rounded-xl
+									shadow-2xl
+									p-5">
+
+							<p class="text-xs
+									  text-gray-400
+									  uppercase
+									  tracking-widest
+									  mb-4">
+
+								Electronics
+
+							</p>
+
+
+							<ul class="space-y-4
+									   uppercase
+									   text-sm
+									   font-semibold">
+
+
+								<!-- Mobiles and tab -->
+								<li>
+
+									<a href="mobiles.html"
+									   class="	flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>Mobiles</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+
+
+								<!-- computers -->
+								<li>
+
+									<a href="computers.html"
+									   class="flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>computers</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+
+
+								<!-- tv -->
+								<li>
+
+									<a href="tv.html"
+									   class="flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>Tv's</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+								<!-- GAMING -->
+								<li>
+
+									<a href="gaming.html"
+									   class="flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>Gaming</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+								<!-- Access -->
+								<li>
+
+									<a href="accessories.html"
+									   class="flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>Accessories</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+							<!-- audio -->
+								<li>
+
+									<a href="audio.html"
+									   class="flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>Audios</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+
+							
+
+							</ul>
+
+						</div>
+
+					</details>
+
+				</li>
+
+				<!-- ABOUT -->
+				<li>
+
+					<a href="aboutus.html"
+					   class="flex items-center justify-between
+							  hover:text-[#9B8164]
+							  transition">
+
+						<span>About Us</span>
+
+						<span class="text-xl font-normal">›</span>
+
+					</a>
+
+				</li>
+
+
+				<!-- NEW ARRIVALS -->
+				<li>
+
+					<a href="Newarrival.html"
+					   class="flex items-center justify-between
+							  hover:text-[#9B8164]
+							  transition">
+
+						<span>New Arrivals</span>
+
+						<span class="text-xl font-normal">›</span>
+
+					</a>
+
+				</li>
+
+			</ul>
+
+
+			<!-- SIGN IN -->
+			<button
+				class="mt-7
+					   w-full
+					   bg-[#9B8164]
+					   hover:bg-purple-500
+					   text-white
+					   py-2.5
+					   rounded-lg
+					   transition">
+
+				Sign In
+
+			</button>
+
+		</div>
+
+	</details>
+
+	</nav>
+
+	</header>
+<!---------Hero Banner------->
+<section>
+
+<img class="w-[91%] lg:w-[92%] md:w-[85%] mx-auto rounded-xl lg:h-150 sm-90 hover:shadow-xl/40  shadow-xl/20 cursor-pointer 	" src="IMAGES\banner.jpg">
+
+	
+</section>
+
+
+
+
+<!--sec-2 CATEGORIES -->
+
+<section class=" w-full  px-5	md:px-15 py-8">
+
+    <div class="text-center">
+	
+        <p class="text-xl font-bold uppercase flex justify-start tracking-widest text-[#946137]">
+            Shop By Category
+        </p>
+
+        
+
+    </div>
+
+<a href="categories.html" class="text-sm font-semibold text-[#8d5c36] flex justify-end">
+            View All →
+        </a>
+    <div class="mt-7 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
+
+       
+
+        <a href="#" class=" overflow-hidden rounded-xl bg-[#f0dcc4] shadow-sm transition hover:-translate-y-2">
+
+            <div class="h-48 overflow-hidden">
+
+                <img
+                    src="IMAGES\m4.jpg"
+                    class="h-full w-full object-top object-cover  duration-300 "
+                    alt="Fashion">
+
+            </div>
+
+            <div class="bg-white py-3 text-center">
+
+                <span class="text-sm font-bold">
+                    Shirts
+                </span>
+
+            </div>
+
+        </a>
+
+
+        <a href="#" class=" overflow-hidden rounded-xl bg-[#dedede] shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+
+            <div class="h-48 md:-ml-11	 -ml-9 overflow-hidden">
+
+                <img
+                    src="IMAGES\mjeans.jpg"
+                    class="h-full w-full object-top object-cover  transition duration-300 group-hover:scale-105"
+                    alt="Electronics">
+
+            </div>
+
+            <div class="bg-white py-3 text-center">
+
+                <span class="text-sm font-bold">
+                    Jeans
+                </span>
+
+            </div>
+
+        </a>
+
+
+        <a href="#" class=" overflow-hidden rounded-xl bg-[#d9c7e8] shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+
+            <div class="h-48 overflow-hidden">
+
+                <img
+                    src="IMAGES\shoes.png"
+                    class="h-full w-full object-top object-cover transition duration-300 group-hover:scale-105"
+                    alt="footwear">
+
+            </div>
+
+            <div class="bg-white py-3 text-center">
+
+                <span class="text-sm font-bold">
+                    Footwear
+                </span>
+
+            </div>
+
+        </a>
+
+
+        <a href="#" class=" overflow-hidden rounded-xl bg-[#f5d99b] shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+
+            <div class="h-48 overflow-hidden">
+
+                <img
+                    src="images\OPAC.jpg"
+                    class="h-full w-full object-cover transition duration-300 group-hover:scale-105"
+                    alt="jackets">
+
+            </div>
+
+            <div class="bg-white py-3 text-center">
+
+                <span class="text-sm font-bold">
+                    Jackets
+                </span>
+
+            </div>
+
+        </a>
+
+
+        <a href="#" class=" overflow-hidden rounded-xl bg-[#f4cccc] shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+
+            <div class="h-48 overflow-hidden">
+
+                <img
+                    src="images\watches.jpg"
+                    class="h-full w-full object-cover transition duration-300 group-hover:scale-105"
+                    alt="Accessories">
+
+            </div>
+
+            <div class="bg-white py-3 text-center">
+
+                <span class="text-sm font-bold">
+                    watches
+                </span>
+
+            </div>
+
+        </a>
+
+
+        <a href="#" class=" overflow-hidden rounded-xl bg-[#d7e1bf] shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+
+            <div class="h-48  overflow-hidden">
+
+                <img
+                    src="images\access (1).jpg"
+                    class="h-full w-full  object-cover	object-[25%_75%]  transition duration-100 group-hover:scale-105"
+                    alt="Home and Living">
+
+            </div>
+
+            <div class="bg-white py-3 text-center">
+
+                <span class="text-sm font-bold">
+                    Accessories
+                </span>
+
+            </div>
+
+        </a>
+
+    </div>
+
+</section>
+
+<!---------<!--sec-2 trending now  -->
+
+<section class=" w-full  px-5	md:px-15 py-8">
+
+    <div class="text-center  ">
+	
+        <p class="text-xl font-bold uppercase flex justify-start tracking-widest text-[#946137]">
+            Trending Now
+        </p>
+
+        
+
+    </div>
+
+<a href="categories.html" class="text-sm font-semibold text-[#8d5c36] flex justify-end">
+            View All →
+        </a>
+    <div class="mt-5 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
+
+
+        <!-- PRODUCT 1 -->
+
+        <div class=" rounded-xl bg-white p-2 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+
+            <div class="relative h-40 overflow-hidden rounded-lg bg-[#f0ede8]">
+
+                <img
+                    src="images\OPAC.jpg"
+                    class="h-full w-full object-cover"
+                    alt="Black Jacket">
+
+               
+
+            </div>
+
+            <div class="p-2">
+
+                <h3 class=" text-xs font-bold">
+                    Men Brown Jacket
+                </h3>
+
+                <p class="mt-1 text-xs text-yellow-500">
+                    ★★★★★
+                    <span class="text-gray-400">(128)</span>
+                </p>
+
+                <div class="mt-1 flex items-center gap-2">
+
+                    <span class="font-bold">
+                        &#8377;159.99
+                    </span>
+
+                    <del class="text-[10px] text-gray-400">
+                        &#8377;189.99
+                    </del>
+
+                </div>
+
+                <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">
+                    33% OFF
+                </span>
+
+                <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                    🛒 Add to குடை 
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCT 2 -->
+
+        <div class=" rounded-xl bg-white p-2 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+
+            <div class="relative h-40 overflow-hidden rounded-lg bg-[#f0ede8]">
+
+                <img
+                    src="images\watch2.jpg"
+                    class="h-full w-full object-cover"
+                    alt="Smart Watch">
+
+                
+
+            </div>
+
+            <div class="p-2">
+
+                <h3 class=" text-xs font-bold">
+                    Smart Watch Pro
+                </h3>
+
+                <p class="mt-1 text-xs text-yellow-500">
+                    ★★★★★
+                    <span class="text-gray-400">(97)</span>
+                </p>
+
+                <div class="mt-1 flex items-center gap-2">
+
+                    <span class="font-bold">
+                        &#8377;1449.99
+                    </span>
+
+                    <del class="text-[10px] text-gray-400">
+                        &#8377;1779.99
+                    </del>
+
+                </div>
+
+                <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">
+                    38% OFF
+                </span>
+
+                <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                    🛒 Add to குடை 
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCT 3 -->
+
+        <div class=" rounded-xl bg-white p-2 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+
+            <div class="relative h-40 overflow-hidden rounded-lg bg-[#f0ede8]">
+
+                <img
+                    src="images\mshoes.jpg"
+                    class="h-full w-full object-cover"
+                    alt="White Sneakers">
+
+                
+
+            </div>
+
+            <div class="p-2">
+
+                <h3 class=" text-xs font-bold">
+                    Classic  Sneakers
+                </h3>
+
+                <p class="mt-1 text-xs text-yellow-500">
+                    ★★★★★
+                    <span class="text-gray-400">(215)</span>
+                </p>
+
+                <div class="mt-1 flex items-center gap-2">
+
+                    <span class="font-bold">
+                        &#8377;139.99
+                    </span>
+
+                    <del class="text-[10px] text-gray-400">
+                        &#8377;369.99
+                    </del>
+
+                </div>
+
+                <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">
+                    38% OFF
+                </span>
+
+                <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                    🛒 Add to குடை 
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCT 4 -->
+
+        <div class=" rounded-xl bg-white p-2 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+
+            <div class="relative h-40 overflow-hidden rounded-lg bg-[#f0ede8]">
+
+                <img
+                    src="images\bag.jpg"
+                    class="h-full w-full  object-cover"
+                    alt="Travel Backpack">
+
+               
+
+            </div>
+
+            <div class="p-2">
+
+                <h3 class="truncate text-xs font-bold">
+                    Travel Backpack
+                </h3>
+
+                <p class="mt-1 text-xs text-yellow-500">
+                    ★★★★★
+                    <span class="text-gray-400">(87)</span>
+                </p>
+
+                <div class="mt-1 flex items-center gap-2">
+
+                    <span class="font-bold">
+                        &#8377;334.99
+                    </span>
+
+                    <del class="text-[10px] text-gray-400">
+                        &#8377;149.99
+                    </del>
+
+                </div>
+
+                <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">
+                    33% OFF
+                </span>
+
+                <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                    🛒 Add to குடை 
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCT 5 -->
+
+        <div class=" rounded-xl bg-white p-2 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+
+            <div class="relative h-40 overflow-hidden rounded-lg bg-[#f0ede8]">
+
+                <img
+                    src="images\glass.jpg"
+                    class="h-full w-full object-cover"
+                    alt="Sunglasses">
+
+               
+
+            </div>
+
+            <div class="p-2">
+
+                <h3 class=" text-xs font-bold">
+                    Polarized Sunglasses
+                </h3>
+
+                <p class="mt-1 text-xs text-yellow-500">
+                    ★★★★★
+                    <span class="text-gray-400">(163)</span>
+                </p>
+
+                <div class="mt-1 flex items-center gap-2">
+
+                    <span class="font-bold">
+                        &#8377;219.99
+                    </span>
+
+                    <div class="text-[10px] text-gray-400">
+                        &#8377;499.99
+                    </div>
+
+                </div>
+
+                <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">
+                    43% OFF
+                </span>
+
+                <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                    🛒 Add to குடை 
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCT 6 -->
+
+        <div class=" rounded-xl bg-white p-2 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+
+            <div class="relative h-40 overflow-hidden rounded-lg bg-[#f0ede8]">
+
+                <img
+                    src="images\hoodie.jpg"
+                    class="h-full w-full object-cover"
+                    alt="Green Hoodie">
+
+               
+
+            </div>
+
+            <div class="p-2">
+
+                <h3 class=" text-xs font-bold">
+                    Men  Hoodie
+                </h3>
+
+                <p class="mt-1 text-xs text-yellow-500">
+                    ★★★★★
+                    <span class="text-gray-400">(109)</span>
+                </p>
+
+                <div class="mt-1 flex items-center gap-2">
+
+                    <span class="font-bold">
+                        &#8377;129.99
+                    </span>
+
+                    <del class="text-[10px] text-gray-400">
+                        &#8377;249.99
+                    </del>
+
+                </div>
+
+                <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">
+                    40% OFF
+                </span>
+
+                <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                    🛒 Add to குடை 
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+<section>
+
+<div class="bg-[url('shirtbg.jpg')] uppercase text-4xl font-extralight font-serif flex justify-center  tracking-[0.3em] w-[92%] mx-auto rounded-xl text-shadow-md bg-black/10 backdrop-blur-md tracking-tighter   text-[#D4AF6A] mb-5"> 
+MEN IN Shirts
+</div>
+				<div class=" lg:w-[92%]  text-center mb-8 lg:mx-auto grid grid-cols-1 sm:px-5 sm:grid-cols-2   md:grid-cols-2 md:gap-x-6	 lg:grid-cols-4	   gap-y-5 gap-2 justify-items-center mx-5 mb-12	">
+				
+	
+				
+<!----card--->
+		<div class="rounded-xl  border-red-500	 h-90 w-70  group relative rounded-3xl overflow-hidden
+        border border-white/20 shadow-2xl " >	
+		<a href="#"
+         class="">
+
+        <img src="images\m1.jpg"
+             class="absolute inset-0 w-full h-full object-cover
+                    group-hover:scale-110
+                    transition duration-700
+                    group-hover:opacity-0  ">
+					
+		<img src="images\m1hover.jpg"
+             class=" hover:absolute inset-0 w-full h-full object-cover
+                    hover:scale-110
+                    transition duration-700
+                    hover:opacity-100">
+
+
+                
+
+            
+       
+		<div class="absolute inset-0 
+                    group-hover:bg-black/20 transition"></div>
+        <div class="absolute left-2 bottom-0 p-6 text-white
+                    transition-transform duration-900
+                    group-hover:translate-y-4   	">
+
+                    Shirt
+                </h3>
+
+                <p class="mt-1 text-xs text-yellow-500">
+                    ★★★★★
+                    <span class="text-gray-400">(109)</span>
+                </p>
+
+                <div class="mt-1 flex items-center gap-2">
+
+                    <span class="font-bold">
+                        &#8377;129.99
+                    </span>
+
+                    <del class="text-[10px] text-gray-400">
+                        &#8377;249.99
+                    </del>
+
+                </div>
+
+                <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">
+                    40% OFF
+                </span>
+
+                <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                    🛒 Add to குடை 
+                </button>
+          
+
+        </div>
+
+      </a></div>
+	  
+	  <!----card--->
+				<!----card--->
+				<div class="rounded-xl  border-red-500	 h-90 w-70 shrink-0 group relative rounded-3xl overflow-hidden
+                border border-white/20 shadow-2xl " >	
+				<a href="#"
+         class="">
+
+        <img src="images\m33.jpg"
+             class="absolute inset-0 w-full h-full object-cover
+                    group-hover:scale-110
+                    transition duration-700
+                    group-hover:opacity-0  ">
+					
+		<img src="images\m1hover.jpg"
+             class=" hover:absolute inset-0 w-full h-full object-cover
+                    hover:scale-110
+                    transition duration-700
+                    hover:opacity-100">
+
+
+                
+
+            
+       
+<div class="absolute inset-0 
+                    group-hover:bg-black/20 transition"></div>
+        <div class="absolute left-2 bottom-0 p-6 text-white
+                    transition-transform duration-900
+                    group-hover:translate-y-4   	">
+
+                    Shirt
+                </h3>
+
+                <p class="mt-1 text-xs text-yellow-500">
+                    ★★★★★
+                    <span class="text-gray-400">(109)</span>
+                </p>
+
+                <div class="mt-1 flex items-center gap-2">
+
+                    <span class="font-bold">
+                        &#8377;129.99
+                    </span>
+
+                    <del class="text-[10px] text-gray-400">
+                        &#8377;249.99
+                    </del>
+
+                </div>
+
+                <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">
+                    40% OFF
+                </span>
+
+                <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                    🛒 Add to குடை 
+                </button>
+          
+
+        </div>
+
+      </a></div>
+				
+				<!----card--->
+				<div class="rounded-xl  border-red-500	 h-90 w-70 shrink-0 group relative rounded-3xl overflow-hidden
+                border border-white/20 shadow-2xl " >	
+				<a href="#"
+         class="">
+
+        <img src="images\m44.jpg"
+             class="absolute inset-0 w-full h-full object-cover
+                    group-hover:scale-110
+                    transition duration-700
+                    group-hover:opacity-0  ">
+					
+		<img src="images\m1hover.jpg"
+             class=" hover:absolute inset-0 w-full h-full object-cover
+                    hover:scale-110
+                    transition duration-700
+                    hover:opacity-100">
+
+
+                
+
+            
+       
+<div class="absolute inset-0 
+                    group-hover:bg-black/20 transition"></div>
+        <div class="absolute left-2 bottom-0 p-6 text-white
+                    transition-transform duration-900
+                    group-hover:translate-y-4   	">
+
+                    Shirt
+                </h3>
+
+                <p class="mt-1 text-xs text-yellow-500">
+                    ★★★★★
+                    <span class="text-gray-400">(109)</span>
+                </p>
+
+                <div class="mt-1 flex items-center gap-2">
+
+                    <span class="font-bold">
+                        &#8377;129.99
+                    </span>
+
+                    <del class="text-[10px] text-gray-400">
+                        &#8377;249.99
+                    </del>
+
+                </div>
+
+                <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">
+                    40% OFF
+                </span>
+
+                <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                    🛒 Add to குடை 
+                </button>
+          
+
+        </div>
+
+      </a></div>
+				<!----card--->
+				<!----card--->
+				<div class="rounded-xl  border-red-500	 h-90 w-70 shrink-0 group relative rounded-3xl overflow-hidden
+                border border-white/20 shadow-2xl " >	
+				<a href="#"
+         class="">
+
+        <img src="images\m55.jpg"
+             class="absolute inset-0 w-full h-full object-cover
+                    group-hover:scale-110
+                    transition duration-700
+                    group-hover:opacity-0  ">
+					
+		<img src="images\m1hover.jpg"
+             class=" hover:absolute inset-0 w-full h-full object-cover
+                    hover:scale-110
+                    transition duration-700
+                    hover:opacity-100">
+
+
+                
+
+            
+       
+<div class="absolute inset-0 
+                    group-hover:bg-black/20 transition"></div>
+        <div class="absolute left-2 bottom-0 p-6 text-white
+                    transition-transform duration-900
+                    group-hover:translate-y-4   	">
+
+                    Shirt
+                </h3>
+
+                <p class="mt-1 text-xs text-yellow-500">
+                    ★★★★★
+                    <span class="text-gray-400">(109)</span>
+                </p>
+
+                <div class="mt-1 flex items-center gap-2">
+
+                    <span class="font-bold">
+                        &#8377;129.99
+                    </span>
+
+                    <del class="text-[10px] text-gray-400">
+                        &#8377;249.99
+                    </del>
+
+                </div>
+
+                <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">
+                    40% OFF
+                </span>
+
+                <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                    🛒 Add to குடை 
+                </button>
+          
+
+        </div>
+
+      </a></div>
+				<!----card--->
+				<!----card--->
+				<div class="rounded-xl  border-red-500	 h-90 w-70 shrink-0 group relative rounded-3xl overflow-hidden
+                border border-white/20 shadow-2xl " >	
+				<a href="#"
+         class="">
+
+        <img src="images\m66.jpg"
+             class="absolute inset-0 w-full h-full object-cover
+                    group-hover:scale-110
+                    transition duration-700
+                    group-hover:opacity-0  ">
+					
+		<img src="images\m1hover.jpg"
+             class=" hover:absolute inset-0 w-full h-full object-cover
+                    hover:scale-110
+                    transition duration-700
+                    hover:opacity-100">
+
+
+                
+
+            
+       
+<div class="absolute inset-0 
+                    group-hover:bg-black/20 transition"></div>
+        <div class="absolute left-2 bottom-0 p-6 text-white
+                    transition-transform duration-900
+                    group-hover:translate-y-4   	">
+
+                    Shirt
+                </h3>
+
+                <p class="mt-1 text-xs text-yellow-500">
+                    ★★★★★
+                    <span class="text-gray-400">(109)</span>
+                </p>
+
+                <div class="mt-1 flex items-center gap-2">
+
+                    <span class="font-bold">
+                        &#8377;129.99
+                    </span>
+
+                    <del class="text-[10px] text-gray-400">
+                        &#8377;249.99
+                    </del>
+
+                </div>
+
+                <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">
+                    40% OFF
+                </span>
+
+                <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                    🛒 Add to குடை 
+                </button>
+          
+
+        </div>
+
+      </a></div>
+	  
+	  <!----card--->
+				<div class="rounded-xl  border-red-500	 h-90 w-70 shrink-0 group relative rounded-3xl overflow-hidden
+                border border-white/20 shadow-2xl " >	
+				<a href="#"
+         class="">
+
+        <img src="images\m77.jpg"
+             class="absolute inset-0 w-full h-full object-cover
+                    group-hover:scale-110
+                    transition duration-700
+                    group-hover:opacity-0  ">
+					
+		<img src="images\m1hover.jpg"
+             class=" hover:absolute inset-0 w-full h-full object-cover
+                    hover:scale-110
+                    transition duration-700
+                    hover:opacity-100">
+
+
+                
+
+            
+       
+<div class="absolute inset-0 
+                    group-hover:bg-black/20 transition"></div>
+        <div class="absolute left-2 bottom-0 p-6 text-white
+                    transition-transform duration-900
+                    group-hover:translate-y-4   	">
+
+                    Shirt
+                </h3>
+
+                <p class="mt-1 text-xs text-yellow-500">
+                    ★★★★★
+                    <span class="text-gray-400">(109)</span>
+                </p>
+
+                <div class="mt-1 flex items-center gap-2">
+
+                    <span class="font-bold">
+                        &#8377;129.99
+                    </span>
+
+                    <del class="text-[10px] text-gray-400">
+                        &#8377;249.99
+                    </del>
+
+                </div>
+
+                <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">
+                    40% OFF
+                </span>
+
+                <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                    🛒 Add to குடை 
+                </button>
+          
+
+        </div>
+
+      </a></div>
+				
+ <!----card--->
+				<div class="rounded-xl  border-red-500	 h-90 w-70 shrink-0 group relative rounded-3xl overflow-hidden
+                border border-white/20 shadow-2xl " >	
+				<a href="#"
+         class="">
+
+        <img src="images\m88.jpg"
+             class="absolute inset-0 w-full h-full object-cover
+                    group-hover:scale-110
+                    transition duration-700
+                    group-hover:opacity-0  ">
+					
+		<img src="images\m1hover.jpg"
+             class=" hover:absolute inset-0 w-full h-full object-cover
+                    hover:scale-110
+                    transition duration-700
+                    hover:opacity-100">
+
+
+                
+
+            
+       
+<div class="absolute inset-0 
+                    group-hover:bg-black/20 transition"></div>
+        <div class="absolute left-2 bottom-0 p-6 text-white
+                    transition-transform duration-900
+                    group-hover:translate-y-4   	">
+
+                    Shirt
+                </h3>
+
+                <p class="mt-1 text-xs text-yellow-500">
+                    ★★★★★
+                    <span class="text-gray-400">(109)</span>
+                </p>
+
+                <div class="mt-1 flex items-center gap-2">
+
+                    <span class="font-bold">
+                        &#8377;129.99
+                    </span>
+
+                    <del class="text-[10px] text-gray-400">
+                        &#8377;249.99
+                    </del>
+
+                </div>
+
+                <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">
+                    40% OFF
+                </span>
+
+                <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                    🛒 Add to குடை 
+                </button>
+          
+
+        </div>
+
+      </a></div>		
+
+ <!----card--->
+				<div class="rounded-xl  border-red-500	 h-90 w-70 shrink-0 group relative rounded-3xl overflow-hidden
+                border border-white/20 shadow-2xl " >	
+				<a href="#"
+         class="">
+
+        <img src="images\m99.jpg"
+             class="absolute inset-0 w-full h-full object-cover
+                    group-hover:scale-110
+                    transition duration-700
+                    group-hover:opacity-0  ">
+					
+		<img src="images\m1hover.jpg"
+             class=" hover:absolute inset-0 w-full h-full object-cover
+                    hover:scale-110
+                    transition duration-700
+                    hover:opacity-100">
+
+
+                
+
+            
+       
+<div class="absolute inset-0 
+                    group-hover:bg-black/20 transition"></div>
+        <div class="absolute left-2 bottom-0 p-6 text-white
+                    transition-transform duration-900
+                    group-hover:translate-y-4   	">
+
+                    Shirt
+                </h3>
+
+                <p class="mt-1 text-xs text-yellow-500">
+                    ★★★★★
+                    <span class="text-gray-400">(109)</span>
+                </p>
+
+                <div class="mt-1 flex items-center gap-2">
+
+                    <span class="font-bold">
+                        &#8377;129.99
+                    </span>
+
+                    <del class="text-[10px] text-gray-400">
+                        &#8377;249.99
+                    </del>
+
+                </div>
+
+                <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">
+                    40% OFF
+                </span>
+
+                <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                    🛒 Add to குடை 
+                </button>
+          
+
+        </div>
+
+      </a></div>	</div>  
+				 
+</section>
+
+
+
+
+
+<!---------Section5-   jeans Cowboy------->
+
+<section>
+
+<div class="bg-[url(denim.jpg)] uppercase text-4xl font-extralight font-serif flex justify-center  tracking-[0.3em] w-[92%] mx-auto rounded-xl text-shadow-md bg-black/10 backdrop-blur-md tracking-tighter text-[#D4AF6A] mb-5"> 
+Men in Denim
+</div>
+				<div class=" lg:w-[92%]  text-center mb-8 lg:mx-auto grid grid-cols-1 sm:px-5 sm:grid-cols-2   md:grid-cols-2 md:gap-x-6	 lg:grid-cols-4	   gap-y-5 gap-2 justify-items-center mx-5 mb-12	">
+				
+	
+				
+<!----card--->
+		<div class="rounded-xl  border-red-500	 h-90 w-70  group relative rounded-3xl overflow-hidden
+        border border-white/20 shadow-2xl " >	
+		<a href="#"
+         class="">
+
+        <img src="images\mp4.jpg"
+             class="absolute inset-0 w-full h-full object-cover
+                    group-hover:scale-110
+                    transition duration-700
+                    group-hover:opacity-0  ">
+					
+		<img src="images\mp11.jpg"
+             class=" hover:absolute inset-0 w-full h-full object-cover
+                    hover:scale-110
+                    transition duration-700
+                    hover:opacity-100">
+
+
+                
+
+            
+       
+		<div class="absolute inset-0 
+                    group-hover:bg-black/20 transition"></div>
+        <div class="absolute left-2 bottom-0 p-6 text-white
+                    transition-transform duration-900
+                    group-hover:translate-y-4   	">
+
+                    Jeans
+                </h3>
+
+                <p class="mt-1 text-xs text-yellow-500">
+                    ★★★★★
+                    <span class="text-gray-400">(109)</span>
+                </p>
+
+                <div class="mt-1 flex items-center gap-2">
+
+                    <span class="font-bold">
+                        &#8377;129.99
+                    </span>
+
+                    <del class="text-[10px] text-gray-400">
+                        &#8377;249.99
+                    </del>
+
+                </div>
+
+                <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">
+                    40% OFF
+                </span>
+
+                <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                    🛒 Add to குடை 
+                </button>
+          
+
+        </div>
+
+      </a></div>
+	  
+	  <!----card--->
+				<!----card--->
+				<div class="rounded-xl  border-red-500	 h-90 w-70 shrink-0 group relative rounded-3xl overflow-hidden
+                border border-white/20 shadow-2xl " >	
+				<a href="#"
+         class="">
+
+        <img src="images\mp1.jpg"
+             class="absolute inset-0 w-full h-full object-cover
+                    group-hover:scale-110
+                    transition duration-700
+                    group-hover:opacity-0  ">
+					
+		<img src="images\mp11.jpg"
+             class=" hover:absolute inset-0 w-full h-full object-cover
+                    hover:scale-110
+                    transition duration-700
+                    hover:opacity-100">
+
+
+                
+
+            
+       
+<div class="absolute inset-0 
+                    group-hover:bg-black/20 transition"></div>
+        <div class="absolute left-2 bottom-0 p-6 text-white
+                    transition-transform duration-900
+                    group-hover:translate-y-4   	">
+
+                    Jeans
+                </h3>
+
+                <p class="mt-1 text-xs text-yellow-500">
+                    ★★★★★
+                    <span class="text-gray-400">(109)</span>
+                </p>
+
+                <div class="mt-1 flex items-center gap-2">
+
+                    <span class="font-bold">
+                        &#8377;129.99
+                    </span>
+
+                    <del class="text-[10px] text-gray-400">
+                        &#8377;249.99
+                    </del>
+
+                </div>
+
+                <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">
+                    40% OFF
+                </span>
+
+                <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                    🛒 Add to குடை 
+                </button>
+          
+
+        </div>
+
+      </a></div>
+				
+				<!----card--->
+				<div class="rounded-xl  border-red-500	 h-90 w-70 shrink-0 group relative rounded-3xl overflow-hidden
+                border border-white/20 shadow-2xl " >	
+				<a href="#"
+         class="">
+
+        <img src="images\mp2.jpg"
+             class="absolute inset-0 w-full h-full object-cover
+                    group-hover:scale-110
+                    transition duration-700
+                    group-hover:opacity-0  ">
+					
+		<img src="images\mp11.jpg"
+             class=" hover:absolute inset-0 w-full h-full object-cover
+                    hover:scale-110
+                    transition duration-700
+                    hover:opacity-100">
+
+
+                
+
+            
+       
+<div class="absolute inset-0 
+                    group-hover:bg-black/20 transition"></div>
+        <div class="absolute left-2 bottom-0 p-6 text-white
+                    transition-transform duration-900
+                    group-hover:translate-y-4   	">
+
+                    Jeans
+                </h3>
+
+                <p class="mt-1 text-xs text-yellow-500">
+                    ★★★★★
+                    <span class="text-gray-400">(109)</span>
+                </p>
+
+                <div class="mt-1 flex items-center gap-2">
+
+                    <span class="font-bold">
+                        &#8377;129.99
+                    </span>
+
+                    <del class="text-[10px] text-gray-400">
+                        &#8377;249.99
+                    </del>
+
+                </div>
+
+                <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">
+                    40% OFF
+                </span>
+
+                <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                    🛒 Add to குடை 
+                </button>
+          
+
+        </div>
+
+      </a></div>
+				<!----card--->
+				<!----card--->
+				<div class="rounded-xl  border-red-500	 h-90 w-70 shrink-0 group relative rounded-3xl overflow-hidden
+                border border-white/20 shadow-2xl " >	
+				<a href="#"
+         class="">
+
+        <img src="images\mp6.jpg"
+             class="absolute inset-0 w-full h-full object-cover
+                    group-hover:scale-110
+                    transition duration-700
+                    group-hover:opacity-0  ">
+					
+		<img src="images\mp11.jpg"
+             class=" hover:absolute inset-0 w-full h-full object-cover
+                    hover:scale-110
+                    transition duration-700
+                    hover:opacity-100">
+
+
+                
+
+            
+       
+<div class="absolute inset-0 
+                    group-hover:bg-black/20 transition"></div>
+        <div class="absolute left-2 bottom-0 p-6 text-white
+                    transition-transform duration-900
+                    group-hover:translate-y-4   	">
+
+                    Jeans
+                </h3>
+
+                <p class="mt-1 text-xs text-yellow-500">
+                    ★★★★★
+                    <span class="text-gray-400">(109)</span>
+                </p>
+
+                <div class="mt-1 flex items-center gap-2">
+
+                    <span class="font-bold">
+                        &#8377;129.99
+                    </span>
+
+                    <del class="text-[10px] text-gray-400">
+                        &#8377;249.99
+                    </del>
+
+                </div>
+
+                <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">
+                    40% OFF
+                </span>
+
+                <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                    🛒 Add to குடை 
+                </button>
+          
+
+        </div>
+
+      </a></div>
+				<!----card--->
+				<!----card--->
+				<div class="rounded-xl  border-red-500	 h-90 w-70 shrink-0 group relative rounded-3xl overflow-hidden
+                border border-white/20 shadow-2xl " >	
+				<a href="#"
+         class="">
+
+        <img src="images\mp7.jpg"
+             class="absolute inset-0 w-full h-full object-cover
+                    group-hover:scale-110
+                    transition duration-700
+                    group-hover:opacity-0  ">
+					
+		<img src="images\mp11.jpg"
+             class=" hover:absolute inset-0 w-full h-full object-cover
+                    hover:scale-110
+                    transition duration-700
+                    hover:opacity-100">
+
+
+                
+
+            
+       
+<div class="absolute inset-0 
+                    group-hover:bg-black/20 transition"></div>
+        <div class="absolute left-2 bottom-0 p-6 text-white
+                    transition-transform duration-900
+                    group-hover:translate-y-4   	">
+
+                    Jeans
+                </h3>
+
+                <p class="mt-1 text-xs text-yellow-500">
+                    ★★★★★
+                    <span class="text-gray-400">(109)</span>
+                </p>
+
+                <div class="mt-1 flex items-center gap-2">
+
+                    <span class="font-bold">
+                        &#8377;129.99
+                    </span>
+
+                    <del class="text-[10px] text-gray-400">
+                        &#8377;249.99
+                    </del>
+
+                </div>
+
+                <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">
+                    40% OFF
+                </span>
+
+                <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                    🛒 Add to குடை 
+                </button>
+          
+
+        </div>
+
+      </a></div>
+	  
+	  <!----card--->
+				<div class="rounded-xl  border-red-500	 h-90 w-70 shrink-0 group relative rounded-3xl overflow-hidden
+                border border-white/20 shadow-2xl " >	
+				<a href="#"
+         class="">
+
+        <img src="images\mp8.jpg"
+             class="absolute inset-0 w-full h-full object-cover
+                    group-hover:scale-110
+                    transition duration-700
+                    group-hover:opacity-0  ">
+					
+		<img src="images\mp11.jpg"
+             class=" hover:absolute inset-0 w-full h-full object-cover
+                    hover:scale-110
+                    transition duration-700
+                    hover:opacity-100">
+
+
+                
+
+            
+       
+<div class="absolute inset-0 
+                    group-hover:bg-black/20 transition"></div>
+        <div class="absolute left-2 bottom-0 p-6 text-white
+                    transition-transform duration-900
+                    group-hover:translate-y-4   	">
+
+                    Jeans
+                </h3>
+
+                <p class="mt-1 text-xs text-yellow-500">
+                    ★★★★★
+                    <span class="text-gray-400">(109)</span>
+                </p>
+
+                <div class="mt-1 flex items-center gap-2">
+
+                    <span class="font-bold">
+                        &#8377;129.99
+                    </span>
+
+                    <del class="text-[10px] text-gray-400">
+                        &#8377;249.99
+                    </del>
+
+                </div>
+
+                <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">
+                    40% OFF
+                </span>
+
+                <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                    🛒 Add to குடை 
+                </button>
+          
+
+        </div>
+
+      </a></div>
+				
+ <!----card--->
+				<div class="rounded-xl  border-red-500	 h-90 w-70 shrink-0 group relative rounded-3xl overflow-hidden
+                border border-white/20 shadow-2xl " >	
+				<a href="#"
+         class="">
+
+        <img src="images\mp9.jpg"
+             class="absolute object-top inset-0 w-full h-full object-cover
+                    group-hover:scale-110
+                    transition duration-700
+                    group-hover:opacity-0  ">
+					
+		<img src="images\mp11.jpg"
+             class=" hover:absolute inset-0 w-full h-full object-cover
+                    hover:scale-110
+                    transition duration-700
+                    hover:opacity-100">
+
+
+                
+
+            
+       
+<div class="absolute inset-0 
+                    group-hover:bg-black/20 transition"></div>
+        <div class="absolute left-2 bottom-0 p-6 text-white
+                    transition-transform duration-900
+                    group-hover:translate-y-4   	">
+
+                    Jeans
+                </h3>
+
+                <p class="mt-1 text-xs text-yellow-500">
+                    ★★★★★
+                    <span class="text-gray-400">(109)</span>
+                </p>
+
+                <div class="mt-1 flex items-center gap-2">
+
+                    <span class="font-bold">
+                        &#8377;129.99
+                    </span>
+
+                    <del class="text-[10px] text-gray-400">
+                        &#8377;249.99
+                    </del>
+
+                </div>
+
+                <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">
+                    40% OFF
+                </span>
+
+                <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                    🛒 Add to குடை 
+                </button>
+          
+
+        </div>
+
+      </a></div>		
+
+ <!----card--->
+				<div class="rounded-xl  border-red-500	 h-90 w-70 shrink-0 group relative rounded-3xl overflow-hidden
+                border border-white/20 shadow-2xl " >	
+				<a href="#"
+         class="">
+
+        <img src="images\mp3.jpg"
+             class="absolute inset-0 w-full h-full object-cover
+                    group-hover:scale-110
+                    transition duration-700
+                    group-hover:opacity-0  ">
+					
+		<img src="images\mp11.jpg"
+             class=" hover:absolute inset-0 w-full h-full object-cover
+                    hover:scale-110
+                    transition duration-700
+                    hover:opacity-100">
+
+
+                
+
+            
+       
+<div class="absolute inset-0 
+                    group-hover:bg-black/20 transition"></div>
+        <div class="absolute left-2 bottom-0 p-6 text-white
+                    transition-transform duration-900
+                    group-hover:translate-y-4   	">
+
+                    Jeans
+                </h3>
+
+                <p class="mt-1 text-xs text-yellow-500">
+                    ★★★★★
+                    <span class="text-gray-400">(109)</span>
+                </p>
+
+                <div class="mt-1 flex items-center gap-2">
+
+                    <span class="font-bold">
+                        &#8377;129.99
+					</span>
+
+                    <del class="text-[10px] text-gray-400">
+                        &#8377;249.99
+                    </del>
+
+                </div>
+
+                <span class="mt-1 inline-block rounded bg-red-100 px-1.5 py-0.5 text-[9px] font-bold text-red-500">
+                    40% OFF
+                </span>
+
+                <button class="mt-2 w-full rounded-lg border border-[#cdb79f] py-1.5 text-xs font-semibold hover:bg-[#946137] hover:text-white">
+                    🛒 Add to குடை 
+                </button>
+          
+
+        </div>
+
+      </a></div>	</div>  
+				 
+</section>
+
+
+
+
+
+
+<!---------Section7-------->
+
+
+
+
+<!--footer--  Usefullinks --Shop--Copyrights-->
+				
+<!---fbwhatsapp-X-insta--->
+            
+ 
+ <footer class="mx-auto mt-0 max-w-[1450px] px-3 pb-3 pt-1 sm:px-5 ">
+
+    <div class="rounded-t-2xl bg-[#241c17] px-7 py-10  text-white">
+
+        <div class="grid gap-8 grid-cols-2 lg:grid-cols-5">
+
+            <!-- BRAND -->
+
+            <div class="w-40 mx-auto	">
+
+                <h2 class="text-2xl px-4 text-purple-500 	font-black italic">
+                    BuyPannu
+                </h2>
+
+                <p class="mt-4 px-4 text-sm leading-5	  	 text-gray-300">
+
+                    Your one-stop shop for Fashion,
+                    Electronics, Gaming more.
+                   
+                    Shop more, pay less, be happy
+
+                </p>
+
+                <span class="absolute gap-4 text-2xl">
+
+    <!-- Facebook -->
+   <div class="px-4 py-2"> <a href="#" class="text-blue-600 hover:scale-110 transition-transform">
+        <i class="fa-brands fa-facebook"></i>
+    </a>
+
+    <!-- Instagram -->
+    <a href="#" class="text-pink-500 hover:scale-110 transition-transform">
+        <i class="fa-brands fa-instagram"></i>
+    </a>
+
+    <!-- WhatsApp -->
+    <a href="#" class="text-green-500 hover:scale-110 transition-transform">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- X / Twitter -->
+    <a href="#" class="text-black hover:scale-110 transition-transform">
+        <i class="fa-brands fa-x-twitter"></i>
+    </a></div>
+
+</span>
+
+            </div>
+
+
+            <!-- QUICK LINKS -->
+
+            <div class="max-w-full mx-auto">
+
+                <h3 class="text-xs font-bold uppercase tracking-wide text-[#d4a675]">
+                    Quick Links
+                </h3>
+
+                <div class="mt-4 space-y-2 text-sm text-gray-300">
+
+                    <a href="#" class="block hover:text-white">Home</a>
+                    <a href="#" class="block hover:text-white">Categories</a>
+                    <a href="#" class="block hover:text-white">Fashion</a>
+                    <a href="#" class="block hover:text-white">Electronics</a>
+                    <a href="#" class="block hover:text-white">New Arrivals</a>
+                    <a href="#" class="block hover:text-white">About Us</a>
+
+                </div>
+
+            </div>
+
+
+            <!-- CUSTOMER SERVICE -->
+
+            <div class="max-w-full mx-auto md:w-50 md:mx-auto">
+
+                <h3 class="text-xs font-bold uppercase tracking-wide text-[#d4a675]">
+                    Customer Service
+                </h3>
+
+                <div class="mt-4 space-y-2 text-sm text-gray-300">
+
+                    <a href="#" class="block hover:text-white">
+                        Contact Us
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Track Order
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Shipping Policy
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Returns & Refunds
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        FAQs
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Terms & Conditions
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- CATEGORIES -->
+
+            <div class="max-w-full mx-auto">
+
+                <h3 class="text-xs font-bold uppercase tracking-wide text-[#d4a675]">
+                    Categories
+                </h3>
+
+                <div class="mt-4 space-y-2 text-sm text-gray-300">
+
+                    <a href="fashion.html" class="block hover:text-white">
+                        Fashion
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Electronics
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Gaming
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Footwear
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Accessories
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Home & Living
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- PAYMENT -->
+
+            <div class="relative left-30 justify-self-center md:static md:justify-self-auto">
+
+                <h3 class="text-xs font-bold uppercase text-center tracking-wide text-[#d4a675]">
+                    We Accept
+                </h3>
+
+                <div class="mt-5 grid grid-cols-2   gap-2">
+
+                    <div class="rounded bg-white px-3 py-2  text-center text-xs font-bold text-blue-700">
+                        VISA
+                    </div>
+
+                    <div class="rounded bg-white px-3 py-2 text-center text-xs font-bold text-red-600">
+                        Mc
+                    </div>
+
+                    <div class="rounded bg-white px-3 py-2 text-center text-xs font-bold text-gray-700">
+                        UPI
+                    </div>
+
+                    <div class="rounded bg-white px-3 py-2 text-center text-xs font-bold text-blue-600">
+                        G Pay
+                    </div>
+
+                    <div class="rounded bg-white px  py-2 text-center text-xs font-bold text-black">
+                        PayPal
+                    </div>
+
+                    <div class="rounded bg-white px-3 py-2 text-center text-xs font-bold text-black">
+                        Bhim
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- COPYRIGHT -->
+
+        <div class="mt-8 border-t border-white/10 pt-5 text-center text-xs text-gray-400">
+
+            © 2026 BuyPannu. All Rights Reserved.
+
+        </div>
+
+    </div>
+
+</footer>
+				
+				
+				</BODY>	
+				</HTML>

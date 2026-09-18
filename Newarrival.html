@@ -1,0 +1,2356 @@
+	<html>
+	<head>
+	<link rel="icon" href="images/icon.png" sizes="96x96">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+	<style><!--Added scrollbar hide( resource used from W3s schools)--->
+	/* Chrome, Edge, Safari */
+	::-webkit-scrollbar {
+		display: none;
+	}
+	.feedback::-webkit-scrollbar {
+		display: none;
+	}
+	/* Firefox */
+	html {
+		scrollbar-width: none;
+	}
+
+	/* IE and old Edge */
+	body {
+		-ms-overflow-style: none;
+	}
+
+	/* Chrome, Edge, Safari */
+	.hide-scrollbar::-webkit-scrollbar {
+		display: none
+		
+
+	</style>
+	<title>
+	BuyPannu
+	</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+		
+	</head>
+
+	<body class="font-[Poppins] bg-[#F9F5F2] -gradient-to-b from-[#fbc2eb] to-[#a6c1ee] min-h-screen hide-scrollbar">
+
+	<header class=" px-5 md:px-15   mx-auto py-4 relative ">
+
+	<nav class="relative max-w-[2800px]  mx-auto  bg-[#FEFEFE] -gradient-to-r from-sky-100 to-indigo-100 rounded-3xl shadow-2xl">
+
+		<div class="flex items-center justify-between px-5 h-20">
+
+			<!-- Logo -->
+			<a href="index.HTML"><img  class="w-20" src="images/logo1.png" alt="Logo"></a>
+
+			<!-- Desktop Menu -->
+			<ul class="hidden md:hidden lg:flex items-center gap-8 text-lg font-semibold">
+				<li><a href="index.HTML" class="hover:text-purple-500">Home</a></li>
+				<li><details name="autoclose" class=" relative">
+
+						<summary class="hover:text-purple-500 flex cursor-pointer list-none items-center gap-2  font-semibold">
+							<a href="categories.html">Categories</a>
+							<span class="-mt-2">⌄</span>
+						</summary>
+
+						<div class="absolute left-0 top-8 z-50 w-48 rounded-xl bg-white p-3 shadow-xl">
+
+							<a href="fashion.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Fashion
+							</a>
+
+							<a href="electronics.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Electronics
+							</a>
+
+							<a href="gaming.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Gaming
+							</a>
+
+							<a href="#" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Home & Livings
+							</a></li>
+				<li><details name="autoclose" class=" relative">
+
+						<summary class="hover:text-purple-500 flex cursor-pointer list-none items-center gap-2  font-semibold">
+						   <a href="fashion.html">Fashion</a> 
+							<span class="-mt-2">⌄</span>
+						</summary>
+
+						<div class="absolute left-0 top-8 z-50 w-48 rounded-xl bg-white p-3 shadow-xl">
+
+							<a href="Male-fashion.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Men's Fashion
+							</a>
+
+							<a href="Female-fashion.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Womens's Fashion	
+							</a>
+
+							<a href="kid.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Kids's Fashion
+							</a>
+
+							</li>
+				<li><details name="autoclose"class=" relative">
+
+						<summary class="hover:text-purple-500 flex cursor-pointer list-none items-center gap-2  font-semibold">
+							<a href="electronics.html">Electronics</a>
+							<span class="-mt-2">⌄</span>
+						</summary>
+
+						<div class="absolute left-0 top-8 z-50 w-48 rounded-xl bg-white p-3 shadow-xl">
+
+							<a href="Mobiles.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Mobiles & Tablets
+							</a>
+
+							<a href="computers.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Computers	
+							</a>
+
+							<a href="tv.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								TV & Entertainment
+							</a> 
+							<a href="gaming.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Gaming
+							</a>
+							<a href="accessories.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Accessories
+							</a>
+							<a href="audio.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Audio
+							</a>
+
+							</li>
+				<li><a href="Aboutus.html" class="hover:text-purple-500">About Us</a></li>
+				<li><a href="newarrival.html" class="hover:text-purple-500">New Arrivals</a></li>
+			</ul>
+
+			<!-- Desktop Button -->
+			<button class="hidden md:hidden lg:inline  bg-[#9B8164] text-white px-5 py-2 rounded-xl hover:bg-purple-600">
+				Sign In
+			</button>
+
+			<!-- Mobile Menu -->
+			<!-- MOBILE MENU -->
+	<details class="md:inline lg:hidden relative z-[1000]">
+
+		<!-- MENU ICON -->
+		<summary class="list-none cursor-pointer text-3xl select-none">
+			☰
+		</summary>
+
+
+		<!-- MAIN MENU -->
+		<div class="absolute top-5 right-0 mt-3
+					w-60
+					bg-white
+					rounded-xl
+					shadow-2xl
+					p-5">
+
+			<ul class="space-y-5 font-semibold">
+
+
+				<!-- HOME -->
+				<li>
+					<a href="index.HTML"
+					   class="flex items-center justify-between
+							  hover:text-[#9B8164] transition">
+
+						<span>Home</span>
+
+						<span class="text-xl font-normal">›</span>
+
+					</a>
+				</li>
+
+
+				<!-- CATEGORIES -->
+				<li>
+
+					<details class="relative">
+
+						<!-- CATEGORY TITLE -->
+						<summary
+							class="list-none cursor-pointer
+								   flex items-center justify-between
+								   hover:text-[#9B8164]
+								   transition">
+
+							<span><a href="categories.html">Categories </a></span>
+
+							<span class="text-xl font-normal">
+								›
+							</span>
+
+						</summary>
+
+
+						<!-- CATEGORY SUB MENU -->
+						<div class=" z-1000  sm:absolute
+									sm:top-0
+									sm:right-full
+									mr-3
+									w-40
+									bg-white
+									rounded-xl
+									shadow-2xl
+									p-5">
+
+							<p class="text-xs
+									  text-gray-400
+									  uppercase
+									  tracking-widest
+									  mb-4">
+
+								Categories
+
+							</p>
+
+
+							<ul class="space-y-4
+									   uppercase
+									   text-sm
+									   font-semibold">
+
+
+								<!-- FASHION -->
+								<li>
+
+									<a href="fashion.html"
+									   class="	flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>Fashion</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+
+
+								<!-- ELECTRONICS -->
+								<li>
+
+									<a href="electronics.html"
+									   class="flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>Electronics</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+
+
+								<!-- GAMING -->
+								<li>
+
+									<a href="gaming/gaming.html"
+									   class="flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>Gaming</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+
+
+							
+
+							</ul>
+
+						</div>
+
+					</details>
+
+				</li>
+
+
+				<!-- FASHION -->
+				<li>
+					 <!-- CATEGORY TITLE -->
+					   <details class="relative">
+					   <summary
+							class="list-none cursor-pointer
+								   flex items-center justify-between
+								   hover:text-[#9B8164]
+								   transition">
+
+							<span><a href="fashion.html">Fashion </a></span>
+
+							<span class="text-xl font-normal">
+								›
+							</span>
+
+						</summary>
+							
+							<UL class=" sm:absolute
+									sm:top-0
+									sm:right-full  
+									mr-3
+									w-40 bg-white mr-3 right-50  rounded-xl  flex-cols uppercase tracking-wider grid gap-y-3 px-5 " >
+							<span class="text-sm mt-2 text-gray-400 font-normal">
+								FASHION
+							</span>
+							<LI><a href="Male-fashion.html">Men Fashion</a>
+							
+							</LI>
+							<LI><a href="female-fashion.html">
+							Women Fashion</a>
+							</LI>
+							<LI><a  href="kid.html">
+							Kids Fashion</a>
+							</LI>
+							
+							</UL>
+					</details>
+				</li>
+
+
+		
+				<li>
+
+					<details class="relative">
+
+						<!-- Electronics TITLE -->
+						<summary
+							class="list-none cursor-pointer
+								   flex items-center justify-between
+								   hover:text-[#9B8164]
+								   transition">
+
+							<span><a href="electronics.html">Electronics </a></span>
+
+							<span class="text-xl font-normal">
+								›
+							</span>
+
+						</summary>
+
+
+						<!-- Electronics SUB MENU -->
+						<div class=" z-1000  sm:absolute
+									sm:top-0
+									sm:right-full
+									mr-3
+									w-40
+									bg-white
+									rounded-xl
+									shadow-2xl
+									p-5">
+
+							<p class="text-xs
+									  text-gray-400
+									  uppercase
+									  tracking-widest
+									  mb-4">
+
+								Electronics
+
+							</p>
+
+
+							<ul class="space-y-4
+									   uppercase
+									   text-sm
+									   font-semibold">
+
+
+								<!-- Mobiles and tab -->
+								<li>
+
+									<a href="mobiles.html"
+									   class="	flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>Mobiles</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+
+
+								<!-- computers -->
+								<li>
+
+									<a href="computers.html"
+									   class="flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>computers</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+
+
+								<!-- tv -->
+								<li>
+
+									<a href="tv.html"
+									   class="flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>Tv's</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+								<!-- GAMING -->
+								<li>
+
+									<a href="gaming.html"
+									   class="flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>Gaming</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+								<!-- Access -->
+								<li>
+
+									<a href="accessories.html"
+									   class="flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>Accessories</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+							<!-- audio -->
+								<li>
+
+									<a href="audio.html"
+									   class="flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>Audios</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+
+							
+
+							</ul>
+
+						</div>
+
+					</details>
+
+				</li>
+
+				<!-- ABOUT -->
+				<li>
+
+					<a href="aboutus.html"
+					   class="flex items-center justify-between
+							  hover:text-[#9B8164]
+							  transition">
+
+						<span>About Us</span>
+
+						<span class="text-xl font-normal">›</span>
+
+					</a>
+
+				</li>
+
+
+				<!-- NEW ARRIVALS -->
+				<li>
+
+					<a href="Newarrival.html"
+					   class="flex items-center justify-between
+							  hover:text-[#9B8164]
+							  transition">
+
+						<span>New Arrivals</span>
+
+						<span class="text-xl font-normal">›</span>
+
+					</a>
+
+				</li>
+
+			</ul>
+
+
+			<!-- SIGN IN -->
+			<button
+				class="mt-7
+					   w-full
+					   bg-[#9B8164]
+					   hover:bg-purple-500
+					   text-white
+					   py-2.5
+					   rounded-lg
+					   transition">
+
+				Sign In
+
+			</button>
+
+		</div>
+
+	</details>
+
+	</nav>
+
+	</header>
+	
+	
+	
+	
+	
+	
+	
+	
+<!-- ================= HERO CAROUSEL ================= -->
+
+<section class="relative w-[92%] mx-auto
+                rounded-3xl
+                h-[480px] md:h-[560px]
+                overflow-hidden
+                bg-[#f4ebe1]
+                border border-[#e6d7c5]
+                shadow-2xl
+                my-6
+                font-[Poppins]">
+
+  <style>
+
+    /* ================= HERO ANIMATION ================= */
+
+    .hero-slide {
+      animation-duration: 15s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+	  animation-fill-mode: both;
+    }
+
+
+    /* SLIDE 1 */
+
+    @keyframes slide1 {
+
+      0% {
+        opacity: 0;
+        transform: scale(1.05);
+		z-index: 1;
+      }
+
+      5% {
+        opacity: 1;
+        transform: scale(1);
+		 z-index: 10;
+      }
+
+      28% {
+        opacity: 1;
+        transform: scale(1);
+		 z-index: 10;
+      }
+
+      33% {
+        opacity: 0;
+        transform: scale(1.03);
+		 z-index: 1;
+      }
+
+      100% {
+        opacity: 0;
+		z-index: 1;
+      }
+
+    }
+
+
+    /* SLIDE 2 */
+    @keyframes slide2 {
+
+      0% {
+        opacity: 0;
+        transform: scale(1.05);
+		z-index: 1;
+      }
+
+      33% {
+        opacity: 0;
+        transform: scale(1.05);
+		z-index: 1;
+      }
+
+      38% {
+        opacity: 1;
+        transform: scale(1);
+		  z-index: 10
+      }
+
+      61% {
+        opacity: 1;
+        transform: scale(1);
+		  z-index: 10
+      }
+
+      66% {
+        opacity: 0;
+        transform: scale(1.03);
+		  z-index: 1
+      }
+
+      100% {
+        opacity: 0;
+		  z-index: 10
+      }
+
+    }
+
+
+    /* SLIDE 3 */
+
+    @keyframes slide3 {
+
+      0% {
+        opacity: 0;
+        transform: scale(1.05);
+		z-index: 1;
+      }
+
+      66% {
+        opacity: 0;
+        transform: scale(1.05);
+		z-index: 1;
+      }
+
+      71% {
+        opacity: 1;
+        transform: scale(1);
+		z-index: 10;
+      }
+
+      94% {
+        opacity: 1;
+        transform: scale(1);
+		z-index: 10;
+      }
+
+      100% {
+        opacity: 0;
+        transform: scale(1.03);
+		z-index: 1;
+      }
+
+    }
+
+
+    .animate-slide1 {
+      animation-name: slide1;
+	  
+    }
+
+    .animate-slide2 {
+      animation-name: slide2;
+	    
+    }
+
+    .animate-slide3 {
+      animation-name: slide3;
+	    
+    }
+
+    /* ================= TEXT ANIMATION ================= */
+
+    .hero-content {
+      animation: heroContent 15s ease-in-out infinite;
+    }
+
+    @keyframes heroContent {
+
+      0% {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+
+      7% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      25% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      31% {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+
+      33% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 0;
+      }
+
+    }
+
+
+    /* Content timing for slide 2 */
+
+    .hero-content-2 {
+      animation: heroContent2 15s ease-in-out infinite;
+    }
+
+    @keyframes heroContent2 {
+
+      0%,
+      33% {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+
+      40% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      58% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      64% {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+
+      100% {
+        opacity: 0;
+      }
+
+    }
+
+
+    /* Content timing for slide 3 */
+
+    .hero-content-3 {
+      animation: heroContent3 15s ease-in-out infinite;
+    }
+
+    @keyframes heroContent3 {
+
+      0%,
+      66% {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+
+      73% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      91% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      98% {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+
+      100% {
+        opacity: 0;
+      }
+
+    }
+
+
+    /* ================= IMAGE MOTION ================= */
+
+    .hero-image {
+      transition: transform 15s ease;
+    }
+
+    .hero-slide:hover .hero-image {
+      transform: scale(1.03);
+    }
+
+
+    /* ================= BUTTON ================= */
+
+    .hero-button {
+      transition:
+        transform .3s ease,
+        box-shadow .3s ease,
+        background .3s ease;
+    }
+
+    .hero-button:hover {
+      transform: translateY(-3px);
+    }
+
+  </style>
+
+
+  <!-- =====================================================
+       SLIDE 1 — TECHNOLOGY
+  ====================================================== -->
+
+  <div class="hero-slide
+              absolute inset-0
+              opacity-0
+              animate-slide1">
+
+    <img
+      src="images\newban1.jpg"
+      class="hero-image
+             absolute inset-0
+             w-full h-full
+             object-cover"
+      alt="New Technology"
+    >
+
+
+    <!-- Overlay -->
+
+    <div class="absolute inset-0
+                bg-gradient-to-r
+                from-[#21140d]/95
+                via-[#3b281d]/70
+                to-transparent">
+    </div>
+
+
+    <!-- Content -->
+
+    <div class="absolute inset-0
+                flex items-center
+                px-7 sm:px-10
+                md:px-16">
+
+      <div class="hero-content
+                  max-w-xl
+                  text-white">
+
+        <span class="inline-flex
+                     px-3.5 py-1.5
+                     rounded-full
+                     text-[10px] sm:text-xs
+                     font-bold
+                     uppercase
+                     tracking-[0.18em]
+                     bg-[#8c5e3c]/30
+                     text-[#fdfbf7]
+                     border border-[#b98a68]/50
+                     backdrop-blur-sm">
+
+          Fresh Drop 2026
+
+        </span>
+
+
+        <h1 class="mt-4
+                   text-4xl sm:text-5xl
+                   md:text-6xl
+                   font-black
+                   leading-[1.02]
+                   tracking-[-0.04em]">
+
+          Next-Gen
+          <br>
+
+          <span class="text-[#d5aa84]">
+            Technology.
+          </span>
+
+        </h1>
+
+
+        <p class="mt-5
+                  max-w-lg
+                  text-sm md:text-base
+                  leading-7
+                  text-[#eee1d4]">
+
+          Discover powerful devices,
+          smart technology, and the latest
+          innovations made for modern life.
+
+        </p>
+
+
+        <a href="electronics.html"
+           class="hero-button
+                  inline-flex
+                  mt-7
+                  px-7 py-3.5
+                  rounded-full
+                  bg-[#8c5e3c]
+                  hover:bg-[#a66e49]
+                  text-white
+                  font-extrabold
+                  text-sm
+                  shadow-xl
+                  shadow-[#8c5e3c]/30  ">
+
+          Explore Electronics
+
+          <span class="ml-2">
+            →
+          </span>
+
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <!-- =====================================================
+       SLIDE 2 — FASHION
+  ====================================================== -->
+
+  <div class="hero-slide
+              absolute inset-0
+              opacity-0
+              animate-slide2">
+
+    <img
+      src="images\newbanner2.jpg"
+      class="hero-image
+             absolute inset-0
+             w-full h-full
+             object-cover"
+      alt="Luxury Fashion"
+    >
+
+
+    <div class="absolute inset-0
+                bg-gradient-to-r
+                from-[#2b1b12]/95
+                via-[#4a3427]/65
+                to-transparent">
+    </div>
+
+
+    <div class="absolute inset-0
+                flex items-center
+                px-7 sm:px-10
+                md:px-16">
+
+      <div class="hero-content-2
+                  max-w-xl
+                  text-white">
+
+        <span class="inline-flex
+                     px-3.5 py-1.5
+                     rounded-full
+                     text-[10px] sm:text-xs
+                     font-bold
+                     uppercase
+                     tracking-[0.18em]
+                     bg-[#c89d7c]/30
+                     text-white
+                     border border-[#c89d7c]/50
+                     backdrop-blur-sm">
+
+          Runway Edition
+
+        </span>
+
+
+        <h1 class="mt-4
+                   text-4xl sm:text-5xl
+                   md:text-6xl
+                   font-black
+                   leading-[1.02]
+                   tracking-[-0.04em]">
+
+          Modern
+          <br>
+
+          <span class="text-[#d9b18f]">
+            Essentials.
+          </span>
+
+        </h1>
+
+
+        <p class="mt-5
+                  max-w-lg
+                  text-sm md:text-base
+                  leading-7
+                  text-[#eee1d4]">
+
+          Refined clothing, footwear,
+          accessories, and everyday pieces
+          designed for modern style.
+
+        </p>
+
+
+        <a href="fashion.html"
+           class="hero-button
+                  inline-flex
+                  mt-7
+                  px-7 py-3.5
+                  rounded-full
+                  bg-[#c89d7c]
+                  hover:bg-[#d9b18f]
+                  text-[#2b1b12]
+                  font-extrabold
+                  text-sm
+                  shadow-xl z-5">
+
+          View Collection
+
+          <span class="ml-2">
+            →
+          </span>
+
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <!-- =====================================================
+       SLIDE 3 — GAMING
+  ====================================================== -->
+
+  <div class="hero-slide
+              absolute inset-0
+              opacity-0
+              animate-slide3">
+
+    <img
+      src="images\newbanner3.jpg"
+      class="hero-image
+             absolute inset-0
+             w-full h-full
+             object-cover"
+      alt="Gaming Setup"
+    >
+
+
+    <div class="absolute inset-0
+                bg-gradient-to-r
+                from-[#1b110b]/95
+                via-[#39261a]/70
+                to-transparent">
+    </div>
+
+
+    <div class="absolute inset-0
+                flex items-center
+                px-7 sm:px-10
+                md:px-16">
+
+      <div class="hero-content-3
+                  max-w-xl
+                  text-white">
+
+        <span class="inline-flex
+                     px-3.5 py-1.5
+                     rounded-full
+                     text-[10px] sm:text-xs
+                     font-bold
+                     uppercase
+                     tracking-[0.18em]
+                     bg-[#8c5e3c]/30
+                     text-white
+                     border border-[#8c5e3c]/50
+                     backdrop-blur-sm">
+
+          Battle Station Drops
+
+        </span>
+
+
+        <h1 class="mt-4
+                   text-4xl sm:text-5xl
+                   md:text-6xl
+                   font-black
+                   leading-[1.02]
+                   tracking-[-0.04em]">
+
+          Build Your
+          <br>
+
+          <span class="text-[#d5aa84]">
+            Ultimate Setup.
+          </span>
+
+        </h1>
+
+
+        <p class="mt-5
+                  max-w-lg
+                  text-sm md:text-base
+                  leading-7
+                  text-[#eee1d4]">
+
+          Gaming PCs, consoles,
+          keyboards, displays, audio,
+          and accessories for serious setups.
+
+        </p>
+
+
+        <a href="#gaming-arrivals"
+           class="hero-button
+                  inline-flex
+                  mt-7
+                  px-7 py-3.5
+                  rounded-full
+                  bg-[#8c5e3c]
+                  hover:bg-[#a66e49]
+                  text-white
+                  font-extrabold
+                  text-sm
+                  shadow-xl
+                  shadow-[#8c5e3c]/30">
+
+          Shop Gaming
+
+          <span class="ml-2">
+            →
+          </span>
+
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <!-- =====================================================
+       SLIDE INDICATORS
+       Decorative only — no JS
+  ====================================================== -->
+
+  <div class="absolute
+              bottom-6
+              left-1/2
+              -translate-x-1/2
+              z-30
+              flex items-center gap-2">
+
+    <span class="w-8 h-1
+                 rounded-full
+                 bg-white/80"></span>
+
+    <span class="w-2 h-1
+                 rounded-full
+                 bg-white/40"></span>
+
+    <span class="w-2 h-1
+                 rounded-full
+                 bg-white/40"></span>
+
+  </div>
+
+
+  <!-- Bottom glass bar -->
+
+  <div class="absolute
+              hidden sm:flex
+              bottom-5
+              right-5
+              z-30
+              items-center gap-3
+              px-4 py-2
+              rounded-full
+              bg-black/20
+              backdrop-blur-md
+              border border-white/10
+              text-white/60
+              text-[10px]
+              uppercase
+              tracking-widest">
+
+    <span class="w-1.5 h-1.5
+                 rounded-full
+                 bg-[#d5aa84]
+                 animate-pulse">
+    </span>
+
+    Auto Showcase
+
+  </div>
+
+</section>
+
+<!-- ================= CATEGORY QUICK FILTER BAR ================= -->
+<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex  justify-center font-[Poppins]">
+  <div class="flex items-center gap-3 overflow-x-auto pb-2 hide-scrollbar">
+    <a href="#electronics-arrivals" class="px-5 py-2.5 rounded-xl bg-[#fdfbf7] hover:bg-[#8c5e3c] text-[#5a4336] hover:text-white text-xs font-bold whitespace-nowrap border border-[#e6d7c5] shadow-sm transition">
+      ⚡ Electronics & Mobiles
+    </a>
+    <a href="#fashion-arrivals" class="px-5 py-2.5 rounded-xl bg-[#fdfbf7] hover:bg-[#8c5e3c] text-[#5a4336] hover:text-white text-xs font-bold whitespace-nowrap border border-[#e6d7c5] shadow-sm transition">
+      👔 Fashion & Apparel
+    </a>
+    <a href="#gaming-arrivals" class="px-5 py-2.5 rounded-xl bg-[#fdfbf7] hover:bg-[#8c5e3c] text-[#5a4336] hover:text-white text-xs font-bold whitespace-nowrap border border-[#e6d7c5] shadow-sm transition">
+      🎮 Gaming & Consoles
+    </a>
+    <a href="#audio-arrivals" class="px-5 py-2.5 rounded-xl bg-[#fdfbf7] hover:bg-[#8c5e3c] text-[#5a4336] hover:text-white text-xs font-bold whitespace-nowrap border border-[#e6d7c5] shadow-sm transition">
+      🎧 Hi-Fi Audio
+    </a>
+    <a href="#home-arrivals" class="px-5 py-2.5 rounded-xl bg-[#fdfbf7] hover:bg-[#8c5e3c] text-[#5a4336] hover:text-white text-xs font-bold whitespace-nowrap border border-[#e6d7c5] shadow-sm transition">
+      🖥️ Computers 
+    </a>
+  </div>
+</section>
+
+<!-- ================= SECTION 1: ELECTRONICS & SMART DEVICES ================= -->
+<section id="electronics-arrivals" class="py-12 px-4 sm:px-6 lg:px-8 bg-[#fdfbf7] font-[Poppins]">
+  <div class="max-w-7xl mx-auto space-y-8">
+    
+    <div class="flex flex-col md:flex-row md:items-end justify-between border-b border-[#e6d7c5] pb-6 gap-4">
+      <div>
+        <span class="text-xs uppercase font-bold tracking-widest text-[#8c5e3c]">Fresh Silicon</span>
+        <h2 class="text-3xl font-extrabold tracking-tight text-[#2b1b12] mt-1">Electronics & Smart Devices</h2>
+      </div>
+      <p class="text-sm text-[#6e5648] max-w-md">
+        Next-gen titanium foldables, AI wearable rings, and ultra-short throw laser displays.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+      <!-- Card 1 -->
+      <div class="group/card bg-[#fdfbf7] rounded-2xl border border-[#e6d7c5] p-5 flex flex-col justify-between h-[520px] hover:border-[#8c5e3c] hover:shadow-xl hover:shadow-[#8c5e3c]/10 transition-all duration-300">
+        <div class="flex flex-col flex-1 min-h-0">
+          <div class="flex items-center justify-between">
+            <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold tracking-wide bg-[#f4ebe1] text-[#6d462a] border border-[#dbcaa8]">
+              AI OPTICS
+            </span>
+            <span class="text-[10px] text-[#8c5e3c] font-mono font-bold">200MP</span>
+          </div>
+
+          <div class="relative mt-4 w-full h-48 lg:group-has-[.buy-btn:hover]/card:h-full rounded-xl bg-[#f4ebe1] border border-[#e6d7c5] overflow-hidden flex items-center justify-center p-2 transition-all duration-500 ease-in-out">
+            <img src="images\honor.jpg" alt="Honor Robot Phone 2" class="w-full h-full object-cover object-top scale-120 transition-transform duration-500 ease-out lg:group-has-[.buy-btn:hover]/card:scale-110" />
+          </div>
+
+          <div class="grid transition-all duration-500 ease-in-out lg:grid-rows-[1fr] lg:group-has-[.buy-btn:hover]/card:grid-rows-[0fr] lg:group-has-[.buy-btn:hover]/card:opacity-0">
+            <div class="overflow-hidden">
+              <h3 class="mt-4 text-lg font-bold text-[#2b1b12]">Honor Robot 2</h3>
+              <p class="text-xs text-[#6e5648] mt-1">Dual-mode motorized AI tracking camera pod with lossless optical image stabilization.</p>
+              <ul class="mt-4 space-y-1.5 text-xs text-[#5c4436] border-t border-[#e6d7c5] pt-3">
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> 360° Motorized Gimbal</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> Snapdragon 8 Gen 4</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> 6,200mAh Si-C Cell</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-4 pt-3 border-t border-[#e6d7c5] flex items-center justify-between">
+          <div>
+            <span class="text-[10px] uppercase text-[#7a6456] block">Price</span>
+            <span class="text-lg font-bold text-[#8c5e3c]">₹94,999</span>
+          </div>
+          <a href="#" class="buy-btn px-4 py-2 rounded-lg bg-[#8c5e3c] hover:bg-[#724a2e] text-white font-bold text-xs shadow-md shadow-[#8c5e3c]/20 transition">
+            Buy Now
+          </a>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="group/card bg-[#fdfbf7] rounded-2xl border border-[#e6d7c5] p-5 flex flex-col justify-between h-[520px] hover:border-[#8c5e3c] hover:shadow-xl hover:shadow-[#8c5e3c]/10 transition-all duration-300">
+        <div class="flex flex-col flex-1 min-h-0">
+          <div class="flex items-center justify-between">
+            <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold tracking-wide bg-[#f4ebe1] text-[#6d462a] border border-[#dbcaa8]">
+              FOLDABLE 8K
+            </span>
+            <span class="text-[10px] text-[#8c5e3c] font-mono font-bold">ZERO CREASE</span>
+          </div>
+
+          <div class="relative mt-4 w-full h-48 lg:group-has-[.buy-btn:hover]/card:h-full rounded-xl bg-[#f4ebe1] border border-[#e6d7c5] overflow-hidden flex items-center justify-center p-2 transition-all duration-500 ease-in-out">
+            <img src="Images\iphoneflip.png" alt="iPhone 19 Flip Pro" class="w-full h-full object-cover scale-120 transition-transform duration-500 ease-out lg:group-has-[.buy-btn:hover]/card:scale-110" />
+          </div>
+
+          <div class="grid transition-all duration-500 ease-in-out lg:grid-rows-[1fr] lg:group-has-[.buy-btn:hover]/card:grid-rows-[0fr] lg:group-has-[.buy-btn:hover]/card:opacity-0">
+            <div class="overflow-hidden">
+              <h3 class="mt-4 text-lg font-bold text-[#2b1b12]">iPhone 19 Flip Pro</h3>
+              <p class="text-xs text-[#6e5648] mt-1">Dual Super Retina XDR panels encased in an aerospace-grade titanium unibody frame.</p>
+              <ul class="mt-4 space-y-1.5 text-xs text-[#5c4436] border-t border-[#e6d7c5] pt-3">
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> Pro Cine 8K Spatial Capture</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> A20 Pro Bionic Neural Engine</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> Holographic LiDAR Sensor</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-4 pt-3 border-t border-[#e6d7c5] flex items-center justify-between">
+          <div>
+            <span class="text-[10px] uppercase text-[#7a6456] block">Price</span>
+            <span class="text-lg font-bold text-[#8c5e3c]">₹1,24,999</span>
+          </div>
+          <a href="#" class="buy-btn px-4 py-2 rounded-lg bg-[#8c5e3c] hover:bg-[#724a2e] text-white font-bold text-xs shadow-md shadow-[#8c5e3c]/20 transition">
+            Buy Now
+          </a>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="group/card bg-[#fdfbf7] rounded-2xl border border-[#e6d7c5] p-5 flex flex-col justify-between h-[520px] hover:border-[#8c5e3c] hover:shadow-xl hover:shadow-[#8c5e3c]/10 transition-all duration-300">
+        <div class="flex flex-col flex-1 min-h-0">
+          <div class="flex items-center justify-between">
+            <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold tracking-wide bg-[#f4ebe1] text-[#6d462a] border border-[#dbcaa8]">
+              SPATIAL 3D
+            </span>
+            <span class="text-[10px] text-[#8c5e3c] font-mono font-bold">LIGHTFIELD</span>
+          </div>
+
+          <div class="relative mt-4 w-full h-48 lg:group-has-[.buy-btn:hover]/card:h-full rounded-xl bg-[#f4ebe1] border border-[#e6d7c5] overflow-hidden flex items-center justify-center p-2 transition-all duration-500 ease-in-out">
+            <img src="Images\samvr.png" alt="Galaxy Holo VR 2" class="w-full h-full object-cover scale-120 transition-transform duration-500 ease-out lg:group-has-[.buy-btn:hover]/card:scale-110" />
+          </div>
+
+          <div class="grid transition-all duration-500 ease-in-out lg:grid-rows-[1fr] lg:group-has-[.buy-btn:hover]/card:grid-rows-[0fr] lg:group-has-[.buy-btn:hover]/card:opacity-0">
+            <div class="overflow-hidden">
+              <h3 class="mt-4 text-lg font-bold text-[#2b1b12]">Galaxy Holo VR 2</h3>
+              <p class="text-xs text-[#6e5648] mt-1">Volumetric lightfield display capable of projecting true 3D spatial models without glasses.</p>
+              <ul class="mt-4 space-y-1.5 text-xs text-[#5c4436] border-t border-[#e6d7c5] pt-3">
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> 3D Lightfield Screen Matrix</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> 60 TOPS Neural Engine</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> Wireless VR Dock Sync</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-4 pt-3 border-t border-[#e6d7c5] flex items-center justify-between">
+          <div>
+            <span class="text-[10px] uppercase text-[#7a6456] block">Price</span>
+            <span class="text-lg font-bold text-[#8c5e3c]">₹1,09,999</span>
+          </div>
+          <a href="#" class="buy-btn px-4 py-2 rounded-lg bg-[#8c5e3c] hover:bg-[#724a2e] text-white font-bold text-xs shadow-md shadow-[#8c5e3c]/20 transition">
+            Buy Now
+          </a>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="group/card bg-[#fdfbf7] rounded-2xl border border-[#e6d7c5] p-5 flex flex-col justify-between h-[520px] hover:border-[#8c5e3c] hover:shadow-xl hover:shadow-[#8c5e3c]/10 transition-all duration-300">
+        <div class="flex flex-col flex-1 min-h-0">
+          <div class="flex items-center justify-between">
+            <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold tracking-wide bg-[#f4ebe1] text-[#6d462a] border border-[#dbcaa8]">
+              HEALTH AI
+            </span>
+            <span class="text-[10px] text-[#8c5e3c] font-mono font-bold">TITANIUM</span>
+          </div>
+
+          <div class="relative mt-4 w-full h-48 lg:group-has-[.buy-btn:hover]/card:h-full rounded-xl bg-[#f4ebe1] border border-[#e6d7c5] overflow-hidden flex items-center justify-center p-2 transition-all duration-500 ease-in-out">
+            <img src="Images\acc3.jpg" alt="Oura Horizon Ring Gen 4" class="w-full h-full object-cover scale-110	 transition-transform duration-500 ease-out lg:group-has-[.buy-btn:hover]/card:scale-110" />
+          </div>
+
+          <div class="grid transition-all duration-500 ease-in-out lg:grid-rows-[1fr] lg:group-has-[.buy-btn:hover]/card:grid-rows-[0fr] lg:group-has-[.buy-btn:hover]/card:opacity-0">
+            <div class="overflow-hidden">
+              <h3 class="mt-4 text-lg font-bold text-[#2b1b12]">Horizon Ring Gen 4</h3>
+              <p class="text-xs text-[#6e5648] mt-1">Featherweight smart recovery ring offering cardiovascular and sleep analytics.</p>
+              <ul class="mt-4 space-y-1.5 text-xs text-[#5c4436] border-t border-[#e6d7c5] pt-3">
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> 2.4g Titanium Grade-5 Shell</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> 8-Day Continuous Battery</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> 100M Water Resistance</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-4 pt-3 border-t border-[#e6d7c5] flex items-center justify-between">
+          <div>
+            <span class="text-[10px] uppercase text-[#7a6456] block">Price</span>
+            <span class="text-lg font-bold text-[#8c5e3c]">₹34,999</span>
+          </div>
+          <a href="#" class="buy-btn px-4 py-2 rounded-lg bg-[#8c5e3c] hover:bg-[#724a2e] text-white font-bold text-xs shadow-md shadow-[#8c5e3c]/20 transition">
+            Buy Now
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= SECTION 2: FASHION & RUNWAY APPAREL ================= -->
+<section id="fashion-arrivals" class="py-12 px-4 sm:px-6 lg:px-8 bg-[#fdfbf7] border-t border-[#e6d7c5] font-[Poppins]">
+  <div class="max-w-7xl mx-auto space-y-8">
+    
+    <div class="flex flex-col md:flex-row md:items-end justify-between border-b border-[#e6d7c5] pb-6 gap-4">
+      <div>
+        <span class="text-xs uppercase font-bold tracking-widest text-[#8c5e3c]">Apparel & Footwear</span>
+        <h2 class="text-3xl font-extrabold tracking-tight text-[#2b1b12] mt-1">Fashion & Luxury Essentials</h2>
+      </div>
+      <p class="text-sm text-[#6e5648] max-w-md">
+        Tailored Italian wool suits, waterproof techwear parkas, and handcrafted leather footwear.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+      <!-- Fashion 1 -->
+      <div class="group/card bg-[#fdfbf7] rounded-2xl border border-[#e6d7c5] p-5 flex flex-col justify-between h-[520px] hover:border-[#8c5e3c] hover:shadow-xl hover:shadow-[#8c5e3c]/10 transition-all duration-300">
+        <div class="flex flex-col flex-1 min-h-0">
+          <div class="flex items-center justify-between">
+            <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold tracking-wide bg-[#f4ebe1] text-[#6d462a] border border-[#dbcaa8]">
+              TECHWEAR
+            </span>
+            <span class="text-[10px] text-[#8c5e3c] font-mono font-bold">Casual  PRO</span>
+          </div>
+
+          <div class="relative mt-4 w-full h-48 lg:group-has-[.buy-btn:hover]/card:h-full rounded-xl bg-[#f4ebe1] border border-[#e6d7c5] overflow-hidden flex items-center justify-center p-2 transition-all duration-500 ease-in-out">
+            <img src="images\fanshion1.jpg" alt="Casual " class="w-full h-full object-cover scale-110 transition-transform duration-500 ease-out lg:group-has-[.buy-btn:hover]/card:scale-110" />
+          </div>
+
+          <div class="grid transition-all duration-500 ease-in-out lg:grid-rows-[1fr] lg:group-has-[.buy-btn:hover]/card:grid-rows-[0fr] lg:group-has-[.buy-btn:hover]/card:opacity-0">
+            <div class="overflow-hidden">
+              <h3 class="mt-4 text-lg font-bold text-[#2b1b12]">Casual set</h3>
+              <p class="text-xs text-[#6e5648] mt-1">3-layer breathable storm membrane with magnetic Fidlock modular utility pockets.</p>
+              <ul class="mt-4 space-y-1.5 text-xs text-[#5c4436] border-t border-[#e6d7c5] pt-3">
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> 28,000mm Waterproof Rating</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> YKK Aquaguard Zippers</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> Concealed Device Slits</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-4 pt-3 border-t border-[#e6d7c5] flex items-center justify-between">
+          <div>
+            <span class="text-[10px] uppercase text-[#7a6456] block">Price</span>
+            <span class="text-lg font-bold text-[#8c5e3c]">₹28,999</span>
+          </div>
+          <a href="#" class="buy-btn px-4 py-2 rounded-lg bg-[#8c5e3c] hover:bg-[#724a2e] text-white font-bold text-xs shadow-md shadow-[#8c5e3c]/20 transition">
+            Buy Now
+          </a>
+        </div>
+      </div>
+
+      <!-- Fashion 2 -->
+      <div class="group/card bg-[#fdfbf7] rounded-2xl border border-[#e6d7c5] p-5 flex flex-col justify-between h-[520px] hover:border-[#8c5e3c] hover:shadow-xl hover:shadow-[#8c5e3c]/10 transition-all duration-300">
+        <div class="flex flex-col flex-1 min-h-0">
+          <div class="flex items-center justify-between">
+            <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold tracking-wide bg-[#f4ebe1] text-[#6d462a] border border-[#dbcaa8]">
+              ITALIAN WOOL
+            </span>
+            <span class="text-[10px] text-[#8c5e3c] font-mono font-bold">SUPER 150S</span>
+          </div>
+
+          <div class="relative mt-4 w-full h-48 lg:group-has-[.buy-btn:hover]/card:h-full rounded-xl bg-[#f4ebe1] border border-[#e6d7c5] overflow-hidden flex items-center justify-center p-2 transition-all duration-500 ease-in-out">
+            <img src="images\fashion2.jpg" alt="Milano Slim Tuxedo" class="w-full h-full object-cover scale-110 transition-transform duration-500 ease-out lg:group-has-[.buy-btn:hover]/card:scale-110" />
+          </div>
+
+          <div class="grid transition-all duration-500 ease-in-out lg:grid-rows-[1fr] lg:group-has-[.buy-btn:hover]/card:grid-rows-[0fr] lg:group-has-[.buy-btn:hover]/card:opacity-0">
+            <div class="overflow-hidden">
+              <h3 class="mt-4 text-lg font-bold text-[#2b1b12]">Milano Sartorial Suit</h3>
+              <p class="text-xs text-[#6e5648] mt-1">Hand-canvassed double-breasted suit woven from ultra-fine Super 150s Merino wool.</p>
+              <ul class="mt-4 space-y-1.5 text-xs text-[#5c4436] border-t border-[#e6d7c5] pt-3">
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> Pure Silk Lapel Lining</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> Horn Button Finishes</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> Tailored Slim Drape</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-4 pt-3 border-t border-[#e6d7c5] flex items-center justify-between">
+          <div>
+            <span class="text-[10px] uppercase text-[#7a6456] block">Price</span>
+            <span class="text-lg font-bold text-[#8c5e3c]">₹45,999</span>
+          </div>
+          <a href="#" class="buy-btn px-4 py-2 rounded-lg bg-[#8c5e3c] hover:bg-[#724a2e] text-white font-bold text-xs shadow-md shadow-[#8c5e3c]/20 transition">
+            Buy Now
+          </a>
+        </div>
+      </div>
+
+      <!-- Fashion 3 -->
+      <div class="group/card bg-[#fdfbf7] rounded-2xl border border-[#e6d7c5] p-5 flex flex-col justify-between h-[520px] hover:border-[#8c5e3c] hover:shadow-xl hover:shadow-[#8c5e3c]/10 transition-all duration-300">
+        <div class="flex flex-col flex-1 min-h-0">
+          <div class="flex items-center justify-between">
+            <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold tracking-wide bg-[#f4ebe1] text-[#6d462a] border border-[#dbcaa8]">
+              CARBON PLATE
+            </span>
+            <span class="text-[10px] text-[#8c5e3c] font-mono font-bold">WOMEN SET</span>
+          </div>
+
+          <div class="relative mt-4 w-full h-48 lg:group-has-[.buy-btn:hover]/card:h-full rounded-xl bg-[#f4ebe1] border border-[#e6d7c5] overflow-hidden flex items-center justify-center p-2 transition-all duration-500 ease-in-out">
+            <img src="images/trend5.jpg" alt="Veloce Carbon Runner" class="w-full h-full object-cover scale-110 object-top transition-transform duration-500 ease-out lg:group-has-[.buy-btn:hover]/card:scale-110" />
+          </div>
+
+          <div class="grid transition-all duration-500 ease-in-out lg:grid-rows-[1fr] lg:group-has-[.buy-btn:hover]/card:grid-rows-[0fr] lg:group-has-[.buy-btn:hover]/card:opacity-0">
+            <div class="overflow-hidden">
+              <h3 class="mt-4 text-lg font-bold text-[#2b1b12]">Women Casual set</h3>
+              <p class="text-xs text-[#6e5648] mt-1">Supercritical nitrogen foam midsole with embedded full-length carbon propulsion plate.</p>
+              <ul class="mt-4 space-y-1.5 text-xs text-[#5c4436] border-t border-[#e6d7c5] pt-3">
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> Fashion Like Never Befor</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> High-Quality </li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> 85% Off on 1st Order</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-4 pt-3 border-t border-[#e6d7c5] flex items-center justify-between">
+          <div>
+            <span class="text-[10px] uppercase text-[#7a6456] block">Price</span>
+            <span class="text-lg font-bold text-[#8c5e3c]">₹499</span>
+          </div>
+          <a href="#" class="buy-btn px-4 py-2 rounded-lg bg-[#8c5e3c] hover:bg-[#724a2e] text-white font-bold text-xs shadow-md shadow-[#8c5e3c]/20 transition">
+            Buy Now
+          </a>
+        </div>
+      </div>
+
+      <!-- Fashion 4 -->
+      <div class="group/card bg-[#fdfbf7] rounded-2xl border border-[#e6d7c5] p-5 flex flex-col justify-between h-[520px] hover:border-[#8c5e3c] hover:shadow-xl hover:shadow-[#8c5e3c]/10 transition-all duration-300">
+        <div class="flex flex-col flex-1 min-h-0">
+          <div class="flex items-center justify-between">
+            <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold tracking-wide bg-[#f4ebe1] text-[#6d462a] border border-[#dbcaa8]">
+              FULL-GRAIN
+            </span>
+            <span class="text-[10px] text-[#8c5e3c] font-mono font-bold">HANDMADE</span>
+          </div>
+
+          <div class="relative mt-4 w-full h-48 lg:group-has-[.buy-btn:hover]/card:h-full rounded-xl bg-[#f4ebe1] border border-[#e6d7c5] overflow-hidden flex items-center justify-center p-2 transition-all duration-500 ease-in-out">
+            <img src="images\bag.jpg" alt="Aura Leather Weekender" class="w-full h-full object-cover scale-110 transition-transform duration-500 ease-out lg:group-has-[.buy-btn:hover]/card:scale-110" />
+          </div>
+
+          <div class="grid transition-all duration-500 ease-in-out lg:grid-rows-[1fr] lg:group-has-[.buy-btn:hover]/card:grid-rows-[0fr] lg:group-has-[.buy-btn:hover]/card:opacity-0">
+            <div class="overflow-hidden">
+              <h3 class="mt-4 text-lg font-bold text-[#2b1b12]">Aura Leather Bages</h3>
+              <p class="text-xs text-[#6e5648] mt-1">tanned full-grain Italian leather travel bag with padded laptop chamber.</p>
+              <ul class="mt-4 space-y-1.5 text-xs text-[#5c4436] border-t border-[#e6d7c5] pt-3">
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> Solid Brass Hardware Clasps</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> Water-Resistant Cotton Twill</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> 16" MacBook Pro Sleeve</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-4 pt-3 border-t border-[#e6d7c5] flex items-center justify-between">
+          <div>
+            <span class="text-[10px] uppercase text-[#7a6456] block">Price</span>
+            <span class="text-lg font-bold text-[#8c5e3c]">₹24,999</span>
+          </div>
+          <a href="#" class="buy-btn px-4 py-2 rounded-lg bg-[#8c5e3c] hover:bg-[#724a2e] text-white font-bold text-xs shadow-md shadow-[#8c5e3c]/20 transition">
+            Buy Now
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= SECTION 3: PRO GAMING & BATTLE RIGS ================= -->
+<section id="gaming-arrivals" class="py-12 px-4 sm:px-6 lg:px-8 bg-[#fdfbf7] border-t border-[#e6d7c5] font-[Poppins]">
+  <div class="max-w-7xl mx-auto space-y-8">
+    
+    <div class="flex flex-col md:flex-row md:items-end justify-between border-b border-[#e6d7c5] pb-6 gap-4">
+      <div>
+        <span class="text-xs uppercase font-bold tracking-widest text-[#8c5e3c]">Battle Rigs</span>
+        <h2 class="text-3xl font-extrabold tracking-tight text-[#2b1b12] mt-1">Gaming Gear & Sim Cockpits</h2>
+      </div>
+      <p class="text-sm text-[#6e5648] max-w-md">
+        Hall-effect analog switches, OLED handhelds, and direct-drive torque wheelbases.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+      <!-- Game 1 -->
+      <div class="group/card bg-[#fdfbf7] rounded-2xl border border-[#e6d7c5] p-5 flex flex-col justify-between h-[520px] hover:border-[#8c5e3c] hover:shadow-xl hover:shadow-[#8c5e3c]/10 transition-all duration-300">
+        <div class="flex flex-col flex-1 min-h-0">
+          <div class="flex items-center justify-between">
+            <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold tracking-wide bg-[#f4ebe1] text-[#6d462a] border border-[#dbcaa8]">
+              PRO CONSOLE
+            </span>
+            <span class="text-[10px] text-[#8c5e3c] font-mono font-bold">2TB SSD</span>
+          </div>
+
+          <div class="relative mt-4 w-full h-48 lg:group-has-[.buy-btn:hover]/card:h-full rounded-xl bg-[#f4ebe1] border border-[#e6d7c5] overflow-hidden flex items-center justify-center p-2 transition-all duration-500 ease-in-out">
+            <img src="Images\ps5 (1).jpg" alt="PlayStation 5 Pro Console" class="w-full h-full object-cover scale-110 lg:group-has-[.buy-btn:hover]/card:object-[60%_15%] transition-transform duration-500 ease-out lg:group-has-[.buy-btn:hover]/card:scale-110" />
+          </div>
+
+          <div class="grid transition-all duration-500 ease-in-out lg:grid-rows-[1fr] lg:group-has-[.buy-btn:hover]/card:grid-rows-[0fr] lg:group-has-[.buy-btn:hover]/card:opacity-0">
+            <div class="overflow-hidden">
+              <h3 class="mt-4 text-lg font-bold text-[#2b1b12]">PlayStation 5 Pro</h3>
+              <p class="text-xs text-[#6e5648] mt-1">Spectral Super Resolution AI upscaling delivering consistent 4K 120FPS ray-traced frames.</p>
+              <ul class="mt-4 space-y-1.5 text-xs text-[#5c4436] border-t border-[#e6d7c5] pt-3">
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> 67% Boosted GPU Compute</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> 2TB Custom High-Speed SSD</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> Wi-Fi 7 Connectivity</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-4 pt-3 border-t border-[#e6d7c5] flex items-center justify-between">
+          <div>
+            <span class="text-[10px] uppercase text-[#7a6456] block">Price</span>
+            <span class="text-lg font-bold text-[#8c5e3c]">₹69,990</span>
+          </div>
+          <a href="#" class="buy-btn px-4 py-2 rounded-lg bg-[#8c5e3c] hover:bg-[#724a2e] text-white font-bold text-xs shadow-md shadow-[#8c5e3c]/20 transition">
+            Buy Now
+          </a>
+        </div>
+      </div>
+
+      <!-- Game 2 -->
+      <div class="group/card bg-[#fdfbf7] rounded-2xl border border-[#e6d7c5] p-5 flex flex-col justify-between h-[520px] hover:border-[#8c5e3c] hover:shadow-xl hover:shadow-[#8c5e3c]/10 transition-all duration-300">
+        <div class="flex flex-col flex-1 min-h-0">
+          <div class="flex items-center justify-between">
+            <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold tracking-wide bg-[#f4ebe1] text-[#6d462a] border border-[#dbcaa8]">
+              MAGNETIC RAPID
+            </span>
+            <span class="text-[10px] text-[#8c5e3c] font-mono font-bold">0.1MM SNAP</span>
+          </div>
+
+          <div class="relative mt-4 w-full h-48 lg:group-has-[.buy-btn:hover]/card:h-full rounded-xl bg-[#f4ebe1] border border-[#e6d7c5] overflow-hidden flex items-center justify-center p-2 transition-all duration-500 ease-in-out">
+            <img src="images\key.jpg" alt="Wooting 60HE+ Rapid Trigger" class="w-full h-full object-cover scale-110 transition-transform duration-500 ease-out lg:group-has-[.buy-btn:hover]/card:scale-110" />
+          </div>
+
+          <div class="grid transition-all duration-500 ease-in-out lg:grid-rows-[1fr] lg:group-has-[.buy-btn:hover]/card:grid-rows-[0fr] lg:group-has-[.buy-btn:hover]/card:opacity-0">
+            <div class="overflow-hidden">
+              <h3 class="mt-4 text-lg font-bold text-[#2b1b12]">Wooting 60HE+</h3>
+              <p class="text-xs text-[#6e5648] mt-1">Hall Effect magnetic switches allowing true analog key actuation without debounce delay.</p>
+              <ul class="mt-4 space-y-1.5 text-xs text-[#5c4436] border-t border-[#e6d7c5] pt-3">
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> Lekker Magnetic Switches</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> 0.1mm Dynamic Rapid Trigger</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> Tachyon 1ms Processing</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-4 pt-3 border-t border-[#e6d7c5] flex items-center justify-between">
+          <div>
+            <span class="text-[10px] uppercase text-[#7a6456] block">Price</span>
+            <span class="text-lg font-bold text-[#8c5e3c]">₹19,990</span>
+          </div>
+          <a href="#" class="buy-btn px-4 py-2 rounded-lg bg-[#8c5e3c] hover:bg-[#724a2e] text-white font-bold text-xs shadow-md shadow-[#8c5e3c]/20 transition">
+            Buy Now
+          </a>
+        </div>
+      </div>
+
+      <!-- Game 3 -->
+      <div class="group/card bg-[#fdfbf7] rounded-2xl border border-[#e6d7c5] p-5 flex flex-col justify-between h-[520px] hover:border-[#8c5e3c] hover:shadow-xl hover:shadow-[#8c5e3c]/10 transition-all duration-300">
+        <div class="flex flex-col flex-1 min-h-0">
+          <div class="flex items-center justify-between">
+            <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold tracking-wide bg-[#f4ebe1] text-[#6d462a] border border-[#dbcaa8]">
+              HANDHELD PC
+            </span>
+            <span class="text-[10px] text-[#8c5e3c] font-mono font-bold">120HZ VRR</span>
+          </div>
+
+          <div class="relative mt-4 w-full h-48 lg:group-has-[.buy-btn:hover]/card:h-full rounded-xl bg-[#f4ebe1] border border-[#e6d7c5] overflow-hidden flex items-center justify-center p-2 transition-all duration-500 ease-in-out">
+            <img src="images\rogal.jpg" alt="ROG Ally X Handheld" class="w-full h-full object-cover scale-110 transition-transform duration-500 ease-out lg:group-has-[.buy-btn:hover]/card:scale-110" />
+          </div>
+
+          <div class="grid transition-all duration-500 ease-in-out lg:grid-rows-[1fr] lg:group-has-[.buy-btn:hover]/card:grid-rows-[0fr] lg:group-has-[.buy-btn:hover]/card:opacity-0">
+            <div class="overflow-hidden">
+              <h3 class="mt-4 text-lg font-bold text-[#2b1b12]">ROG Ally </h3>
+              <p class="text-xs text-[#6e5648] mt-1">Doubled battery capacity with revamped ergonomic grips and dual USB4 ports.</p>
+              <ul class="mt-4 space-y-1.5 text-xs text-[#5c4436] border-t border-[#e6d7c5] pt-3">
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> AMD Ryzen Z1 Extreme</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> 24GB LPDDR5X-7500 RAM</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> 80Wh Double Battery</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-4 pt-3 border-t border-[#e6d7c5] flex items-center justify-between">
+          <div>
+            <span class="text-[10px] uppercase text-[#7a6456] block">Price</span>
+            <span class="text-lg font-bold text-[#8c5e3c]">₹89,990</span>
+          </div>
+          <a href="#" class="buy-btn px-4 py-2 rounded-lg bg-[#8c5e3c] hover:bg-[#724a2e] text-white font-bold text-xs shadow-md shadow-[#8c5e3c]/20 transition">
+            Buy Now
+          </a>
+        </div>
+      </div>
+
+      <!-- Game 4 -->
+      <div class="group/card bg-[#fdfbf7] rounded-2xl border border-[#e6d7c5] p-5 flex flex-col justify-between h-[520px] hover:border-[#8c5e3c] hover:shadow-xl hover:shadow-[#8c5e3c]/10 transition-all duration-300">
+        <div class="flex flex-col flex-1 min-h-0">
+          <div class="flex items-center justify-between">
+            <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold tracking-wide bg-[#f4ebe1] text-[#6d462a] border border-[#dbcaa8]">
+              DIRECT DRIVE
+            </span>
+            <span class="text-[10px] text-[#8c5e3c] font-mono font-bold">15NM TORQUE</span>
+          </div>
+
+          <div class="relative mt-4 w-full h-48 lg:group-has-[.buy-btn:hover]/card:h-full rounded-xl bg-[#f4ebe1] border border-[#e6d7c5] overflow-hidden flex items-center justify-center p-2 transition-all duration-500 ease-in-out">
+            <img src="images\meta.jpg" alt="Fanatec ClubSport DD+ Wheel" class="w-full h-full object-cover scale-110 transition-transform duration-500 ease-out lg:group-has-[.buy-btn:hover]/card:scale-110" />
+          </div>
+
+          <div class="grid transition-all duration-500 ease-in-out lg:grid-rows-[1fr] lg:group-has-[.buy-btn:hover]/card:grid-rows-[0fr] lg:group-has-[.buy-btn:hover]/card:opacity-0">
+            <div class="overflow-hidden">
+              <h3 class="mt-4 text-lg font-bold text-[#2b1b12]">Meta Quest</h3>
+              <p class="text-xs text-[#6e5648] mt-1">Dual RGB color passthrough cameras merging digital gaming elements into your living room.</p>
+              <ul class="mt-4 space-y-1.5 text-xs text-[#5c4436] border-t border-[#e6d7c5] pt-3">
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> FullForce Haptic Feedback</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> Ultra-Low Cogging Motor</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> Quick Release QR2 System</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-4 pt-3 border-t border-[#e6d7c5] flex items-center justify-between">
+          <div>
+            <span class="text-[10px] uppercase text-[#7a6456] block">Price</span>
+            <span class="text-lg font-bold text-[#8c5e3c]">₹1,19,990</span>
+          </div>
+          <a href="#" class="buy-btn px-4 py-2 rounded-lg bg-[#8c5e3c] hover:bg-[#724a2e] text-white font-bold text-xs shadow-md shadow-[#8c5e3c]/20 transition">
+            Buy Now
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= SECTION 4: AUDIOPHILE & SPATIAL SOUND ================= -->
+<section id="audio-arrivals" class="py-12 px-4 sm:px-6 lg:px-8 bg-[#fdfbf7] border-t border-[#e6d7c5] font-[Poppins]">
+  <div class="max-w-7xl mx-auto space-y-8">
+    
+    <div class="flex flex-col md:flex-row md:items-end justify-between border-b border-[#e6d7c5] pb-6 gap-4">
+      <div>
+        <span class="text-xs uppercase font-bold tracking-widest text-[#8c5e3c]">Hi-Res Audio</span>
+        <h2 class="text-3xl font-extrabold tracking-tight text-[#2b1b12] mt-1">Audiophile Sound & DACs</h2>
+      </div>
+      <p class="text-sm text-[#6e5648] max-w-md">
+        Dual ESS Sabre decoding, 60-hour wireless playback, and balanced tube outputs.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+      <!-- Audio 1 -->
+      <div class="group/card bg-[#fdfbf7] rounded-2xl border border-[#e6d7c5] p-5 flex flex-col justify-between h-[520px] hover:border-[#8c5e3c] hover:shadow-xl hover:shadow-[#8c5e3c]/10 transition-all duration-300">
+        <div class="flex flex-col flex-1 min-h-0">
+          <div class="flex items-center justify-between">
+            <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold tracking-wide bg-[#f4ebe1] text-[#6d462a] border border-[#dbcaa8]">
+              AUDIOPHILE
+            </span>
+            <span class="text-[10px] text-[#8c5e3c] font-mono font-bold">60H BATT</span>
+          </div>
+
+          <div class="relative mt-4 w-full h-48 lg:group-has-[.buy-btn:hover]/card:h-full rounded-xl bg-[#f4ebe1] border border-[#e6d7c5] overflow-hidden flex items-center justify-center p-2 transition-all duration-500 ease-in-out">
+            <img src="images\ca1.jpg" alt="Sennheiser Momentum 4 Wireless" class="w-full h-full object-cover scale-110 transition-transform duration-500 ease-out lg:group-has-[.buy-btn:hover]/card:scale-110" />
+          </div>
+
+          <div class="grid transition-all duration-500 ease-in-out lg:grid-rows-[1fr] lg:group-has-[.buy-btn:hover]/card:grid-rows-[0fr] lg:group-has-[.buy-btn:hover]/card:opacity-0">
+            <div class="overflow-hidden">
+              <h3 class="mt-4 text-lg font-bold text-[#2b1b12]">Sennheiser Momentum 4</h3>
+              <p class="text-xs text-[#6e5648] mt-1">Audiophile-inspired 42mm transducer system delivering dynamic contrast and depth.</p>
+              <ul class="mt-4 space-y-1.5 text-xs text-[#5c4436] border-t border-[#e6d7c5] pt-3">
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> 42mm Dynamic Transducers</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> 60-Hour Class-Leading Playback</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> aptX Adaptive & AAC Codecs</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-4 pt-3 border-t border-[#e6d7c5] flex items-center justify-between">
+          <div>
+            <span class="text-[10px] uppercase text-[#7a6456] block">Price</span>
+            <span class="text-lg font-bold text-[#8c5e3c]">₹29,990</span>
+          </div>
+          <a href="#" class="buy-btn px-4 py-2 rounded-lg bg-[#8c5e3c] hover:bg-[#724a2e] text-white font-bold text-xs shadow-md shadow-[#8c5e3c]/20 transition">
+            Buy Now
+          </a>
+        </div>
+      </div>
+
+      <!-- Audio 2 -->
+      <div class="group/card bg-[#fdfbf7] rounded-2xl border border-[#e6d7c5] p-5 flex flex-col justify-between h-[520px] hover:border-[#8c5e3c] hover:shadow-xl hover:shadow-[#8c5e3c]/10 transition-all duration-300">
+        <div class="flex flex-col flex-1 min-h-0">
+          <div class="flex items-center justify-between">
+            <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold tracking-wide bg-[#f4ebe1] text-[#6d462a] border border-[#dbcaa8]">
+              DUAL DAC
+            </span>
+            <span class="text-[10px] text-[#8c5e3c] font-mono font-bold">THX AAA 788+</span>
+          </div>
+
+          <div class="relative mt-4 w-full h-48 lg:group-has-[.buy-btn:hover]/card:h-full rounded-xl bg-[#f4ebe1] border border-[#e6d7c5] overflow-hidden flex items-center justify-center p-2 transition-all duration-500 ease-in-out">
+            <img src="images\cc1.jpg" alt="FiiO K9 Pro ESS Desktop DAC" class="w-full h-full object-cover scale-110 object-bottom transition-transform duration-500 ease-out lg:group-has-[.buy-btn:hover]/card:scale-110" />
+          </div>
+
+          <div class="grid transition-all duration-500 ease-in-out lg:grid-rows-[1fr] lg:group-has-[.buy-btn:hover]/card:grid-rows-[0fr] lg:group-has-[.buy-btn:hover]/card:opacity-0">
+            <div class="overflow-hidden">
+              <h3 class="mt-4 text-lg font-bold text-[#2b1b12]">Marshall</h3>
+              <p class="text-xs text-[#6e5648] mt-1">Fully balanced amplification and LDAC Bluetooth support.</p>
+              <ul class="mt-4 space-y-1.5 text-xs text-[#5c4436] border-t border-[#e6d7c5] pt-3">
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> Dual Flagship ES9038PRO</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> XLR-4, 4.4mm & 6.35mm Out</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> MQA Full Hardware Decoder</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-4 pt-3 border-t border-[#e6d7c5] flex items-center justify-between">
+          <div>
+            <span class="text-[10px] uppercase text-[#7a6456] block">Price</span>
+            <span class="text-lg font-bold text-[#8c5e3c]">₹64,990</span>
+          </div>
+          <a href="#" class="buy-btn px-4 py-2 rounded-lg bg-[#8c5e3c] hover:bg-[#724a2e] text-white font-bold text-xs shadow-md shadow-[#8c5e3c]/20 transition">
+            Buy Now
+          </a>
+        </div>
+      </div>
+
+      <!-- Audio 3 -->
+      <div class="group/card bg-[#fdfbf7] rounded-2xl border border-[#e6d7c5] p-5 flex flex-col justify-between h-[520px] hover:border-[#8c5e3c] hover:shadow-xl hover:shadow-[#8c5e3c]/10 transition-all duration-300">
+        <div class="flex flex-col flex-1 min-h-0">
+          <div class="flex items-center justify-between">
+            <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold tracking-wide bg-[#f4ebe1] text-[#6d462a] border border-[#dbcaa8]">
+              CLASSIC VINYL
+            </span>
+            <span class="text-[10px] text-[#8c5e3c] font-mono font-bold">DIRECT DRIVE</span>
+          </div>
+
+          <div class="relative mt-4 w-full h-48 lg:group-has-[.buy-btn:hover]/card:h-full rounded-xl bg-[#f4ebe1] border border-[#e6d7c5] overflow-hidden flex items-center justify-center p-2 transition-all duration-500 ease-in-out">
+            <img src="images\cc3.jpg" alt="Technics SL-1200MK7 Turntable" class="w-full h-full object-cover scale-110 transition-transform duration-500 ease-out lg:group-has-[.buy-btn:hover]/card:scale-110" />
+          </div>
+
+          <div class="grid transition-all duration-500 ease-in-out lg:grid-rows-[1fr] lg:group-has-[.buy-btn:hover]/card:grid-rows-[0fr] lg:group-has-[.buy-btn:hover]/card:opacity-0">
+            <div class="overflow-hidden">
+              <h3 class="mt-4 text-lg font-bold text-[#2b1b12]">JBL Boombox 3 Wi-Fi</h3>
+              <p class="text-xs text-[#6e5648] mt-1">Coreless direct-drive motor eliminating cogging for flawless rotational accuracy.</p>
+              <ul class="mt-4 space-y-1.5 text-xs text-[#5c4436] border-t border-[#e6d7c5] pt-3">
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> Coreless High-Torque Motor</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> High-Sensitivity S-Tonearm</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> Die-Cast Aluminum Chassis</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-4 pt-3 border-t border-[#e6d7c5] flex items-center justify-between">
+          <div>
+            <span class="text-[10px] uppercase text-[#7a6456] block">Price</span>
+            <span class="text-lg font-bold text-[#8c5e3c]">₹94,990</span>
+          </div>
+          <a href="#" class="buy-btn px-4 py-2 rounded-lg bg-[#8c5e3c] hover:bg-[#724a2e] text-white font-bold text-xs shadow-md shadow-[#8c5e3c]/20 transition">
+            Buy Now
+          </a>
+        </div>
+      </div>
+
+      <!-- Audio 4 -->
+      <div class="group/card bg-[#fdfbf7] rounded-2xl border border-[#e6d7c5] p-5 flex flex-col justify-between h-[520px] hover:border-[#8c5e3c] hover:shadow-xl hover:shadow-[#8c5e3c]/10 transition-all duration-300">
+        <div class="flex flex-col flex-1 min-h-0">
+          <div class="flex items-center justify-between">
+            <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold tracking-wide bg-[#f4ebe1] text-[#6d462a] border border-[#dbcaa8]">
+              STEREO PAIR
+            </span>
+            <span class="text-[10px] text-[#8c5e3c] font-mono font-bold">Samsung Galaxy buds 3</span>
+          </div>
+
+          <div class="relative mt-4 w-full h-48 lg:group-has-[.buy-btn:hover]/card:h-full rounded-xl bg-[#f4ebe1] border border-[#e6d7c5] overflow-hidden flex items-center justify-center p-2 transition-all duration-500 ease-in-out">
+            <img src="images\cb3.jpg" alt="Audioengine A2+ Wireless Monitors" class="w-full h-full object-cover scale-110 transition-transform duration-500 ease-out lg:group-has-[.buy-btn:hover]/card:scale-110" />
+          </div>
+
+          <div class="grid transition-all duration-500 ease-in-out lg:grid-rows-[1fr] lg:group-has-[.buy-btn:hover]/card:grid-rows-[0fr] lg:group-has-[.buy-btn:hover]/card:opacity-0">
+            <div class="overflow-hidden">
+              <h3 class="mt-4 text-lg font-bold text-[#2b1b12]">Audioengine A2+ Pro</h3>
+              <p class="text-xs text-[#6e5648] mt-1">Compact desktop reference monitors with custom aramid fiber woofers and built-in DAC.</p>
+              <ul class="mt-4 space-y-1.5 text-xs text-[#5c4436] border-t border-[#e6d7c5] pt-3">
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> Aramid Woofers + Silk Tweeters</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> aptX Low Latency Bluetooth</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> USB Digital-to-Analog Board</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-4 pt-3 border-t border-[#e6d7c5] flex items-center justify-between">
+          <div>
+            <span class="text-[10px] uppercase text-[#7a6456] block">Price</span>
+            <span class="text-lg font-bold text-[#8c5e3c]">₹27,990</span>
+          </div>
+          <a href="#" class="buy-btn px-4 py-2 rounded-lg bg-[#8c5e3c] hover:bg-[#724a2e] text-white font-bold text-xs shadow-md shadow-[#8c5e3c]/20 transition">
+            Buy Now
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= SECTION 5: COMPUTERS & PRO WORKSTATIONS ================= -->
+<section id="computers-arrivals" class="py-12 px-4 sm:px-6 lg:px-8 bg-[#fdfbf7] border-t border-[#e6d7c5] font-[Poppins]">
+  <div class="max-w-7xl mx-auto space-y-8">
+    
+    <div class="flex flex-col md:flex-row md:items-end justify-between border-b border-[#e6d7c5] pb-6 gap-4">
+      <div>
+        <span class="text-xs uppercase font-bold tracking-widest text-[#8c5e3c]">Extreme Compute</span>
+        <h2 class="text-3xl font-extrabold tracking-tight text-[#2b1b12] mt-1">Computers & Pro Workstations</h2>
+      </div>
+      <p class="text-sm text-[#6e5648] max-w-md">
+        Liquid-cooled render rigs, ultra-thin OLED creator laptops, and curved panoramic master displays.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+      <!-- Computer 1 -->
+      <div class="group/card bg-[#fdfbf7] rounded-2xl border border-[#e6d7c5] p-5 flex flex-col justify-between h-[520px] hover:border-[#8c5e3c] hover:shadow-xl hover:shadow-[#8c5e3c]/10 transition-all duration-300">
+        <div class="flex flex-col flex-1 min-h-0">
+          <div class="flex items-center justify-between">
+            <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold tracking-wide bg-[#f4ebe1] text-[#6d462a] border border-[#dbcaa8]">
+              CUSTOM WATERCOOLED
+            </span>
+            <span class="text-[10px] text-[#8c5e3c] font-mono font-bold">RTX 4090 OC</span>
+          </div>
+
+          <div class="relative mt-4 w-full h-48 lg:group-has-[.buy-btn:hover]/card:h-full rounded-xl bg-[#f4ebe1] border border-[#e6d7c5] overflow-hidden flex items-center justify-center p-2 transition-all duration-500 ease-in-out">
+            <img src="images\pcbuilt.png" alt="Apex Liquid Studio Rig" class="w-full h-full object-cover scale-110 transition-transform duration-500 ease-out lg:group-has-[.buy-btn:hover]/card:scale-110" />
+          </div>
+
+          <div class="grid transition-all duration-500 ease-in-out lg:grid-rows-[1fr] lg:group-has-[.buy-btn:hover]/card:grid-rows-[0fr] lg:group-has-[.buy-btn:hover]/card:opacity-0">
+            <div class="overflow-hidden">
+              <h3 class="mt-4 text-lg font-bold text-[#2b1b12]">Apex Liquid Workstation</h3>
+              <p class="text-xs text-[#6e5648] mt-1">Open-loop copper liquid cooling tuned for silent 3D rendering and machine learning workloads.</p>
+              <ul class="mt-4 space-y-1.5 text-xs text-[#5c4436] border-t border-[#e6d7c5] pt-3">
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> AMD Ryzen 9 9950X (16C/32T)</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> 64GB DDR5 6400MHz ECC RAM</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> 4TB Gen5 NVMe M.2 SSD</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-4 pt-3 border-t border-[#e6d7c5] flex items-center justify-between">
+          <div>
+            <span class="text-[10px] uppercase text-[#7a6456] block">Price</span>
+            <span class="text-lg font-bold text-[#8c5e3c]">₹3,49,999</span>
+          </div>
+          <a href="#" class="buy-btn px-4 py-2 rounded-lg bg-[#8c5e3c] hover:bg-[#724a2e] text-white font-bold text-xs shadow-md shadow-[#8c5e3c]/20 transition">
+            Buy Now
+          </a>
+        </div>
+      </div>
+
+      <!-- Computer 2 -->
+      <div class="group/card bg-[#fdfbf7] rounded-2xl border border-[#e6d7c5] p-5 flex flex-col justify-between h-[520px] hover:border-[#8c5e3c] hover:shadow-xl hover:shadow-[#8c5e3c]/10 transition-all duration-300">
+        <div class="flex flex-col flex-1 min-h-0">
+          <div class="flex items-center justify-between">
+            <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold tracking-wide bg-[#f4ebe1] text-[#6d462a] border border-[#dbcaa8]">
+              CREATOR PRO
+            </span>
+            <span class="text-[10px] text-[#8c5e3c] font-mono font-bold">4K OLED 120HZ</span>
+          </div>
+
+          <div class="relative mt-4 w-full h-48 lg:group-has-[.buy-btn:hover]/card:h-full rounded-xl bg-[#f4ebe1] border border-[#e6d7c5] overflow-hidden flex items-center justify-center p-2 transition-all duration-500 ease-in-out">
+            <img src="images\vivobook.jpg" alt="Vivobook Pro 16 M3" class="w-full h-full object-cover scale-110 transition-transform duration-500 ease-out lg:group-has-[.buy-btn:hover]/card:scale-110" />
+          </div>
+
+          <div class="grid transition-all duration-500 ease-in-out lg:grid-rows-[1fr] lg:group-has-[.buy-btn:hover]/card:grid-rows-[0fr] lg:group-has-[.buy-btn:hover]/card:opacity-0">
+            <div class="overflow-hidden">
+              <h3 class="mt-4 text-lg font-bold text-[#2b1b12]">Vivobook Pro 16 M3</h3>
+              <p class="text-xs text-[#6e5648] mt-1">Extreme performance powerhouse encased in Space Black aluminum with Liquid Retina XDR display.</p>
+              <ul class="mt-4 space-y-1.5 text-xs text-[#5c4436] border-t border-[#e6d7c5] pt-3">
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> Snapdragon Gen X</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> 40-Core GPU / 48GB Unified RAM</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> Up to 22 Hours Battery Life</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-4 pt-3 border-t border-[#e6d7c5] flex items-center justify-between">
+          <div>
+            <span class="text-[10px] uppercase text-[#7a6456] block">Price</span>
+            <span class="text-lg font-bold text-[#8c5e3c]">₹3,49,900</span>
+          </div>
+          <a href="#" class="buy-btn px-4 py-2 rounded-lg bg-[#8c5e3c] hover:bg-[#724a2e] text-white font-bold text-xs shadow-md shadow-[#8c5e3c]/20 transition">
+            Buy Now
+          </a>
+        </div>
+      </div>
+
+      <!-- Computer 3 -->
+      <div class="group/card bg-[#fdfbf7] rounded-2xl border border-[#e6d7c5] p-5 flex flex-col justify-between h-[520px] hover:border-[#8c5e3c] hover:shadow-xl hover:shadow-[#8c5e3c]/10 transition-all duration-300">
+        <div class="flex flex-col flex-1 min-h-0">
+          <div class="flex items-center justify-between">
+            <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold tracking-wide bg-[#f4ebe1] text-[#6d462a] border border-[#dbcaa8]">
+              PANORAMIC CURVED
+            </span>
+            <span class="text-[10px] text-[#8c5e3c] font-mono font-bold">240HZ 0.03MS</span>
+          </div>
+
+          <div class="relative mt-4 w-full h-48 lg:group-has-[.buy-btn:hover]/card:h-full rounded-xl bg-[#f4ebe1] border border-[#e6d7c5] overflow-hidden flex items-center justify-center p-2 transition-all duration-500 ease-in-out">
+            <img src="https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=600&q=80" alt="APPLE OLED G9 Monitor" class="w-full h-full object-cover scale-110 transition-transform duration-500 ease-out lg:group-has-[.buy-btn:hover]/card:scale-110" />
+          </div>
+
+          <div class="grid transition-all duration-500 ease-in-out lg:grid-rows-[1fr] lg:group-has-[.buy-btn:hover]/card:grid-rows-[0fr] lg:group-has-[.buy-btn:hover]/card:opacity-0">
+            <div class="overflow-hidden">
+              <h3 class="mt-4 text-lg font-bold text-[#2b1b12]">Odyssey OLED G9 49"</h3>
+              <p class="text-xs text-[#6e5648] mt-1">Dual QHD curved display with Neo Quantum Processor Pro for uncompressed color grading.</p>
+              <ul class="mt-4 space-y-1.5 text-xs text-[#5c4436] border-t border-[#e6d7c5] pt-3">
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> 5120 x 1440 32:9 Aspect Ratio</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> 1800R Immersion Curvature</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> DisplayHDR True Black 400</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-4 pt-3 border-t border-[#e6d7c5] flex items-center justify-between">
+          <div>
+            <span class="text-[10px] uppercase text-[#7a6456] block">Price</span>
+            <span class="text-lg font-bold text-[#8c5e3c]">₹1,29,999</span>
+          </div>
+          <a href="#" class="buy-btn px-4 py-2 rounded-lg bg-[#8c5e3c] hover:bg-[#724a2e] text-white font-bold text-xs shadow-md shadow-[#8c5e3c]/20 transition">
+            Buy Now
+          </a>
+        </div>
+      </div>
+
+      <!-- Computer 4 -->
+      <div class="group/card bg-[#fdfbf7] rounded-2xl border border-[#e6d7c5] p-5 flex flex-col justify-between h-[520px] hover:border-[#8c5e3c] hover:shadow-xl hover:shadow-[#8c5e3c]/10 transition-all duration-300">
+        <div class="flex flex-col flex-1 min-h-0">
+          <div class="flex items-center justify-between">
+            <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold tracking-wide bg-[#f4ebe1] text-[#6d462a] border border-[#dbcaa8]">
+              COMPACT SFF
+            </span>
+            <span class="text-[10px] text-[#8c5e3c] font-mono font-bold">11-LITER TOWER</span>
+          </div>
+
+          <div class="relative mt-4 w-full h-48 lg:group-has-[.buy-btn:hover]/card:h-full rounded-xl bg-[#f4ebe1] border border-[#e6d7c5] overflow-hidden flex items-center justify-center p-2 transition-all duration-500 ease-in-out">
+            <img src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=600&q=80" alt="Compact Pro Studio SFF Desktop" class="w-full h-full object-cover scale-110 transition-transform duration-500 ease-out lg:group-has-[.buy-btn:hover]/card:scale-110" />
+          </div>
+
+          <div class="grid transition-all duration-500 ease-in-out lg:grid-rows-[1fr] lg:group-has-[.buy-btn:hover]/card:grid-rows-[0fr] lg:group-has-[.buy-btn:hover]/card:opacity-0">
+            <div class="overflow-hidden">
+              <h3 class="mt-4 text-lg font-bold text-[#2b1b12]">FormD Studio Pro Mini</h3>
+              <p class="text-xs text-[#6e5648] mt-1">Anodized CNC aluminum mini workstation engineered for mobile audio engineering and on-site DIT rigs.</p>
+              <ul class="mt-4 space-y-1.5 text-xs text-[#5c4436] border-t border-[#e6d7c5] pt-3">
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> Intel Core i9-14900K</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> RTX 4070 Ti Super 16GB</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[#8c5e3c]"></span> 750W SFX Platinum PSU</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-4 pt-3 border-t border-[#e6d7c5] flex items-center justify-between">
+          <div>
+            <span class="text-[10px] uppercase text-[#7a6456] block">Price</span>
+            <span class="text-lg font-bold text-[#8c5e3c]">₹1,94,990</span>
+          </div>
+          <a href="#" class="buy-btn px-4 py-2 rounded-lg bg-[#8c5e3c] hover:bg-[#724a2e] text-white font-bold text-xs shadow-md shadow-[#8c5e3c]/20 transition">
+            Buy Now
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+
+
+
+<!--footer--  Usefullinks --Shop--Copyrights-->
+				
+<!---fbwhatsapp-X-insta--->
+            
+ 
+ <footer class="mx-auto mt-0 max-w-[1450px] px-3 pb-3 pt-1 sm:px-5 ">
+
+    <div class="rounded-t-2xl bg-[#241c17] px-7 py-10  text-white">
+
+        <div class="grid gap-8 grid-cols-2 lg:grid-cols-5">
+
+            <!-- BRAND -->
+
+            <div class="w-40 mx-auto	">
+
+                <h2 class="text-2xl px-4 text-purple-500 	font-black italic">
+                    BuyPannu
+                </h2>
+
+                <p class="mt-4 px-4 text-sm leading-5	  	 text-gray-300">
+
+                    Your one-stop shop for Fashion,
+                    Electronics, Gaming more.
+                   
+                    Shop more, pay less, be happy
+
+                </p>
+
+                <span class="absolute gap-4 text-2xl">
+
+    <!-- Facebook -->
+   <div class="px-4 py-2"> <a href="#" class="text-blue-600 hover:scale-110 transition-transform">
+        <i class="fa-brands fa-facebook"></i>
+    </a>
+
+    <!-- Instagram -->
+    <a href="#" class="text-pink-500 hover:scale-110 transition-transform">
+        <i class="fa-brands fa-instagram"></i>
+    </a>
+
+    <!-- WhatsApp -->
+    <a href="#" class="text-green-500 hover:scale-110 transition-transform">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- X / Twitter -->
+    <a href="#" class="text-black hover:scale-110 transition-transform">
+        <i class="fa-brands fa-x-twitter"></i>
+    </a></div>
+
+</span>
+
+            </div>
+
+
+            <!-- QUICK LINKS -->
+
+            <div class="max-w-full mx-auto">
+
+                <h3 class="text-xs font-bold uppercase tracking-wide text-[#d4a675]">
+                    Quick Links
+                </h3>
+
+                <div class="mt-4 space-y-2 text-sm text-gray-300">
+
+                    <a href="#" class="block hover:text-white">Home</a>
+                    <a href="#" class="block hover:text-white">Categories</a>
+                    <a href="#" class="block hover:text-white">Fashion</a>
+                    <a href="#" class="block hover:text-white">Electronics</a>
+                    <a href="#" class="block hover:text-white">New Arrivals</a>
+                    <a href="#" class="block hover:text-white">About Us</a>
+
+                </div>
+
+            </div>
+
+
+            <!-- CUSTOMER SERVICE -->
+
+            <div class="max-w-full mx-auto md:w-50 md:mx-auto">
+
+                <h3 class="text-xs font-bold uppercase tracking-wide text-[#d4a675]">
+                    Customer Service
+                </h3>
+
+                <div class="mt-4 space-y-2 text-sm text-gray-300">
+
+                    <a href="#" class="block hover:text-white">
+                        Contact Us
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Track Order
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Shipping Policy
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Returns & Refunds
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        FAQs
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Terms & Conditions
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- CATEGORIES -->
+
+            <div class="max-w-full mx-auto">
+
+                <h3 class="text-xs font-bold uppercase tracking-wide text-[#d4a675]">
+                    Categories
+                </h3>
+
+                <div class="mt-4 space-y-2 text-sm text-gray-300">
+
+                    <a href="#" class="block hover:text-white">
+                        Fashion
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Electronics
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Gaming
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Footwear
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Accessories
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Home & Living
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- PAYMENT -->
+
+            <div class="relative left-30 justify-self-center md:static md:justify-self-auto">
+
+                <h3 class="text-xs font-bold uppercase text-center tracking-wide text-[#d4a675]">
+                    We Accept
+                </h3>
+
+                <div class="mt-5 grid grid-cols-2   gap-2">
+
+                    <div class="rounded bg-white px-3 py-2  text-center text-xs font-bold text-blue-700">
+                        VISA
+                    </div>
+
+                    <div class="rounded bg-white px-3 py-2 text-center text-xs font-bold text-red-600">
+                        Mc
+                    </div>
+
+                    <div class="rounded bg-white px-3 py-2 text-center text-xs font-bold text-gray-700">
+                        UPI
+                    </div>
+
+                    <div class="rounded bg-white px-3 py-2 text-center text-xs font-bold text-blue-600">
+                        G Pay
+                    </div>
+
+                    <div class="rounded bg-white px  py-2 text-center text-xs font-bold text-black">
+                        PayPal
+                    </div>
+
+                    <div class="rounded bg-white px-3 py-2 text-center text-xs font-bold text-black">
+                        Bhim
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- COPYRIGHT -->
+
+        <div class="mt-8 border-t border-white/10 pt-5 text-center text-xs text-gray-400">
+
+            © 2026 BuyPannu. All Rights Reserved.
+
+        </div>
+
+    </div>
+
+</footer>
+				

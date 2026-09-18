@@ -1,0 +1,3062 @@
+	<html>
+	<head>
+	<link rel="icon" href="images/icon.png" sizes="96x96">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+	<style><!--Added scrollbar hide( resource used from W3s schools)--->
+	/* Chrome, Edge, Safari */
+	::-webkit-scrollbar {
+		display: none;
+	}
+	.feedback::-webkit-scrollbar {
+		display: none;
+	}
+	/* Firefox */
+	html {
+		scrollbar-width: none;
+	}
+
+	/* IE and old Edge */
+	body {
+		-ms-overflow-style: none;
+	}
+
+	/* Chrome, Edge, Safari */
+	.hide-scrollbar::-webkit-scrollbar {
+		display: none
+		
+
+	</style>
+	<title>
+	BuyPannu
+	</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+		
+	</head>
+
+	<body class="font-[Poppins] bg-slate-900	 min-h-screen hide-scrollbar">
+
+	<header class=" px-5 md:px-15   mx-auto py-4 relative ">
+
+	<nav class="relative max-w-[2800px]  mx-auto  bg-[#FEFEFE] -gradient-to-r from-sky-100 to-indigo-100 rounded-3xl shadow-2xl">
+
+		<div class="flex items-center justify-between px-5 h-20">
+
+			<!-- Logo -->
+			<a href="index.HTML"><img  class="w-20" src="images/logo1.png" alt="Logo"></a>
+
+			<!-- Desktop Menu -->
+			<ul class="hidden md:hidden lg:flex items-center gap-8 text-lg font-semibold">
+				<li><a href="index.HTML" class="hover:text-purple-500">Home</a></li>
+				<li><details name="autoclose" class=" relative">
+
+						<summary class="hover:text-purple-500 flex cursor-pointer list-none items-center gap-2  font-semibold">
+							<a href="categories.html">Categories</a>
+							<span class="-mt-2">⌄</span>
+						</summary>
+
+						<div class="absolute left-0 top-8 z-50 w-48 rounded-xl bg-white p-3 shadow-xl">
+
+							<a href="fashion.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Fashion
+							</a>
+
+							<a href="electronics.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Electronics
+							</a>
+
+							<a href="gaming.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Gaming
+							</a>
+
+							<a href="#" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Home & Livings
+							</a></li>
+				<li><details name="autoclose" class=" relative">
+
+						<summary class="hover:text-purple-500 flex cursor-pointer list-none items-center gap-2  font-semibold">
+						   <a href="fashion.html">Fashion</a> 
+							<span class="-mt-2">⌄</span>
+						</summary>
+
+						<div class="absolute left-0 top-8 z-50 w-48 rounded-xl bg-white p-3 shadow-xl">
+
+							<a href="Male-fashion.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Men's Fashion
+							</a>
+
+							<a href="Female-fashion.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Womens's Fashion	
+							</a>
+
+							<a href="kid.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Kids's Fashion
+							</a>
+
+							</li>
+				<li><details name="autoclose"class=" relative">
+
+						<summary class="hover:text-purple-500 flex cursor-pointer list-none items-center gap-2  font-semibold">
+							<a href="electronics.html">Electronics</a>
+							<span class="-mt-2">⌄</span>
+						</summary>
+
+						<div class="absolute left-0 top-8 z-50 w-48 rounded-xl bg-white p-3 shadow-xl">
+
+							<a href="Mobiles.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Mobiles & Tablets
+							</a>
+
+							<a href="computers.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Computers	
+							</a>
+
+							<a href="tv.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								TV & Entertainment
+							</a> 
+							<a href="gaming.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Gaming
+							</a>
+							<a href="accessories.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Accessories
+							</a>
+							<a href="audio.html" class="block rounded-lg px-3 py-2 text-sm hover:bg-purple-50">
+								Audio
+							</a>
+
+							</li>
+				<li><a href="Aboutus.html" class="hover:text-purple-500">About Us</a></li>
+				<li><a href="newarrival.html" class="hover:text-purple-500">New Arrivals</a></li>
+			</ul>
+
+			<!-- Desktop Button -->
+			<button class="hidden md:hidden lg:inline  bg-[#9B8164] text-white px-5 py-2 rounded-xl hover:bg-purple-600">
+				Sign In
+			</button>
+
+			<!-- Mobile Menu -->
+			<!-- MOBILE MENU -->
+	<details class="md:inline lg:hidden relative z-[1000]">
+
+		<!-- MENU ICON -->
+		<summary class="list-none cursor-pointer text-3xl select-none">
+			☰
+		</summary>
+
+
+		<!-- MAIN MENU -->
+		<div class="absolute top-5 right-0 mt-3
+					w-60
+					bg-white
+					rounded-xl
+					shadow-2xl
+					p-5">
+
+			<ul class="space-y-5 font-semibold">
+
+
+				<!-- HOME -->
+				<li>
+					<a href="index.HTML"
+					   class="flex items-center justify-between
+							  hover:text-[#9B8164] transition">
+
+						<span>Home</span>
+
+						<span class="text-xl font-normal">›</span>
+
+					</a>
+				</li>
+
+
+				<!-- CATEGORIES -->
+				<li>
+
+					<details class="relative">
+
+						<!-- CATEGORY TITLE -->
+						<summary
+							class="list-none cursor-pointer
+								   flex items-center justify-between
+								   hover:text-[#9B8164]
+								   transition">
+
+							<span><a href="categories.html">Categories </a></span>
+
+							<span class="text-xl font-normal">
+								›
+							</span>
+
+						</summary>
+
+
+						<!-- CATEGORY SUB MENU -->
+						<div class=" z-1000  sm:absolute
+									sm:top-0
+									sm:right-full
+									mr-3
+									w-40
+									bg-white
+									rounded-xl
+									shadow-2xl
+									p-5">
+
+							<p class="text-xs
+									  text-gray-400
+									  uppercase
+									  tracking-widest
+									  mb-4">
+
+								Categories
+
+							</p>
+
+
+							<ul class="space-y-4
+									   uppercase
+									   text-sm
+									   font-semibold">
+
+
+								<!-- FASHION -->
+								<li>
+
+									<a href="fashion.html"
+									   class="	flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>Fashion</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+
+
+								<!-- ELECTRONICS -->
+								<li>
+
+									<a href="electronics.html"
+									   class="flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>Electronics</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+
+
+								<!-- GAMING -->
+								<li>
+
+									<a href="gaming/gaming.html"
+									   class="flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>Gaming</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+
+
+							
+
+							</ul>
+
+						</div>
+
+					</details>
+
+				</li>
+
+
+				<!-- FASHION -->
+				<li>
+					 <!-- CATEGORY TITLE -->
+					   <details class="relative">
+					   <summary
+							class="list-none cursor-pointer
+								   flex items-center justify-between
+								   hover:text-[#9B8164]
+								   transition">
+
+							<span><a href="fashion.html">Fashion </a></span>
+
+							<span class="text-xl font-normal">
+								›
+							</span>
+
+						</summary>
+							
+							<UL class=" sm:absolute
+									sm:top-0
+									sm:right-full  
+									mr-3
+									w-40 bg-white mr-3 right-50  rounded-xl  flex-cols uppercase tracking-wider grid gap-y-3 px-5 " >
+							<span class="text-sm mt-2 text-gray-400 font-normal">
+								FASHION
+							</span>
+							<LI><a href="Male-fashion.html">Men Fashion</a>
+							
+							</LI>
+							<LI><a href="female-fashion.html">
+							Women Fashion</a>
+							</LI>
+							<LI><a  href="kid.html">
+							Kids Fashion</a>
+							</LI>
+							
+							</UL>
+					</details>
+				</li>
+
+
+		
+				<li>
+
+					<details class="relative">
+
+						<!-- Electronics TITLE -->
+						<summary
+							class="list-none cursor-pointer
+								   flex items-center justify-between
+								   hover:text-[#9B8164]
+								   transition">
+
+							<span><a href="electronics.html">Electronics </a></span>
+
+							<span class="text-xl font-normal">
+								›
+							</span>
+
+						</summary>
+
+
+						<!-- Electronics SUB MENU -->
+						<div class=" z-1000  sm:absolute
+									sm:top-0
+									sm:right-full
+									mr-3
+									w-40
+									bg-white
+									rounded-xl
+									shadow-2xl
+									p-5">
+
+							<p class="text-xs
+									  text-gray-400
+									  uppercase
+									  tracking-widest
+									  mb-4">
+
+								Electronics
+
+							</p>
+
+
+							<ul class="space-y-4
+									   uppercase
+									   text-sm
+									   font-semibold">
+
+
+								<!-- Mobiles and tab -->
+								<li>
+
+									<a href="mobiles.html"
+									   class="	flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>Mobiles</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+
+
+								<!-- computers -->
+								<li>
+
+									<a href="computers.html"
+									   class="flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>computers</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+
+
+								<!-- tv -->
+								<li>
+
+									<a href="tv.html"
+									   class="flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>Tv's</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+								<!-- GAMING -->
+								<li>
+
+									<a href="gaming.html"
+									   class="flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>Gaming</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+								<!-- Access -->
+								<li>
+
+									<a href="accessories.html"
+									   class="flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>Accessories</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+							<!-- audio -->
+								<li>
+
+									<a href="audio.html"
+									   class="flex items-center
+											  justify-between
+											  hover:text-[#9B8164]
+											  transition">
+
+										<span>Audios</span>
+
+										<span>›</span>
+
+									</a>
+
+								</li>
+
+							
+
+							</ul>
+
+						</div>
+
+					</details>
+
+				</li>
+
+				<!-- ABOUT -->
+				<li>
+
+					<a href="aboutus.html"
+					   class="flex items-center justify-between
+							  hover:text-[#9B8164]
+							  transition">
+
+						<span>About Us</span>
+
+						<span class="text-xl font-normal">›</span>
+
+					</a>
+
+				</li>
+
+
+				<!-- NEW ARRIVALS -->
+				<li>
+
+					<a href="Newarrival.html"
+					   class="flex items-center justify-between
+							  hover:text-[#9B8164]
+							  transition">
+
+						<span>New Arrivals</span>
+
+						<span class="text-xl font-normal">›</span>
+
+					</a>
+
+				</li>
+
+			</ul>
+
+
+			<!-- SIGN IN -->
+			<button
+				class="mt-7
+					   w-full
+					   bg-[#9B8164]
+					   hover:bg-purple-500
+					   text-white
+					   py-2.5
+					   rounded-lg
+					   transition">
+
+				Sign In
+
+			</button>
+
+		</div>
+
+	</details>
+
+	</nav>
+
+	</header>
+
+
+<!-- ================= PREMIUM CINEMATIC HERO ================= -->
+
+<section
+  class="relative w-[92%] mx-auto
+         h-[450px] md:h-[560px]
+         rounded-3xl
+         overflow-hidden
+         bg-neutral-950
+         shadow-2xl
+         ring-1 ring-white/10">
+
+  <style>
+
+    /* =====================================================
+       COMMON
+    ===================================================== */
+
+    .hero-slide {
+      animation-duration: 18s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: both;
+    }
+
+
+    /* =====================================================
+       IMAGE ZOOM
+    ===================================================== */
+
+    .hero-image {
+      animation: heroZoom 18s ease-in-out infinite;
+    }
+
+    @keyframes heroZoom {
+
+      0% {
+        transform: scale(1.10);
+      }
+
+      100% {
+        transform: scale(1);
+      }
+
+    }
+
+
+    /* =====================================================
+       SLIDE 1
+    ===================================================== */
+
+    @keyframes slide1 {
+
+      0% {
+        opacity: 0;
+        z-index: 0;
+      }
+
+      5% {
+        opacity: 1;
+        z-index: 20;
+      }
+
+      28% {
+        opacity: 1;
+        z-index: 20;
+      }
+
+      36% {
+        opacity: 0;
+        z-index: 0;
+      }
+
+      100% {
+        opacity: 0;
+        z-index: 0;
+      }
+
+    }
+
+
+    /* =====================================================
+       SLIDE 2
+    ===================================================== */
+
+    @keyframes slide2 {
+
+      0% {
+        opacity: 0;
+        z-index: 0;
+      }
+
+      35% {
+        opacity: 0;
+        z-index: 0;
+      }
+
+      41% {
+        opacity: 1;
+        z-index: 20;
+      }
+
+      63% {
+        opacity: 1;
+        z-index: 20;
+      }
+
+      69% {
+        opacity: 0;
+        z-index: 0;
+      }
+
+      100% {
+        opacity: 0;
+        z-index: 0;
+      }
+
+    }
+
+
+    /* =====================================================
+       SLIDE 3
+    ===================================================== */
+
+    @keyframes slide3 {
+
+      0% {
+        opacity: 0;
+        z-index: 0;
+      }
+
+      68% {
+        opacity: 0;
+        z-index: 0;
+      }
+
+      74% {
+        opacity: 1;
+        z-index: 20;
+      }
+
+      94% {
+        opacity: 1;
+        z-index: 20;
+      }
+
+      100% {
+        opacity: 0;
+        z-index: 0;
+      }
+
+    }
+
+
+    .animate-slide1 {
+      animation-name: slide1;
+    }
+
+    .animate-slide2 {
+      animation-name: slide2;
+    }
+
+    .animate-slide3 {
+      animation-name: slide3;
+    }
+
+
+    /* =====================================================
+       TEXT REVEAL
+    ===================================================== */
+
+    .hero-text-1 {
+      animation: textReveal1 18s ease-in-out infinite;
+    }
+
+    @keyframes textReveal1 {
+
+      0% {
+        opacity: 0;
+        transform: translateY(28px);
+      }
+
+      6% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      28% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      35% {
+        opacity: 0;
+        transform: translateY(-18px);
+      }
+
+      100% {
+        opacity: 0;
+      }
+
+    }
+
+
+    .hero-text-2 {
+      animation: textReveal2 18s ease-in-out infinite;
+    }
+
+    @keyframes textReveal2 {
+
+      0%,
+      35% {
+        opacity: 0;
+        transform: translateY(28px);
+      }
+
+      42% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      63% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      69% {
+        opacity: 0;
+        transform: translateY(-18px);
+      }
+
+      100% {
+        opacity: 0;
+      }
+
+    }
+
+
+    .hero-text-3 {
+      animation: textReveal3 18s ease-in-out infinite;
+    }
+
+    @keyframes textReveal3 {
+
+      0%,
+      68% {
+        opacity: 0;
+        transform: translateY(28px);
+      }
+
+      75% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      94% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      100% {
+        opacity: 0;
+        transform: translateY(-18px);
+      }
+
+    }
+
+
+    /* =====================================================
+       PREMIUM GLOW
+    ===================================================== */
+
+    .hero-glow {
+      animation: premiumGlow 6s ease-in-out infinite;
+    }
+
+    @keyframes premiumGlow {
+
+      0%,
+      100% {
+        opacity: .12;
+        transform: scale(1);
+      }
+
+      50% {
+        opacity: .25;
+        transform: scale(1.12);
+      }
+
+    }
+
+
+    /* =====================================================
+       LIGHT SWEEP
+    ===================================================== */
+
+    .light-sweep {
+      animation: lightSweep 7s ease-in-out infinite;
+    }
+
+    @keyframes lightSweep {
+
+      0% {
+        transform: translateX(-120%);
+        opacity: 0;
+      }
+
+      20% {
+        opacity: .10;
+      }
+
+      50% {
+        opacity: .18;
+      }
+
+      80% {
+        opacity: .05;
+      }
+
+      100% {
+        transform: translateX(120%);
+        opacity: 0;
+      }
+
+    }
+
+  </style>
+
+
+  <!-- =====================================================
+       SLIDE 1 — ELECTRONICS
+       DARK CHAMPAGNE / GOLD
+  ===================================================== -->
+
+  <div
+    class="hero-slide animate-slide1
+           absolute inset-0
+           opacity-0">
+
+    <img
+      src="images/bggg.jpg"
+      alt="Electronics"
+      class="hero-image absolute inset-0
+             w-full h-full
+             object-cover"
+    >
+
+
+    <!-- DARK GOLD CINEMATIC OVERLAY -->
+
+    <div
+      class="absolute inset-0
+             bg-gradient-to-r
+             from-black/90
+             via-[#332b18]/65
+             to-black/15">
+    </div>
+
+
+    <!-- SUBTLE GOLD LIGHT -->
+
+    <div
+      class="absolute inset-0
+             bg-gradient-to-br
+             from-[#d4af37]/10
+             via-transparent
+             to-[#8a6a20]/20">
+    </div>
+
+
+    <!-- LEFT GOLD AMBIENT LIGHT -->
+
+    <div
+      class="hero-glow
+             absolute
+             -left-32
+             top-1/4
+             w-[420px]
+             h-[420px]
+             rounded-full
+             bg-[#c9a227]
+             blur-[150px]">
+    </div>
+
+
+    <!-- CINEMATIC LIGHT SWEEP -->
+
+    <div
+      class="light-sweep
+             absolute
+             -inset-y-20
+             -left-1/2
+             w-1/2
+             rotate-[18deg]
+             bg-gradient-to-r
+             from-transparent
+             via-[#f5d76e]
+             to-transparent
+             blur-3xl">
+    </div>
+
+
+    <!-- DARK VIGNETTE -->
+
+    <div
+      class="absolute inset-0
+             bg-[radial-gradient(circle_at_20%_50%,transparent_0%,rgba(0,0,0,.15)_45%,rgba(0,0,0,.65)_100%)]">
+    </div>
+
+
+    <!-- BOTTOM FADE -->
+
+    <div
+      class="absolute inset-x-0 bottom-0
+             h-40
+             bg-gradient-to-t
+             from-black/80
+             to-transparent">
+    </div>
+
+
+    <!-- CONTENT -->
+
+    <div
+      class="absolute inset-0
+             flex items-center
+             px-7 md:px-16">
+
+      <div
+        class="hero-text-1
+               max-w-xl
+               text-white">
+
+        <!-- LABEL -->
+
+        <div class="flex items-center gap-3 mb-5">
+
+          <span
+            class="w-12 h-[2px]
+                   bg-gradient-to-r
+                   from-[#d4af37]
+                   to-[#f0d77a]">
+          </span>
+
+          <p
+            class="text-[#e6c85c]
+                   uppercase
+                   tracking-[0.3em]
+                   text-xs md:text-sm
+                   font-semibold">
+
+            Latest Technology
+
+          </p>
+
+        </div>
+
+
+        <!-- HEADING -->
+
+        <h1
+          class="text-5xl sm:text-6xl md:text-7xl
+                 font-black
+                 leading-none
+                 tracking-tight">
+
+          Upgrade
+
+          <span
+            class="block
+                   text-transparent
+                   bg-clip-text
+                   bg-gradient-to-r
+                   from-[#fff4c2]
+                   via-[#d4af37]
+                   to-[#a98220]">
+
+            Your World
+
+          </span>
+
+        </h1>
+
+
+        <!-- DESCRIPTION -->
+
+        <p
+          class="text-gray-200/80
+                 mt-5
+                 max-w-md
+                 text-sm md:text-lg
+                 leading-relaxed">
+
+          Discover powerful gadgets, smart devices
+          and the latest technology.
+
+        </p>
+
+
+        <!-- BUTTONS -->
+
+        <div class="flex flex-wrap gap-3 mt-7">
+
+          <a
+            href="#electronics-categories"
+            class="group
+                   inline-flex
+                   items-center
+                   gap-3
+                   bg-white
+                   text-black
+                   px-6 py-3.5
+                   rounded-full
+                   font-bold
+                   shadow-xl
+                   hover:bg-[#e6c85c]
+                   hover:scale-105
+                   transition-all
+                   duration-300">
+
+            Shop Electronics
+
+            <span
+              class="group-hover:translate-x-1
+                     transition-transform">
+
+              →
+
+            </span>
+
+          </a>
+
+
+          <a
+            href="#electronics-categories"
+            class="inline-flex
+                   items-center
+                   border border-white/20
+                   bg-white/5
+                   backdrop-blur-xl
+                   text-white
+                   px-6 py-3.5
+                   rounded-full
+                   font-semibold
+                   hover:bg-white/10
+                   transition">
+
+            Explore
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- NUMBER -->
+
+    <div
+      class="absolute
+             right-7 bottom-7
+             text-[#e6c85c]/60
+             text-xs
+             tracking-[0.3em]">
+
+      01 / 03
+
+    </div>
+
+  </div>
+
+
+
+  <!-- =====================================================
+       SLIDE 2 — GAMING
+       DEEP VIOLET
+  ===================================================== -->
+
+  <div
+    class="hero-slide animate-slide2
+           absolute inset-0
+           opacity-0">
+
+    <img
+      src="images/consoles.jpg"
+      alt="Gaming"
+      class="hero-image absolute inset-0
+             w-full h-full
+             object-cover"
+    >
+
+
+    <!-- DEEP VIOLET OVERLAY -->
+
+    <div
+      class="absolute inset-0
+             bg-gradient-to-r
+             from-[#12051f]/95
+             via-[#2b1245]/70
+             to-[#180b2e]/20">
+    </div>
+
+
+    <!-- PURPLE COLOR WASH -->
+
+    <div
+      class="absolute inset-0
+             bg-gradient-to-br
+             from-violet-600/10
+             via-transparent
+             to-fuchsia-600/20">
+    </div>
+
+
+    <!-- VIOLET GLOW -->
+
+    <div
+      class="hero-glow
+             absolute
+             -left-32
+             top-1/4
+             w-[420px]
+             h-[420px]
+             rounded-full
+             bg-violet-600
+             blur-[150px]">
+    </div>
+
+
+    <!-- LIGHT SWEEP -->
+
+    <div
+      class="light-sweep
+             absolute
+             -inset-y-20
+             -left-1/2
+             w-1/2
+             rotate-[18deg]
+             bg-gradient-to-r
+             from-transparent
+             via-violet-300
+             to-transparent
+             blur-3xl">
+    </div>
+
+
+    <!-- VIGNETTE -->
+
+    <div
+      class="absolute inset-0
+             bg-[radial-gradient(circle_at_20%_50%,transparent_0%,rgba(0,0,0,.18)_45%,rgba(0,0,0,.70)_100%)]">
+    </div>
+
+
+    <!-- BOTTOM FADE -->
+
+    <div
+      class="absolute inset-x-0 bottom-0
+             h-40
+             bg-gradient-to-t
+             from-[#100519]/90
+             to-transparent">
+    </div>
+
+
+    <!-- CONTENT -->
+
+    <div
+      class="absolute inset-0
+             flex items-center
+             px-7 md:px-16">
+
+      <div
+        class="hero-text-2
+               max-w-xl
+               text-white">
+
+        <div class="flex items-center gap-3 mb-5">
+
+          <span
+            class="w-12 h-[2px]
+                   bg-gradient-to-r
+                   from-violet-400
+                   to-fuchsia-400">
+          </span>
+
+          <p
+            class="text-violet-300
+                   uppercase
+                   tracking-[0.3em]
+                   text-xs md:text-sm
+                   font-semibold">
+
+            Level Up
+
+          </p>
+
+        </div>
+
+
+        <h1
+          class="text-5xl sm:text-6xl md:text-7xl
+                 font-black
+                 leading-none
+                 tracking-tight">
+
+          Enter The
+
+          <span
+            class="block
+                   text-transparent
+                   bg-clip-text
+                   bg-gradient-to-r
+                   from-violet-200
+                   via-violet-500
+                   to-fuchsia-400">
+
+            Game
+
+          </span>
+
+        </h1>
+
+
+        <p
+          class="text-violet-100/80
+                 mt-5
+                 max-w-md
+                 text-sm md:text-lg
+                 leading-relaxed">
+
+          Powerful gaming PCs, consoles,
+          controllers and accessories for your setup.
+
+        </p>
+
+
+        <div class="flex flex-wrap gap-3 mt-7">
+
+          <a
+            href="gaming.html"
+            class="group
+                   inline-flex
+                   items-center
+                   gap-3
+                   bg-white
+                   text-black
+                   px-6 py-3.5
+                   rounded-full
+                   font-bold
+                   shadow-xl
+                   hover:bg-violet-300
+                   hover:scale-105
+                   transition-all
+                   duration-300">
+
+            Explore Gaming
+
+            <span
+              class="group-hover:translate-x-1
+                     transition-transform">
+
+              →
+
+            </span>
+
+          </a>
+
+
+          <a
+            href="gaming.html"
+            class="inline-flex
+                   items-center
+                   border border-violet-300/20
+                   bg-violet-100/5
+                   backdrop-blur-xl
+                   text-white
+                   px-6 py-3.5
+                   rounded-full
+                   font-semibold
+                   hover:bg-violet-100/10
+                   transition">
+
+            Gaming Deals
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div
+      class="absolute
+             right-7 bottom-7
+             text-violet-200/60
+             text-xs
+             tracking-[0.3em]">
+
+      02 / 03
+
+    </div>
+
+  </div>
+
+
+
+  <!-- =====================================================
+       SLIDE 3 — AUDIO
+       GRAPHITE / SILVER
+  ===================================================== -->
+
+  <div
+    class="hero-slide animate-slide3
+           absolute inset-0
+           opacity-0">
+
+    <img
+      src="images/herobanner3.jpg"
+      alt="Audio"
+      class="hero-image absolute inset-0
+             w-full h-full
+             object-cover"
+    >
+
+
+    <!-- GRAPHITE OVERLAY -->
+
+    <div
+      class="absolute inset-0
+             bg-gradient-to-r
+             from-black/95
+             via-gray-900/65
+             to-gray-700/15">
+    </div>
+
+
+    <!-- SILVER COLOR WASH -->
+
+    <div
+      class="absolute inset-0
+             bg-gradient-to-br
+             from-white/5
+             via-transparent
+             to-gray-400/15">
+    </div>
+
+
+    <!-- SOFT WHITE GLOW -->
+
+    <div
+      class="hero-glow
+             absolute
+             -left-32
+             top-1/4
+             w-[420px]
+             h-[420px]
+             rounded-full
+             bg-white
+             blur-[160px]">
+    </div>
+
+
+    <!-- SILVER LIGHT SWEEP -->
+
+    <div
+      class="light-sweep
+             absolute
+             -inset-y-20
+             -left-1/2
+             w-1/2
+             rotate-[18deg]
+             bg-gradient-to-r
+             from-transparent
+             via-white
+             to-transparent
+             blur-3xl">
+    </div>
+
+
+    <!-- VIGNETTE -->
+
+    <div
+      class="absolute inset-0
+             bg-[radial-gradient(circle_at_20%_50%,transparent_0%,rgba(0,0,0,.18)_45%,rgba(0,0,0,.75)_100%)]">
+    </div>
+
+
+    <!-- BOTTOM FADE -->
+
+    <div
+      class="absolute inset-x-0 bottom-0
+             h-40
+             bg-gradient-to-t
+             from-black/90
+             to-transparent">
+    </div>
+
+
+    <!-- CONTENT -->
+
+    <div
+      class="absolute inset-0
+             flex items-center
+             px-7 md:px-16">
+
+      <div
+        class="hero-text-3
+               max-w-xl
+               text-white">
+
+        <div class="flex items-center gap-3 mb-5">
+
+          <span
+            class="w-12 h-[2px]
+                   bg-gradient-to-r
+                   from-white
+                   to-gray-400">
+          </span>
+
+          <p
+            class="text-gray-200
+                   uppercase
+                   tracking-[0.3em]
+                   text-xs md:text-sm
+                   font-semibold">
+
+            Immersive Sound
+
+          </p>
+
+        </div>
+
+
+        <h1
+          class="text-5xl sm:text-6xl md:text-7xl
+                 font-black
+                 leading-none
+                 tracking-tight">
+
+          Feel
+
+          <span
+            class="block
+                   text-transparent
+                   bg-clip-text
+                   bg-gradient-to-r
+                   from-white
+                   via-gray-200
+                   to-gray-500">
+
+            Every Beat
+
+          </span>
+
+        </h1>
+
+
+        <p
+          class="text-gray-200/80
+                 mt-5
+                 max-w-md
+                 text-sm md:text-lg
+                 leading-relaxed">
+
+          Premium headphones, earbuds and speakers
+          designed to bring your music to life.
+
+        </p>
+
+
+        <div class="flex flex-wrap gap-3 mt-7">
+
+          <a
+            href="audio.html"
+            class="group
+                   inline-flex
+                   items-center
+                   gap-3
+                   bg-white
+                   text-black
+                   px-6 py-3.5
+                   rounded-full
+                   font-bold
+                   shadow-xl
+                   hover:bg-gray-200
+                   hover:scale-105
+                   transition-all
+                   duration-300">
+
+            Explore Audio
+
+            <span
+              class="group-hover:translate-x-1
+                     transition-transform">
+
+              →
+
+            </span>
+
+          </a>
+
+
+          <a
+            href="audio.html"
+            class="inline-flex
+                   items-center
+                   border border-white/20
+                   bg-white/5
+                   backdrop-blur-xl
+                   text-white
+                   px-6 py-3.5
+                   rounded-full
+                   font-semibold
+                   hover:bg-white/10
+                   transition">
+
+            View Products
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div
+      class="absolute
+             right-7 bottom-7
+             text-white/60
+             text-xs
+             tracking-[0.3em]">
+
+      03 / 03
+
+    </div>
+
+  </div>
+
+
+
+  <!-- =====================================================
+       PREMIUM CORNERS
+  ===================================================== -->
+
+  <div
+    class="absolute
+           top-5 right-5
+           w-14 h-14
+           border-t border-r
+           border-white/10
+           rounded-tr-2xl
+           pointer-events-none">
+  </div>
+
+
+  <div
+    class="absolute
+           bottom-5 left-5
+           w-14 h-14
+           border-b border-l
+           border-white/10
+           rounded-bl-2xl
+           pointer-events-none">
+  </div>
+
+
+  <!-- TOP GLASS HIGHLIGHT -->
+
+  <div
+    class="absolute
+           top-0 left-1/2
+           -translate-x-1/2
+           w-1/2
+           h-px
+           bg-gradient-to-r
+           from-transparent
+           via-white/20
+           to-transparent
+           pointer-events-none">
+  </div>
+
+</section>
+
+
+<!-- ================= ELECTRONICS SECTION ================= -->
+<section class="py-12 px-4">
+
+  <!-- Heading -->
+  <div class="max-w-7xl mx-auto text-center mb-8">
+    <h2 class="text-3xl md:text-4xl font-bold text-white">
+      Electronics
+    </h2>
+    <p class="text-slate-400 mt-2">
+      Upgrade your tech with the latest gadgets
+    </p>
+  </div>
+
+  <!-- Category Grid -->
+  <div class="max-w-7xl mx-auto grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+
+    <!-- Mobiles & Tablets -->
+    <a href="mobiles.html"
+       class="group relative h-64 overflow-hidden rounded-2xl border border-slate-800">
+      <img src="images\phone.jpg"
+           class="w-full h-full object-cover transition duration-500 group-hover:scale-110"
+           alt="Mobiles and Tablets">
+
+      <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
+
+      <div class="absolute bottom-0 left-0 p-4">
+        <h3 class="text-white font-bold text-lg">Mobiles & Tablets</h3>
+        <p class="text-slate-300 text-sm">Smart devices</p>
+      </div>
+    </a>
+
+    <!-- Computers -->
+    <a href="computers.html"
+       class="group relative h-64 overflow-hidden rounded-2xl bg-slate-900 border border-slate-800">
+      <img src="images\pc.jpg"
+           class="w-full h-full object-fit transition duration-500 group-hover:scale-110"
+           alt="Computers">
+
+      <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
+
+      <div class="absolute bottom-0 left-0 p-4">
+        <h3 class="text-white font-bold text-lg">Computers</h3>
+        <p class="text-slate-300 text-sm">Laptops & PCs</p>
+      </div>
+    </a>
+
+    <!-- TV & Entertainment -->
+    <a href="tv.html"
+       class="group relative h-64 overflow-hidden rounded-2xl bg-slate-900 border border-slate-800">
+      <img src="images\tv.jpg"
+           class="w-full h-full object-cover transition duration-500 group-hover:scale-110"
+           alt="TV and Entertainment">
+
+      <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
+
+      <div class="absolute bottom-0 left-0 p-4">
+        <h3 class="text-white font-bold text-lg">TV & Entertainment</h3>
+        <p class="text-slate-300 text-sm">Smart TVs & more</p>
+      </div>
+    </a>
+
+    <!-- Gaming -->
+    <a href="gaming.html"
+       class="group relative h-64 overflow-hidden rounded-2xl bg-slate-900 border border-slate-800">
+      <img src="images\consoles.jpg"
+           class="w-full h-full object-fit transition duration-500 group-hover:scale-110"
+           alt="Gaming">
+
+      <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
+
+      <div class="absolute bottom-0 left-0 p-4">
+        <h3 class="text-white font-bold text-lg">Gaming</h3>
+        <p class="text-slate-300 text-sm">Consoles & gear</p>
+      </div>
+    </a>
+
+    <!-- Accessories -->
+    <a href="accessories.html"
+       class="group relative h-64 overflow-hidden rounded-2xl bg-slate-900 border border-slate-800">
+      <img src="images\access.jpg"
+           class="w-full h-full object-cover transition duration-500   group-hover:scale-110"
+           alt="Electronics Accessories">
+
+      <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
+
+      <div class="absolute bottom-0 left-0 p-4">
+        <h3 class="text-white font-bold text-lg">Accessories</h3>
+        <p class="text-slate-300 text-sm">Smart tech essentials</p>
+      </div>
+    </a>
+
+    <!-- Audio -->
+    <a href="audio.html"
+       class="group relative h-64 overflow-hidden rounded-2xl bg-slate-950 border border-slate-800">
+      <img src="images\newar2.jpg"
+           class="w-full h-full object-cover transition duration-500 group-hover:scale-110"
+           alt="Audio">
+
+      <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
+
+      <div class="absolute bottom-0 left-0 p-4">
+        <h3 class="text-white font-bold text-lg">Audio</h3>
+        <p class="text-slate-300 text-sm">Headphones & speakers</p>
+      </div>
+    </a>
+
+  </div>
+</section>
+	
+	
+	<!----mobiles---->
+	
+	
+<section class=" py-12"> 
+ 
+  <div class="max-w-7xl mx-auto px-4"> 
+ 
+    <!-- HEADER --> 
+    <div class="flex items-end justify-between mb-4"> 
+ 
+      <div> 
+        <p class="text-xs uppercase tracking-[0.3em] text-purple-400 font-semibold"> 
+          Electronics 
+        </p> 
+ 
+        <h2 class="text-3xl md:text-4xl font-bold text-white"> 
+          Mobiles & Tablets 
+        </h2> 
+      </div> 
+ 
+      <a href="#" 
+         class="text-sm font-semibold text-purple-400 hover:text-purple-300"> 
+        View All → 
+      </a> 
+ 
+    </div> 
+ 
+ 
+    <!-- SCROLL AREA --> 
+    <!-- py-5 gives hover space above and below --> 
+    <div class="overflow-x-auto scrollbar-hide  [&::-webkit-scrollbar]:hidden 
+              [-ms-overflow-style:none] 
+              [scrollbar-width:none py-5"> 
+ 
+      <!-- CARD ROW --> 
+      <div class="flex gap-5 w-max px-1"> 
+ 
+ 
+        <!-- CARD 1 --> 
+        <div class="group w-52 sm:w-60 shrink-0 
+                    bg-slate-900 
+                    rounded-2xl 
+                    p-4 
+                    border border-slate-800 
+                    hover:border-purple-500 
+                    hover:-translate-y-2 
+                    hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)] 
+                    transition-all duration-300"> 
+ 
+          <!-- IMAGE --> 
+          <div class="h-48 rounded-xl  overflow-hidden"> 
+ 
+            <img 
+              src="images/phone.jpg" 
+              alt="Smartphones" 
+				 draggable="false" 	
+              class="w-full h-full object-fit scale-155 p-4 
+                     group-hover:scale-170 
+                     transition-transform duration-500" 
+            > 
+ 
+          </div> 
+ 
+          <h3 class="mt-4 text-lg font-semibold text-white"> 
+            Smartphones 
+          </h3> 
+ 
+          <p class="mt-1 text-xs text-slate-400"> 
+            Latest mobiles 
+          </p> 
+ 
+        </div> 
+ 
+ 
+        <!-- CARD 2 --> 
+        <div class="group w-52 sm:w-60 shrink-0 
+                    bg-slate-900 
+                    rounded-2xl 
+                    p-4 
+                    border border-slate-800 
+                    hover:border-purple-500 
+                    hover:-translate-y-2 
+                    hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)] 
+                    transition-all duration-300"> 
+ 
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden"> 
+ 
+            <img 
+              src="images/tablet.jpg" 
+              alt="Tablets" 
+			 draggable="false" 
+              class="w-full h-full object-fit rounded-xl scale-140  p-4 
+                     group-hover:scale-150 
+                     transition-transform duration-500" > 
+ 
+          </div> 
+ 
+          <h3 class="mt-4 text-lg font-semibold text-white"> 
+            Tablets 
+          </h3> 
+ 
+          <p class="mt-1 text-xs text-slate-400"> 
+            Android • iPad 
+          </p> 
+ 
+        </div> 
+ 
+ 
+        <!-- CARD 3 --> 
+        <div class="group w-52 sm:w-60 shrink-0 
+                    bg-slate-900 
+                    rounded-2xl 
+                    p-4 
+                    border border-slate-800 
+                    hover:border-purple-500 
+                    hover:-translate-y-2 
+                    hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)] 
+                    transition-all duration-300"> 
+ 
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden"> 
+ 
+            <img 
+              src="images/iphone1.jpg" 
+              alt="iPhone" 
+			 draggable="false" 
+              class="w-full h-full scale-190 object-contain p-4 
+                     group-hover:scale-210 
+                     transition-transform duration-500" 
+            > 
+ 
+          </div> 
+ 
+          <h3 class="mt-4 text-lg font-semibold text-white"> 
+            iPhone 
+          </h3> 
+ 
+          <p class="mt-1 text-xs text-slate-400"> 
+            Apple 
+          </p> 
+ 
+        </div> 
+ 
+ 
+        <!-- CARD 4 --> 
+        <div class="group w-52 sm:w-60 shrink-0 
+                    bg-slate-900 
+                    rounded-2xl 
+                    p-4 
+                    border border-slate-800 
+                    hover:border-purple-500 
+                    hover:-translate-y-2 
+                    hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)] 
+                    transition-all duration-300"> 
+ 
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden"> 
+ 
+            <img 
+              src="images/samsung1.jpg" 
+              alt="Samsung" 
+			 draggable="false" 
+              class="w-full h-full  scale-160 object-contain p-4 
+                     group-hover:scale-190 
+                     transition-transform duration-500" 
+            > 
+ 
+          </div> 
+ 
+          <h3 class="mt-4 text-lg font-semibold text-white"> 
+            Samsung 
+          </h3> 
+ 
+          <p class="mt-1 text-xs text-slate-400"> 
+            Galaxy Series 
+          </p> 
+ 
+        </div> 
+ 
+ 
+        <!-- CARD 5 --> 
+        <div class="group w-52 sm:w-60 shrink-0 
+                    bg-slate-900 
+                    rounded-2xl 
+                    p-4 
+                    border border-slate-800 
+                    hover:border-purple-500 
+                    hover:-translate-y-2 
+                    hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)] 
+                    transition-all duration-300"> 
+ 
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden"> 
+ 
+            <img 
+              src="images/oneplus.jpg" 
+              alt="OnePlus" 
+ draggable="false" 
+              class="w-full h-full  scale-240 object-[50%_25%] object-contain p-4 
+                     group-hover:scale-260 
+                     transition-transform duration-500" 
+            > 
+ 
+          </div> 
+ 
+          <h3 class="mt-4 text-lg font-semibold text-white"> 
+            OnePlus 
+          </h3> 
+ 
+          <p class="mt-1 text-xs text-slate-400"> 
+            Flagship Phones 
+          </p> 
+ 
+        </div> 
+ 
+ 
+        <!-- CARD 6 --> 
+        <div class="group w-52 sm:w-60 shrink-0 
+                    bg-slate-900 
+                    rounded-2xl 
+                    p-4 
+                    border border-slate-800 
+                    hover:border-purple-500 
+                    hover:-translate-y-2 
+                    hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)] 
+                    transition-all duration-300"> 
+ 
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden"> 
+ 
+            <img 
+              src="images/oppo.jpg" 
+              alt="OPPO" 
+			 draggable="false" 
+              class="w-full h-full  scale-140 rounded-xl object-contain p-4 
+                     group-hover:scale-150 
+                     transition-transform duration-500" 
+            > 
+ 
+          </div> 
+ 
+          <h3 class="mt-4 text-lg font-semibold text-white"> 
+            OPPO 
+          </h3> 
+ 
+          <p class="mt-1 text-xs text-slate-400"> 
+            Reno Series 
+          </p> 
+ 
+        </div> 
+ 
+ 
+        <!-- CARD 7 --> 
+        <div class="group w-52 sm:w-60 shrink-0 
+                    bg-slate-900 
+                    rounded-2xl 
+                    p-4 
+                    border border-slate-800 
+                    hover:border-purple-500 
+                    hover:-translate-y-2 
+                    hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)] 
+                    transition-all duration-300"> 
+ 
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden"> 
+ 
+            <img 
+              src="images/vivo.jpg" 
+              alt="Vivo"
+			   draggable="false" 
+              class="w-full h-full scale-210 object-contain p-4 
+                     group-hover:scale-180 
+                     transition-transform duration-500" 
+            > 
+ 
+          </div> 
+ 
+          <h3 class="mt-4 text-lg font-semibold text-white"> 
+            Vivo 
+          </h3> 
+ 
+          <p class="mt-1 text-xs text-slate-400"> 
+            Smartphones 
+          </p> 
+ 
+        </div> 
+ 
+ 
+        <!-- CARD 8 --> 
+        <div class="group w-52 sm:w-60 shrink-0 
+                    bg-slate-900 
+                    rounded-2xl 
+                    p-4 
+                    border border-slate-800 
+                    hover:border-purple-500 
+                    hover:-translate-y-2 
+                    hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)] 
+                    transition-all duration-300"> 
+ 
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden"> 
+ 
+            <img 
+              src="images/xiaomi.jpg" 
+              alt="Xiaomi" 
+              draggable="false" 
+              class="w-full h-full scale-160 object-contain p-4 
+                     group-hover:scale-180 
+                     transition-transform duration-500" 
+            > 
+ 
+          </div> 
+ 
+          <h3 class="mt-4 text-lg font-semibold text-white"> 
+            Xiaomi 
+          </h3> 
+ 
+          <p class="mt-1 text-xs text-slate-400"> 
+            Redmi • Xiaomi 
+          </p> 
+ 
+        </div> 
+ 
+ 
+        <!-- CARD 9 --> 
+        <div class="group w-52 sm:w-60 shrink-0 
+                    bg-slate-900 
+                    rounded-2xl 
+                    p-4 
+                    border border-slate-800 
+                    hover:border-purple-500 
+                    hover:-translate-y-2 
+                    hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)] 
+                    transition-all duration-300"> 
+ 
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden"> 
+ 
+            <img 
+              src="images/pixel.jpg" 
+              alt="Google Pixel" 
+			 draggable="false" 
+              class="w-full h-full scale-240 object-contain p-4 
+                     group-hover:scale-220 
+                     transition-transform duration-500" 
+            > 
+ 
+          </div> 
+ 
+          <h3 class="mt-4 text-lg font-semibold text-white"> 
+            Google Pixel 
+          </h3> 
+ 
+          <p class="mt-1 text-xs text-slate-400"> 
+            Pixel Series 
+          </p> 
+ 
+        </div> 
+ 
+ 
+        <!-- CARD 10 --> 
+        <div class="group w-52 sm:w-60 shrink-0 
+                    bg-slate-900 
+                    rounded-2xl 
+                    p-4 
+                    border border-slate-800 
+                    hover:border-purple-500 
+                    hover:-translate-y-2 
+                    hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)] 
+                    transition-all duration-300"> 
+ 
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden"> 
+ 
+            <img 
+              src="images/foldable.jpg" 
+              alt="Foldable Phones" 
+              draggable="false" 
+              class="w-full h-full scale-150 object-contain p-4 
+                     group-hover:scale-170 
+                     transition-transform duration-500" 
+            > 
+ 
+          </div> 
+ 
+          <h3 class="mt-4 text-lg font-semibold text-white"> 
+            Foldables 
+          </h3> 
+ 
+          <p class="mt-1 text-xs text-slate-400"> 
+            Foldable Phones 
+          </p> 
+ 
+        </div> 
+ 
+      </div> 
+ 
+    </div> 
+ 
+  </div> 
+ 
+</section>
+	
+	
+	
+	
+	
+	<!----Computers--->
+	
+	
+	<section class=" py-12">
+
+  <div class="max-w-7xl mx-auto px-4">
+
+    <div class="flex items-end justify-between mb-4">
+
+      <div>
+        <p class="text-xs uppercase tracking-[0.3em] text-purple-400 font-semibold">
+          Electronics
+        </p>
+
+        <h2 class="text-3xl md:text-4xl font-bold text-white">
+          Computers
+        </h2>
+      </div>
+
+      <a href="#"
+         class="text-sm font-semibold text-purple-400 hover:text-purple-300">
+        View All →
+      </a>
+
+    </div>
+
+
+    <div class="overflow-x-auto [&::-webkit-scrollbar]:hidden
+                [-ms-overflow-style:none]
+                [scrollbar-width:none] py-5">
+
+      <div class="flex gap-5 w-max px-1">
+
+
+        <!-- 1 -->
+        <div class="group w-52 sm:w-60 shrink-0 bg-slate-900 rounded-2xl p-4
+                    border border-slate-800 hover:border-purple-500
+                    hover:-translate-y-2
+                    hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)]
+                    transition-all duration-300">
+
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden">
+            <img src="images/destop.jpg" alt="Desktop Computers"
+		 draggable="false" 
+                 class="w-full h-full  scale-170 object-contain p-4
+                        group-hover:scale-190 transition-transform duration-500">
+          </div>
+
+          <h3 class="mt-4 text-lg font-semibold text-white">Desktops</h3>
+          <p class="mt-1 text-xs text-slate-400">Powerful Desktop PCs</p>
+
+        </div>
+
+
+        <!-- 2 -->
+        <div class="group w-52 sm:w-60 shrink-0 bg-slate-900 rounded-2xl p-4
+                    border border-slate-800 hover:border-purple-500
+                    hover:-translate-y-2
+                    hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)]
+                    transition-all duration-300">
+
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden">
+            <img src="images/pcbanner3.jpg" alt="Laptops"
+                 draggable="false"
+                 class="w-full h-full  scale-200  object-contain p-4
+                        group-hover:scale-190 transition-transform duration-500">
+          </div>
+
+          <h3 class="mt-4 text-lg font-semibold text-white">Laptops</h3>
+          <p class="mt-1 text-xs text-slate-400">Work • Study • Gaming</p>
+
+        </div>
+
+
+        <!-- 3 -->
+        <div class="group w-52 sm:w-60 shrink-0 bg-slate-900 rounded-2xl p-4
+                    border border-slate-800 hover:border-purple-500
+                    hover:-translate-y-2
+                    hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)]
+                    transition-all duration-300">
+
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden">
+            <img src="images/gamingpx.jpg" alt="Gaming PCs"
+				 draggable="false" 
+                 class="w-full h-full scale-120 object-[30%_50%] object-cover p-4
+                        group-hover:scale-129 transition-transform duration-500">
+          </div>
+
+          <h3 class="mt-4 text-lg font-semibold text-white">Gaming PCs</h3>
+          <p class="mt-1 text-xs text-slate-400">High Performance</p>
+
+        </div>
+
+
+        <!-- 4 -->
+        <div class="group w-52 sm:w-60 shrink-0 bg-slate-900 rounded-2xl p-4
+                    border border-slate-800 hover:border-purple-500
+                    hover:-translate-y-2
+                    hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)]
+                    transition-all duration-300 ">
+
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden">
+            <img src="images/monitor.jpg" alt="Monitors"
+			 draggable="false" 
+                 class="w-full h-full scale-150   object-contain p-4
+                        group-hover:scale-170 transition-transform duration-500">
+          </div>
+
+          <h3 class="mt-4 text-lg font-semibold text-white">Monitors</h3>
+          <p class="mt-1 text-xs text-slate-400">4K • Curved • Gaming</p>
+
+        </div>
+
+
+        <!-- 5 -->
+        <div class="group w-52 sm:w-60 shrink-0 bg-slate-900 rounded-2xl p-4
+                    border border-slate-800 hover:border-purple-500
+                    hover:-translate-y-2
+                    hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)]
+                    transition-all duration-300">
+
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden">
+            <img src="images/mac.jpg" alt="Mac Computers"
+                 draggable="false"
+                 class="w-full h-full scale-192 object-[24%_75%] object-contain p-4
+                        group-hover:scale-212 transition-transform duration-500">
+          </div>
+
+          <h3 class="mt-4 text-lg font-semibold text-white">Mac</h3>
+          <p class="mt-1 text-xs text-slate-400">Apple Computing</p>
+
+        </div>
+
+
+        <!-- 6 -->
+        <div class="group w-52 sm:w-60 shrink-0 bg-slate-900 rounded-2xl p-4
+                    border border-slate-800 hover:border-purple-500
+                    hover:-translate-y-2
+                    hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)]
+                    transition-all duration-300">
+
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden">
+            <img src="images/keyboards.jpg" alt="Keyboards"
+                 draggable="false"
+                 class="w-full h-full  scale-190 object-contain p-4
+                        group-hover:scale-210 transition-transform duration-500">
+          </div>
+
+          <h3 class="mt-4 text-lg font-semibold text-white">Keyboards</h3>
+          <p class="mt-1 text-xs text-slate-400">Mechanical • Wireless</p>
+
+        </div>
+
+
+        <!-- 7 -->
+        <div class="group w-52 sm:w-60 shrink-0 bg-slate-900 rounded-2xl p-4
+                    border border-slate-800 hover:border-purple-500
+                    hover:-translate-y-2
+                    hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)]
+                    transition-all duration-300">
+
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden">
+            <img src="images/mouse.jpg" alt="Computer Mouse"
+                 draggable="false"
+                 class="w-full h-full scale-210   object-contain p-4
+                        group-hover:scale-240 transition-transform duration-500">
+          </div>
+
+          <h3 class="mt-4 text-lg font-semibold text-white">Mouse</h3>
+          <p class="mt-1 text-xs text-slate-400">Wireless • Gaming</p>
+
+        </div>
+
+
+        <!-- 8 -->
+        <div class="group w-52 sm:w-60 shrink-0 bg-slate-900 rounded-2xl p-4
+                    border border-slate-800 hover:border-purple-500
+                    hover:-translate-y-2
+                    hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)]
+                    transition-all duration-300">
+
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden">
+            <img src="images/printer.jpg" alt="Printers"
+				 draggable="false" 
+                 class="w-full h-full scale-210   object-contain p-4
+                        group-hover:scale-240 transition-transform duration-500">
+          </div>
+
+          <h3 class="mt-4 text-lg font-semibold text-white">Printers</h3>
+          <p class="mt-1 text-xs text-slate-400">Home • Office</p>
+
+        </div>
+
+
+        <!-- 9 -->
+        <div class="group w-52 sm:w-60 shrink-0 bg-slate-900 rounded-2xl p-4
+                    border border-slate-800 hover:border-purple-500
+                    hover:-translate-y-2
+                    hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)]
+                    transition-all duration-300">
+
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden">
+            <img src="images/tablet-pc.jpg" alt="2 in 1 Computers"
+				 draggable="false" 
+                 class="w-full h-full scale-120 object-cover p-4
+                        group-hover:scale-160 transition-transform duration-500">
+          </div>
+
+          <h3 class="mt-4 text-lg font-semibold text-white">2-in-1 PCs</h3>
+          <p class="mt-1 text-xs text-slate-400">Tablet • Laptop</p>
+
+        </div>
+
+
+        <!-- 10 -->
+        <div class="group w-52 sm:w-60 shrink-0 bg-slate-900 rounded-2xl p-4
+                    border border-slate-800 hover:border-purple-500
+                    hover:-translate-y-2
+                    hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)]
+                    transition-all duration-300">
+
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden">
+            <img src="images/webcam.jpg" alt="Webcams"
+                 draggable="false"
+                 class="w-full h-full scale-180    object-contain p-4
+                        group-hover:scale-200 transition-transform duration-500">
+          </div>
+
+          <h3 class="mt-4 text-lg font-semibold text-white">Webcams</h3>
+          <p class="mt-1 text-xs text-slate-400">Streaming • Meetings</p>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!---tv---->
+
+
+<section class="py-12">
+
+  <div class="max-w-7xl mx-auto px-4">
+
+    <div class="flex items-end justify-between mb-4">
+
+      <div>
+        <p class="text-xs uppercase tracking-[0.3em] text-purple-400 font-semibold">
+          Electronics
+        </p>
+
+        <h2 class="text-3xl md:text-4xl font-bold text-white">
+          TV & Entertainment
+        </h2>
+      </div>
+
+      <a href="#" class="text-sm font-semibold text-purple-400 hover:text-purple-300">
+        View All →
+      </a>
+
+    </div>
+
+
+    <div class="overflow-x-auto [&::-webkit-scrollbar]:hidden
+                [-ms-overflow-style:none]
+                [scrollbar-width:none] py-5">
+
+      <div class="flex gap-5 w-max px-1">
+
+
+        <!-- 1 -->
+        <div class="group w-52 sm:w-60 shrink-0 bg-slate-900 rounded-2xl p-4 border border-slate-800 hover:border-purple-500 hover:-translate-y-2 hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)] transition-all duration-300">
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden">
+            <img src="images/smart-tv.jpg" alt="Smart TV" draggable="false"
+                 class="w-full h-full scale-190 object-contain p-4 group-hover:scale-200 transition-transform duration-500">
+          </div>
+          <h3 class="mt-4 text-lg font-semibold text-white">Smart TVs</h3>
+          <p class="mt-1 text-xs text-slate-400">4K • OLED • QLED</p>
+        </div>
+
+
+        <!-- 2 -->
+        <div class="group w-52 sm:w-60 shrink-0 bg-slate-900 rounded-2xl p-4 border border-slate-800 hover:border-purple-500 hover:-translate-y-2 hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)] transition-all duration-300">
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden">
+            <img src="images/oled-tv.jpg" alt="OLED TV" draggable="false"
+                 class="w-full h-full  scale-120   object-cover p-4 group-hover:scale-160 transition-transform duration-500">
+          </div>
+          <h3 class="mt-4 text-lg font-semibold text-white">OLED TVs</h3>
+          <p class="mt-1 text-xs text-slate-400">Premium Display</p>
+        </div>
+
+
+        <!-- 3 -->
+        <div class="group w-52 sm:w-60 shrink-0 bg-slate-900 rounded-2xl p-4 border border-slate-800 hover:border-purple-500 hover:-translate-y-2 hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)] transition-all duration-300">
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden">
+            <img src="images/qled-tv.jpg" alt="QLED TV" draggable="false"
+                 class="w-full h-full scale-170 object-contain p-4 group-hover:scale-190 transition-transform duration-500">
+          </div>
+          <h3 class="mt-4 text-lg font-semibold text-white">QLED TVs</h3>
+          <p class="mt-1 text-xs text-slate-400">Bright • Vibrant</p>
+        </div>
+
+
+        <!-- 4 -->
+        <div class="group w-52 sm:w-60 shrink-0 bg-slate-900 rounded-2xl p-4 border border-slate-800 hover:border-purple-500 hover:-translate-y-2 hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)] transition-all duration-300">
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden">
+            <img src="images/projector.jpg" alt="Projectors" draggable="false"
+                 class="w-full h-full object-contain p-4 group-hover:scale-190 scale-160 transition-transform duration-500">
+          </div>
+          <h3 class="mt-4 text-lg font-semibold text-white">Projectors</h3>
+          <p class="mt-1 text-xs text-slate-400">Home Cinema</p>
+        </div>
+
+
+        <!-- 5 -->
+        <div class="group w-52 sm:w-60 shrink-0 bg-slate-900 rounded-2xl p-4 border border-slate-800 hover:border-purple-500 hover:-translate-y-2 hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)] transition-all duration-300">
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden">
+            <img src="images/fire-tv.jpg" alt="Streaming Devices" draggable="false"
+                 class="w-full h-full object-contain p-4 group-hover:scale-190 scale-160 transition-transform duration-500">
+          </div>
+          <h3 class="mt-4 text-lg font-semibold text-white">Streaming</h3>
+          <p class="mt-1 text-xs text-slate-400">TV Streaming Devices</p>
+        </div>
+
+
+        <!-- 6 -->
+        <div class="group w-52 sm:w-60 shrink-0 bg-slate-900 rounded-2xl p-4 border border-slate-800 hover:border-purple-500 hover:-translate-y-2 hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)] transition-all duration-300">
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden">
+            <img src="images/soundbar.jpg" alt="Soundbars" draggable="false"
+                 class="w-full h-full object-contain p-4 group-hover:scale-190 scale-160 transition-transform duration-500">
+          </div>
+          <h3 class="mt-4 text-lg font-semibold text-white">Soundbars</h3>
+          <p class="mt-1 text-xs text-slate-400">Cinema Sound</p>
+        </div>
+
+
+        <!-- 7 -->
+        <div class="group w-52 sm:w-60 shrink-0 bg-slate-900 rounded-2xl p-4 border border-slate-800 hover:border-purple-500 hover:-translate-y-2 hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)] transition-all duration-300">
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden">
+            <img src="images/home-theatre.jpg" alt="Home Theatre" draggable="false"
+                 class="w-full h-full object-contain p-4 group-hover:scale-190 scale-160 transition-transform duration-500">
+          </div>
+          <h3 class="mt-4 text-lg font-semibold text-white">Home Theatre</h3>
+          <p class="mt-1 text-xs text-slate-400">Surround Sound</p>
+        </div>
+
+
+        <!-- 8 -->
+        <div class="group w-52 sm:w-60 shrink-0 bg-slate-900 rounded-2xl p-4 border border-slate-800 hover:border-purple-500 hover:-translate-y-2 hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)] transition-all duration-300">
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden">
+            <img src="images/dvd-player.jpg" alt="Media Players" draggable="false"
+                 class="w-full h-full object-contain p-4 group-hover:scale-190 scale-160 transition-transform duration-500">
+          </div>
+          <h3 class="mt-4 text-lg font-semibold text-white">Media Players</h3>
+          <p class="mt-1 text-xs text-slate-400">Entertainment</p>
+        </div>
+
+
+        <!-- 9 -->
+        <div class="group w-52 sm:w-60 shrink-0 bg-slate-900 rounded-2xl p-4 border border-slate-800 hover:border-purple-500 hover:-translate-y-2 hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)] transition-all duration-300">
+          <div class="h-48 rounded-xl  border-red-500overflow-hidden">
+            <img src="images/tv-box.jpg" alt="TV Boxes" draggable="false"
+                 class="w-full h-full object-contain p-4 group-hover:scale-190 scale-160 transition-transform duration-500">
+          </div>
+          <h3 class="mt-4 text-lg font-semibold text-white">TV Boxes</h3>
+          <p class="mt-1 text-xs text-slate-400">Smart Entertainment</p>
+        </div>
+
+
+        <!-- 10 -->
+        <div class="group w-52 sm:w-60 shrink-0 bg-slate-900 rounded-2xl p-4 border border-slate-800 hover:border-purple-500 hover:-translate-y-2 hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)] transition-all duration-300">
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden">
+            <img src="images/remote.jpg" alt="TV Accessories" draggable="false"
+                 class="w-full h-full object-contain p-4 group-hover:scale-190 scale-160  transition-transform duration-500">
+          </div>
+          <h3 class="mt-4 text-lg font-semibold text-white">TV Accessories</h3>
+          <p class="mt-1 text-xs text-slate-400">Remotes • Mounts</p>
+        </div>
+
+
+      </div>
+    </div>
+
+  </div>
+</section>
+	
+	
+	
+	
+	
+	<!----Audio--->
+	
+	
+	<section class="py-12">
+
+  <div class="max-w-7xl mx-auto px-4">
+
+    <div class="flex items-end justify-between mb-4">
+
+      <div>
+        <p class="text-xs uppercase tracking-[0.3em] text-purple-400 font-semibold">
+          Electronics
+        </p>
+
+        <h2 class="text-3xl md:text-4xl font-bold text-white">
+          Audio
+        </h2>
+      </div>
+
+      <a href="#" class="text-sm font-semibold text-purple-400 hover:text-purple-300">
+        View All →
+      </a>
+
+    </div>
+
+
+    <div class="overflow-x-auto [&::-webkit-scrollbar]:hidden
+                [-ms-overflow-style:none]
+                [scrollbar-width:none] py-5">
+
+      <div class="flex gap-5 w-max px-1">
+
+
+        <!-- 1 -->
+        <div class="group w-52 sm:w-60 shrink-0 bg-slate-900 rounded-2xl p-4 border border-slate-800 hover:border-purple-500 hover:-translate-y-2 hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)] transition-all duration-300">
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden">
+            <img src="images/headphones.jpg" alt="Headphones" draggable="false"
+                 class="w-full h-full object-contain p-4  group-hover:scale-190 scale-160  transition-transform duration-500">
+          </div>
+          <h3 class="mt-4 text-lg font-semibold text-white">Headphones</h3>
+          <p class="mt-1 text-xs text-slate-400">Wireless • ANC</p>
+        </div>
+
+
+        <!-- 2 -->
+        <div class="group w-52 sm:w-60 shrink-0 bg-slate-900 rounded-2xl p-4 border border-slate-800 hover:border-purple-500 hover:-translate-y-2 hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)] transition-all duration-300">
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden">
+            <img src="images/earbuds.jpg" alt="Earbuds" draggable="false"
+                 class="w-full h-full object-contain p-4  group-hover:scale-190 scale-150  transition-transform duration-500">
+          </div>
+          <h3 class="mt-4 text-lg font-semibold text-white">Earbuds</h3>
+          <p class="mt-1 text-xs text-slate-400">True Wireless</p>
+        </div>
+
+
+        <!-- 3 -->
+        <div class="group w-52 sm:w-60 shrink-0 bg-slate-900 rounded-2xl p-4 border border-slate-800 hover:border-purple-500 hover:-translate-y-2 hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)] transition-all duration-300">
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden">
+            <img src="images/speakers.jpg" alt="Bluetooth Speakers" draggable="false"
+                 class="w-full h-full object-contain p-4  group-hover:scale-190 scale-160  transition-transform duration-500">
+          </div>
+          <h3 class="mt-4 text-lg font-semibold text-white">Bluetooth Speakers</h3>
+          <p class="mt-1 text-xs text-slate-400">Portable Audio</p>
+        </div>
+
+
+        <!-- 4 -->
+        <div class="group w-52 sm:w-60 shrink-0 bg-slate-900 rounded-2xl p-4 border border-slate-800 hover:border-purple-500 hover:-translate-y-2 hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)] transition-all duration-300">
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden">
+            <img src="images/soundbar.jpg" alt="Soundbars" draggable="false"
+                 class="w-full h-full object-contain p-4  group-hover:scale-170 scale-155 transition-transform duration-500">
+          </div>
+          <h3 class="mt-4 text-lg font-semibold text-white">Soundbars</h3>
+          <p class="mt-1 text-xs text-slate-400">TV Audio</p>
+        </div>
+
+
+        <!-- 5 -->
+        <div class="group w-52 sm:w-60 shrink-0 bg-slate-900 rounded-2xl p-4 border border-slate-800 hover:border-purple-500 hover:-translate-y-2 hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)] transition-all duration-300">
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden">
+            <img src="images/hometh.jpg" alt="Home Speakers" draggable="false"
+                 class="w-full h-full object-contain p-4  group-hover:scale-190 scale-160  transition-transform duration-500">
+          </div>
+          <h3 class="mt-4 text-lg font-semibold text-white">Home Speakers</h3>
+          <p class="mt-1 text-xs text-slate-400">Premium Audio</p>
+        </div>
+
+
+        <!-- 6 -->
+        <div class="group w-52 sm:w-60 shrink-0 bg-slate-900 rounded-2xl p-4 border border-slate-800 hover:border-purple-500 hover:-translate-y-2 hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)] transition-all duration-300">
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden">
+            <img src="images/mic.jpg" alt="Microphones" draggable="false"
+                 class="w-full h-full object-contain p-4  group-hover:scale-190 scale-160  transition-transform duration-500">
+          </div>
+          <h3 class="mt-4 text-lg font-semibold text-white">Microphones</h3>
+          <p class="mt-1 text-xs text-slate-400">Studio • Streaming</p>
+        </div>
+
+
+        <!-- 7 -->
+        <div class="group w-52 sm:w-60 shrink-0 bg-slate-900 rounded-2xl p-4 border border-slate-800 hover:border-purple-500 hover:-translate-y-2 hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)] transition-all duration-300">
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden">
+            <img src="images/bass.jpg" alt="Party Speakers" draggable="false"
+                 class="w-full h-full object-contain p-4  group-hover:scale-190 scale-160  transition-transform duration-500">
+          </div>
+          <h3 class="mt-4 text-lg font-semibold text-white">Party Speakers</h3>
+          <p class="mt-1 text-xs text-slate-400">Powerful Bass</p>
+        </div>
+
+
+        <!-- 8 -->
+        <div class="group w-52 sm:w-60 shrink-0 bg-slate-900 rounded-2xl p-4 border border-slate-800 hover:border-purple-500 hover:-translate-y-2 hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)] transition-all duration-300">
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden">
+            <img src="images/amp.jpg" alt="Amplifiers" draggable="false"
+                 class="w-full h-full object-contain p-4  group-hover:scale-190 scale-160  transition-transform duration-500">
+          </div>
+          <h3 class="mt-4 text-lg font-semibold text-white">Amplifiers</h3>
+          <p class="mt-1 text-xs text-slate-400">Hi-Fi Audio</p>
+        </div>
+
+
+        <!-- 9 -->
+        <div class="group w-52 sm:w-60 shrink-0 bg-slate-900 rounded-2xl p-4 border border-slate-800 hover:border-purple-500 hover:-translate-y-2 hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)] transition-all duration-300">
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden">
+            <img src="images/ssound.jpg" alt="Subwoofers" draggable="false"
+                 class="w-full h-full object-contain p-4  group-hover:scale-190 scale-160  transition-transform duration-500">
+          </div>
+          <h3 class="mt-4 text-lg font-semibold text-white">Subwoofers</h3>
+          <p class="mt-1 text-xs text-slate-400">Deep Bass</p>
+        </div>
+
+
+        <!-- 10 -->
+        <div class="group w-52 sm:w-60 shrink-0 bg-slate-900 rounded-2xl p-4 border border-slate-800 hover:border-purple-500 hover:-translate-y-2 hover:shadow-[0_15px_40px_rgba(168,85,247,0.20)] transition-all duration-300">
+          <div class="h-48 rounded-xl  border-red-500 overflow-hidden">
+            <img src="images/headacc.jpg" alt="Audio Accessories" draggable="false"
+                 class="w-full h-full object-contain p-4  group-hover:scale-190 scale-160  transition-transform duration-500">
+          </div>
+          <h3 class="mt-4 text-lg font-semibold text-white">Audio Accessories</h3>
+          <p class="mt-1 text-xs text-slate-400">Cables • Stands</p>
+        </div>
+
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+   <style>
+    @keyframes spin-cw {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    @keyframes spin-ccw {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(-360deg); }
+    }
+
+    .animate-wheel {
+      animation: spin-cw 24s linear infinite;
+    }
+
+    .animate-keep-upright {
+      animation: spin-ccw 24s linear infinite;
+    }
+
+    /* Pause rotation on wheel hover */
+    .wheel-group:hover,
+    .wheel-group:hover .animate-keep-upright {
+      animation-play-state: paused;
+    }
+  </style>
+</head>
+<body class="bg-[#ebebeb] min-h-screen flex items-center justify-center overflow-hidden font-sans select-none p-4">
+
+  <!-- Container -->
+  <div class="relative hidden md:flex w-full mx-auto h-[750px]  items-center justify-center">
+
+    <!-- ROTATING WHEEL -->
+    <div class="wheel-group relative w-90 h-full flex items-center justify-center animate-wheel">
+
+      <!-- ================= 1: TOP (12 o'clock) - Laptop ================= -->
+      <div class="absolute -translate-y-[260px] hover:z-50 group">
+
+    <!-- GRADIENT SHADOW -->
+    <div class="absolute -inset-3 rounded-2xl
+                bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500
+                blur-xl
+                opacity-0
+                group-hover:opacity-40
+                transition-opacity duration-300">
+    </div>
+
+    <div class="relative animate-keep-upright">
+
+        <img
+            src="images\c1.jpg"
+            alt="Laptop"
+            class="w-40 h-28 object-cover rounded-2xl
+                   shadow-xl
+                   transition-all duration-300
+                   hover:scale-150
+                   hover:shadow-2xl
+                   cursor-pointer"
+        />
+
+    </div>
+
+</div>
+
+      <!-- ================= 2: TOP-RIGHT (45°) - Mobile ================= -->
+      <div class="absolute translate-x-[184px] -translate-y-[184px] hover:z-50">
+        <div class="animate-keep-upright">
+          <img 
+            src="IMAGES\c2.jpg" 
+            alt="Smartphone" 
+            class="w-40 h-28 object-cover rounded-2xl shadow-xl transition-all duration-300 hover:scale-150 hover:shadow-2xl cursor-pointer"
+          />
+        </div>
+      </div>
+
+      <!-- ================= 3: RIGHT (3 o'clock) - Headphones ================= -->
+      <div class="absolute translate-x-[260px] hover:z-50">
+        <div class="animate-keep-upright">
+          <img 
+            src="images\c3.jpg" 
+            alt="Headphones" 
+            class="w-40 h-28 object-cover rounded-2xl shadow-xl transition-all duration-300 hover:scale-150 hover:shadow-2xl cursor-pointer"
+          />
+        </div>
+      </div>
+
+      <!-- ================= 4: BOTTOM-RIGHT (135°) - Gaming PC ================= -->
+      <div class="absolute translate-x-[184px] translate-y-[184px] hover:z-50">
+        <div class="animate-keep-upright">
+          <img 
+            src="images\c4.jpg" 
+            alt="Gaming PC" 
+            class="w-40 h-28 object-cover rounded-2xl shadow-xl transition-all duration-300 hover:scale-150 hover:shadow-2xl cursor-pointer"
+          />
+        </div>
+      </div>
+
+      <!-- ================= 5: BOTTOM (6 o'clock) - Smart TV ================= -->
+      <div class="absolute translate-y-[260px] hover:z-50">
+        <div class="animate-keep-upright">
+          <img 
+            src="images\c5.jpg		" 
+            alt="Smart TV" 
+            class="w-40 h-28 object-cover rounded-2xl shadow-xl transition-all duration-300 hover:scale-150 hover:shadow-2xl cursor-pointer"
+          />
+        </div>
+      </div>
+
+      <!-- ================= 6: BOTTOM-LEFT (225°) - Gaming Console ================= -->
+      <div class="absolute -translate-x-[184px] translate-y-[184px] hover:z-50">
+        <div class="animate-keep-upright">
+          <img 
+            src="images\c6.jpg" 
+            alt="Console" 
+            class="w-40 h-28 object-cover rounded-2xl shadow-xl transition-all duration-300 hover:scale-150 hover:shadow-2xl cursor-pointer"
+          />
+        </div>
+      </div>
+
+      <!-- ================= 7: LEFT (9 o'clock) - Smartwatch ================= -->
+      <div class="absolute -translate-x-[260px] hover:z-50">
+        <div class="animate-keep-upright">
+          <img 
+            src="images\c7.jpg" 
+            alt="Smartwatch" 
+            class="w-40 h-28 object-cover rounded-2xl shadow-xl transition-all duration-300 hover:scale-150 hover:shadow-2xl cursor-pointer"
+          />
+        </div>
+      </div>
+
+      <!-- ================= 8: TOP-LEFT (315°) - Earbuds / Audio ================= -->
+      <div class="absolute -translate-x-[184px] -translate-y-[184px] hover:z-50">
+        <div class="animate-keep-upright">
+          <img 
+            src="images\c8.jpg" 
+            alt="Earbuds" 
+            class="w-40 h-28 object-cover rounded-2xl shadow-xl transition-all duration-300 hover:scale-150 hover:shadow-2xl cursor-pointer"
+          />
+        </div>
+      </div>
+
+    </div>
+  </div>
+	
+		
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!--footer--  Usefullinks --Shop--Copyrights-->
+				
+<!---fbwhatsapp-X-insta--->
+            
+ 
+ <footer class="mx-auto mt-0 max-w-[1450px] px-3 pb-3 pt-1 sm:px-5 ">
+
+    <div class="rounded-t-2xl bg-[#241c17] px-7 py-10  text-white">
+
+        <div class="grid gap-8 grid-cols-2 lg:grid-cols-5">
+
+            <!-- BRAND -->
+
+            <div class="w-40 mx-auto	">
+
+                <h2 class="text-2xl px-4 text-purple-500 	font-black italic">
+                    BuyPannu
+                </h2>
+
+                <p class="mt-4 px-4 text-sm leading-5	  	 text-gray-300">
+
+                    Your one-stop shop for Fashion,
+                    Electronics, Gaming more.
+                   
+                    Shop more, pay less, be happy
+
+                </p>
+
+                <span class="absolute gap-4 text-2xl">
+
+    <!-- Facebook -->
+   <div class="px-4 py-2"> <a href="#" class="text-blue-600 hover:scale-110 transition-transform">
+        <i class="fa-brands fa-facebook"></i>
+    </a>
+
+    <!-- Instagram -->
+    <a href="#" class="text-pink-500 hover:scale-110 transition-transform">
+        <i class="fa-brands fa-instagram"></i>
+    </a>
+
+    <!-- WhatsApp -->
+    <a href="#" class="text-green-500 hover:scale-110 transition-transform">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- X / Twitter -->
+    <a href="#" class="text-black hover:scale-110 transition-transform">
+        <i class="fa-brands fa-x-twitter"></i>
+    </a></div>
+
+</span>
+
+            </div>
+
+
+            <!-- QUICK LINKS -->
+
+            <div class="max-w-full mx-auto">
+
+                <h3 class="text-xs font-bold uppercase tracking-wide text-[#d4a675]">
+                    Quick Links
+                </h3>
+
+                <div class="mt-4 space-y-2 text-sm text-gray-300">
+
+                    <a href="#" class="block hover:text-white">Home</a>
+                    <a href="#" class="block hover:text-white">Categories</a>
+                    <a href="#" class="block hover:text-white">Fashion</a>
+                    <a href="#" class="block hover:text-white">Electronics</a>
+                    <a href="#" class="block hover:text-white">New Arrivals</a>
+                    <a href="#" class="block hover:text-white">About Us</a>
+
+                </div>
+
+            </div>
+
+
+            <!-- CUSTOMER SERVICE -->
+
+            <div class="max-w-full mx-auto md:w-50 md:mx-auto">
+
+                <h3 class="text-xs font-bold uppercase tracking-wide text-[#d4a675]">
+                    Customer Service
+                </h3>
+
+                <div class="mt-4 space-y-2 text-sm text-gray-300">
+
+                    <a href="#" class="block hover:text-white">
+                        Contact Us
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Track Order
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Shipping Policy
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Returns & Refunds
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        FAQs
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Terms & Conditions
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- CATEGORIES -->
+
+            <div class="max-w-full mx-auto">
+
+                <h3 class="text-xs font-bold uppercase tracking-wide text-[#d4a675]">
+                    Categories
+                </h3>
+
+                <div class="mt-4 space-y-2 text-sm text-gray-300">
+
+                    <a href="#" class="block hover:text-white">
+                        Fashion
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Electronics
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Gaming
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Footwear
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Accessories
+                    </a>
+
+                    <a href="#" class="block hover:text-white">
+                        Home & Living
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- PAYMENT -->
+
+            <div class="relative left-30 justify-self-center md:static md:justify-self-auto">
+
+                <h3 class="text-xs font-bold uppercase text-center tracking-wide text-[#d4a675]">
+                    We Accept
+                </h3>
+
+                <div class="mt-5 grid grid-cols-2   gap-2">
+
+                    <div class="rounded bg-white px-3 py-2  text-center text-xs font-bold text-blue-700">
+                        VISA
+                    </div>
+
+                    <div class="rounded bg-white px-3 py-2 text-center text-xs font-bold text-red-600">
+                        Mc
+                    </div>
+
+                    <div class="rounded bg-white px-3 py-2 text-center text-xs font-bold text-gray-700">
+                        UPI
+                    </div>
+
+                    <div class="rounded bg-white px-3 py-2 text-center text-xs font-bold text-blue-600">
+                        G Pay
+                    </div>
+
+                    <div class="rounded bg-white px  py-2 text-center text-xs font-bold text-black">
+                        PayPal
+                    </div>
+
+                    <div class="rounded bg-white px-3 py-2 text-center text-xs font-bold text-black">
+                        Bhim
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- COPYRIGHT -->
+
+        <div class="mt-8 border-t border-white/10 pt-5 text-center text-xs text-gray-400">
+
+            © 2026 BuyPannu. All Rights Reserved.
+
+        </div>
+
+    </div>
+
+</footer>
+				
+				
+				</BODY>	
+				</HTML>
